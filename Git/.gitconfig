@@ -1,0 +1,14 @@
+[user]
+	name = Tarun-Sri-Sai
+	email = 76744890+Tarun-Sri-Sai@users.noreply.github.com
+[init]
+	defaultBranch = main
+[safe]
+	directory = *
+[core]
+	autocrlf = input
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
