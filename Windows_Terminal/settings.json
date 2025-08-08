@@ -100,16 +100,28 @@
         "useAcrylic": false
       },
       {
-        "guid": "{ba6a262a-7606-52a5-908c-eaec2bc130e8}",
-        "hidden": false,
-        "name": "FedoraLinux-42",
-        "source": "Microsoft.WSL"
-      },
-      {
         "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
         "hidden": false,
         "name": "Git Bash",
         "source": "Git"
+      },
+      {
+        "guid": "{5e7b5c4e-ca08-58a9-867f-65ca766be927}",
+        "hidden": false,
+        "name": "Developer Command Prompt for VS 2022",
+        "source": "Windows.Terminal.VisualStudio"
+      },
+      {
+        "guid": "{8bfb3a32-34f5-57bc-af05-be16231b6aa5}",
+        "hidden": false,
+        "name": "Developer PowerShell for VS 2022",
+        "source": "Windows.Terminal.VisualStudio"
+      },
+      {
+        "guid": "{e2f2d6f0-0bda-5d64-969f-580aa32b0c09}",
+        "hidden": false,
+        "name": "Ubuntu",
+        "source": "Microsoft.WSL"
       }
     ]
   },
