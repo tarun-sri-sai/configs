@@ -58,11 +58,11 @@
       "cursorShape": "filledBox",
       "elevate": false,
       "font": {
-        "face": "JetBrains Mono",
+        "face": "JetBrainsMono Nerd Font",
         "size": 11
       },
       "opacity": 90,
-      "startingDirectory": "C:\\Users\\tarun",
+      "startingDirectory": "%MY_FILES%",
       "useAcrylic": true
     },
     "list": [
@@ -118,10 +118,12 @@
         "source": "Windows.Terminal.VisualStudio"
       },
       {
-        "guid": "{e2f2d6f0-0bda-5d64-969f-580aa32b0c09}",
+        "colorScheme": "Campbell",
+        "commandline": "D:\\msys64\\usr\\bin\\bash.exe",
+        "guid": "{8e34b34a-2b3b-4b1b-aa44-b8a522bcc086}",
         "hidden": false,
-        "name": "Ubuntu",
-        "source": "Microsoft.WSL"
+        "icon": "D:\\msys64\\msys2.ico",
+        "name": "MSYS"
       }
     ]
   },
