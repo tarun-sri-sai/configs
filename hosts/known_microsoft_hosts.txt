@@ -12,4 +12,3 @@
 127.0.0.1 self.events.data.microsoft.com
 127.0.0.1 assets2.msn.com
 127.0.0.1 browser.events.data.microsoft.com
-# End of section
