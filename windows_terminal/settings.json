@@ -58,8 +58,9 @@
       "cursorShape": "filledBox",
       "elevate": false,
       "font": {
+        "builtinGlyphs": false,
         "face": "JetBrainsMono Nerd Font",
-        "size": 11
+        "size": 10
       },
       "opacity": 90,
       "startingDirectory": "%MY_FILES%",
@@ -106,24 +107,18 @@
         "source": "Git"
       },
       {
-        "guid": "{5e7b5c4e-ca08-58a9-867f-65ca766be927}",
-        "hidden": false,
-        "name": "Developer Command Prompt for VS 2022",
-        "source": "Windows.Terminal.VisualStudio"
-      },
-      {
-        "guid": "{8bfb3a32-34f5-57bc-af05-be16231b6aa5}",
-        "hidden": false,
-        "name": "Developer PowerShell for VS 2022",
-        "source": "Windows.Terminal.VisualStudio"
-      },
-      {
         "colorScheme": "Campbell",
         "commandline": "D:\\msys64\\usr\\bin\\bash.exe",
         "guid": "{8e34b34a-2b3b-4b1b-aa44-b8a522bcc086}",
         "hidden": false,
         "icon": "D:\\msys64\\msys2.ico",
         "name": "MSYS"
+      },
+      {
+        "guid": "{2fa2dbda-eb9e-5ea9-a387-3b45f107d528}",
+        "hidden": false,
+        "name": "Debian",
+        "source": "Microsoft.WSL"
       }
     ]
   },
