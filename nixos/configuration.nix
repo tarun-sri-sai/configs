@@ -75,6 +75,15 @@
 
   programs.firefox.enable = true;
 
+  programs.bash.enable = true;
+  programs.bash.promptInit = ''
+    if command -v tput >/dev/null 2>&1 && tput setaf 1 >/dev/null 2>&1; then
+        PS1='\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\W\[\033[00m\]\$ '
+    else
+        PS1='\u@\h:\W\$ '
+    fi
+  '';
+
   # List packages installed in system profile.
   # You can use https://search.nixos.org/ to find more packages (and options).
   environment.systemPackages = with pkgs; [
