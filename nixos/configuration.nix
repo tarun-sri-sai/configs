@@ -34,14 +34,35 @@
   #   useXkbConfig = true; # use xkb.options in tty.
   # };
 
+  systemd.user.services.ssh-add-keys = {
+    description = "Recursively add SSH private keys";
+
+    serviceConfig = {
+      Type = "oneshot";
+      ExecStart = pkgs.writeShellScript "ssh-add-recursive" ''
+        mkdir -p "$HOME/.ssh/keys"
+        chmod 700 "$HOME/.ssh/keys"
+
+        for f in $(find "$HOME/.ssh/keys" -type f); do
+            chmod 600 "$f"
+            ssh-keygen -yf "$f" >/dev/null 2>&1
+            if [ $? -eq 0 ]; then
+                ssh-add "$f" >/dev/null 2>&1
+            fi
+        done
+      '';
+      Environment = "SSH_AUTH_SOCK=%t/ssh-agent";
+    };
+
+    wantedBy = [ "default.target" ];
+  };
+
   # Enable the X11 windowing system.
   # services.xserver.enable = true;
   services.xserver = {
     enable = true;
     windowManager.qtile.enable = true;
   };
-
-
 
   # Configure keymap in X11
   # services.xserver.xkb.layout = "us";
@@ -75,14 +96,16 @@
 
   programs.firefox.enable = true;
 
-  programs.bash.enable = true;
-  programs.bash.promptInit = ''
-    if command -v tput >/dev/null 2>&1 && tput setaf 1 >/dev/null 2>&1; then
-        PS1='\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\W\[\033[00m\]\$ '
-    else
-        PS1='\u@\h:\W\$ '
-    fi
-  '';
+  programs.bash = {
+    enable = true;
+    promptInit = ''
+      if command -v tput >/dev/null 2>&1 && tput setaf 1 >/dev/null 2>&1; then
+          PS1='\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\W\[\033[00m\]\$ '
+      else
+          PS1='\u@\h:\W\$ '
+      fi
+    '';
+  };
 
   # List packages installed in system profile.
   # You can use https://search.nixos.org/ to find more packages (and options).
@@ -98,6 +121,11 @@
     nettools
     gnupg
     tmux
+    gcc
+    gnumake
+    glibc.dev
+    binutils
+    pkg-config
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
