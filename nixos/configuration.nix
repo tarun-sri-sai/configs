@@ -8,6 +8,7 @@
   imports =
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
+      <home-manager/nixos>
     ];
 
   # Use the systemd-boot EFI boot loader.
@@ -33,29 +34,6 @@
   #   keyMap = "us";
   #   useXkbConfig = true; # use xkb.options in tty.
   # };
-
-  systemd.user.services.ssh-add-keys = {
-    description = "Recursively add SSH private keys";
-
-    serviceConfig = {
-      Type = "oneshot";
-      ExecStart = pkgs.writeShellScript "ssh-add-recursive" ''
-        mkdir -p "$HOME/.ssh/keys"
-        chmod 700 "$HOME/.ssh/keys"
-
-        for f in $(find "$HOME/.ssh/keys" -type f); do
-            chmod 600 "$f"
-            ssh-keygen -yf "$f" >/dev/null 2>&1
-            if [ $? -eq 0 ]; then
-                ssh-add "$f" >/dev/null 2>&1
-            fi
-        done
-      '';
-      Environment = "SSH_AUTH_SOCK=%t/ssh-agent";
-    };
-
-    wantedBy = [ "default.target" ];
-  };
 
   # Enable the X11 windowing system.
   # services.xserver.enable = true;
@@ -136,9 +114,6 @@
     enable = true;
   };
 
-  programs.ssh.startAgent = true;
-  services.gnome.gcr-ssh-agent.enable = false;
-
   # List services that you want to enable:
 
   # Enable the OpenSSH daemon.
@@ -153,6 +128,24 @@
   # networking.firewall.allowedUDPPorts = [ ... ];
   # Or disable the firewall altogether.
   # networking.firewall.enable = false;
+
+  home-manager.useGlobalPkgs = true;
+  home-manager.useUserPackages = true;
+
+  home-manager.users.tarun = {
+    home.stateVersion = "24.05";
+
+    programs.ssh = {
+      enable = true;
+      matchBlocks = {
+        github = {
+          host = "github.com";
+          user = "git";
+          identityFile = "~/.ssh/keys/github/tarun-sri-sai";
+        };
+      };
+    };
+  };
 
   # Copy the NixOS configuration file and link it from the resulting system
   # (/run/current-system/configuration.nix). This is useful in case you
