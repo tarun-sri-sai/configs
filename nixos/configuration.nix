@@ -133,7 +133,7 @@
   home-manager.useUserPackages = true;
 
   home-manager.users.tarun = {
-    home.stateVersion = "24.05";
+    home.stateVersion = "25.11";
 
     programs.ssh = {
       enable = true;
