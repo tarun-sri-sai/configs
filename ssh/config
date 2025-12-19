@@ -1,0 +1,10 @@
+Host github.com
+    Hostname github.com
+    User git
+    IdentityFile C:\Users\tarun\.ssh\keys\github\tarun-sri-sai
+    IdentitiesOnly yes
+Host *
+    User tarun
+    IdentityFile C:\Users\tarun\.ssh\keys\tarun-ideapad-g\tarun
+    IdentityFile C:\Users\tarun\.ssh\keys\nixos-1\tarun
+    IdentitiesOnly yes
