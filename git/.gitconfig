@@ -15,3 +15,5 @@
 	required = true
 [credential]
     helper =
+[lfs]
+	storage = D:\\Users\\tarun\\my_files\\git_lfs
