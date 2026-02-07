@@ -2,4 +2,4 @@ function restic () {
     & restic.exe --insecure-no-password @args
 }
 
-$OutputEncoding = [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
+$env:LANG = 'en_US.UTF-8'
