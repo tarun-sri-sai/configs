@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root version="5" type="3" timestamp="1770446743">
+<root version="5" type="3" timestamp="1770532695">
 	<apps>
 		<item path="BITS" timestamp="1767629504"/>
 		<item path="CryptSvc" timestamp="1711956444" is_undeletable="true"/>
@@ -39,10 +39,40 @@
 		<item path="C:\program files (x86)\lenovo\vantageservice\4.2601.20.0\lenovovantage-(lenovosecurityaddin).exe" timestamp="1770445808" is_silent="true"/>
 		<item path="C:\program files\remote desktop\msrdcw.exe" timestamp="1770446364" is_silent="true"/>
 		<item path="C:\program files (x86)\microsoft\edge\application\msedge.exe" timestamp="1770446598" is_silent="true"/>
+		<item path="C:\programdata\microsoft\windows defender\platform\4.18.25110.6-0\mpdefendercoreservice.exe" timestamp="1770446993" is_silent="true"/>
+		<item path="D:\program files\python311\python.exe" timestamp="1770448930" is_enabled="true"/>
+		<item path="C:\windows\system32\openssh\ssh.exe" timestamp="1770448936" is_enabled="true"/>
+		<item path="C:\program files (x86)\microsoft\edgeupdate\microsoftedgeupdate.exe" timestamp="1770453033" is_silent="true"/>
+		<item path="D:\program files\git\mingw64\bin\git-lfs.exe" timestamp="1770453555" is_enabled="true"/>
+		<item path="C:\users\tarun\appdata\local\programs\microsoft vs code\code.exe" timestamp="1770455308" is_silent="true" is_enabled="true"/>
+		<item path="C:\users\tarun\appdata\roaming\code\user\globalstorage\eamodio.gitlens\gk.exe" timestamp="1770455313" is_silent="true"/>
+		<item path="C:\users\tarun\appdata\local\gitkrakencli\gk.exe" timestamp="1770455317" is_silent="true"/>
+		<item path="C:\program files\bitwarden\bitwarden.exe" timestamp="1770456179" is_enabled="true"/>
+		<item path="D:\msys64\usr\bin\pacman.exe" timestamp="1770457643" is_enabled="true"/>
+		<item path="D:\program files\git\mingw64\libexec\git-core\git-remote-https.exe" timestamp="1770458154" is_enabled="true"/>
+		<item path="C:\program files (x86)\google\googleupdater\144.0.7547.0\updater.exe" timestamp="1770459101" is_silent="true"/>
+		<item path="C:\windows\system32\driverstore\filerepository\nvlti.inf_amd64_b3badde551342cd6\display.nvcontainer\nvdisplay.container.exe" timestamp="1770459976" is_silent="true"/>
+		<item path="C:\program files (x86)\lenovo\system update\tvsukernel.exe" timestamp="1770459986" is_silent="true"/>
+		<item path="C:\program files\windowsapps\microsoft.6365217ce6eb4_102.2511.3002.0_x64__8wekyb3d8bbwe\microsoftsecurityapp\microsoftsecurityapp.exe" timestamp="1770460004" is_silent="true"/>
+		<item path="C:\program files\windowsapps\microsoftwindows.client.webexperience_526.1202.40.0_x64__cw5n1h2txyewy\dashboard\widgets.exe" timestamp="1770460043" is_silent="true"/>
+		<item path="C:\windows\lenovo\imcontroller\pluginhost86\lenovo.modern.imcontroller.pluginhost.device.exe" timestamp="1770460130" is_silent="true"/>
+		<item path="D:\program files\wireshark\wireshark.exe" timestamp="1770460374" is_silent="true"/>
+		<item path="C:\program files\windowsapps\microsoft.desktopappinstaller_1.27.460.0_x64__8wekyb3d8bbwe\windowspackagemanagerserver.exe" timestamp="1770460593" is_silent="true"/>
+		<item path="C:\program files (x86)\microsoft visual studio\installer\resources\app\servicehub\services\microsoft.visualstudio.setup.service\backgrounddownload.exe" timestamp="1770460915" is_silent="true"/>
+		<item path="C:\program files\bluestacks_nxt\bluestackshelper.exe" timestamp="1770465226" is_silent="true"/>
+		<item path="C:\program files (x86)\lenovo\vantageservice\4.2601.20.0\lenovovantage-(genericmessagingaddin).exe" timestamp="1770466443" is_silent="true"/>
+		<item path="C:\windows\system32\sihclient.exe" timestamp="1770473762" is_silent="true"/>
+		<item path="C:\program files (x86)\lenovo\vantageservice\4.2601.20.0\lenovovantageservice.exe" timestamp="1770488733" is_silent="true"/>
+		<item path="C:\program files\ruxim\ruximics.exe" timestamp="1770492138" is_silent="true"/>
+		<item path="C:\windows\system32\rundll32.exe" timestamp="1770500632" is_silent="true"/>
+		<item path="C:\windows\uus\amd64\waasmedicagent.exe" timestamp="1770512906" is_silent="true"/>
+		<item path="C:\windows\system32\drivers\lenovo\udc\service\udclientservice.exe" timestamp="1770524783" is_silent="true"/>
+		<item path="C:\program files (x86)\lenovo\vantageservice\4.2601.20.0\lenovovantage-(smartbeaddin).exe" timestamp="1770524915" is_silent="true"/>
 	</apps>
 	<rules_custom>
 		<item name="Windows Update" apps="BITS|DoSvc|wuauserv"/>
 	</rules_custom>
 	<rules_config>
+		<item name="UPnP" is_enabled="false"/>
 	</rules_config>
 </root>
