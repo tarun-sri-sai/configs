@@ -14,6 +14,8 @@
 	process = git-lfs filter-process
 	required = true
 [credential]
-    helper =
+	helper = 
+[maintenance]
+	auto = true
 [lfs]
 	storage = D:\\Users\\tarun\\my_files\\git_lfs
