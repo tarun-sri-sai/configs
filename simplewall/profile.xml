@@ -1,95 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root version="5" type="3" timestamp="1771649599">
+<root version="5" type="3" timestamp="1771813023">
 	<apps>
-		<item path="BITS" timestamp="1767629504"/>
 		<item path="CryptSvc" timestamp="1711956444" is_undeletable="true"/>
 		<item path="Dhcp" timestamp="1711956392" is_undeletable="true"/>
 		<item path="Dnscache" timestamp="1757710357" is_undeletable="true"/>
-		<item path="DoSvc" timestamp="1734012238" is_undeletable="true"/>
+		<item path="DoSvc" timestamp="1770445177" is_undeletable="true"/>
 		<item path="NlaSvc" timestamp="1711956392" is_undeletable="true"/>
 		<item path="Spooler" timestamp="1711956392" is_undeletable="true"/>
 		<item path="UsoSvc" timestamp="1734012238" is_undeletable="true"/>
 		<item path="wlidsvc" timestamp="1734012238" is_undeletable="true"/>
 		<item path="wuauserv" timestamp="1734012252" is_undeletable="true"/>
-		<item path="S-1-15-2-2015459320-3065076763-404414554-287452219-753456662-3251378790-3436244644" timestamp="1770391749" is_enabled="true"/>
-		<item path="S-1-15-2-1910091885-1573563583-1104941280-2418270861-3411158377-2822700936-2990310272" timestamp="1741918978" is_silent="true"/>
-		<item path="S-1-15-2-1714399563-1326177402-2048222277-143663168-2151391019-765408921-4098702777" timestamp="1764090560" is_silent="true"/>
-		<item path="C:\WINDOWS\system32\SppExtComObj.exe" timestamp="1770444351" is_undeletable="true"/>
-		<item path="C:\WINDOWS\system32\lsass.exe" timestamp="1770444351" is_undeletable="true"/>
-		<item path="C:\Program Files\simplewall\simplewall.exe" timestamp="1770444351" is_undeletable="true"/>
-		<item path="System" timestamp="1770444351" is_undeletable="true" is_enabled="true"/>
-		<item path="C:\WINDOWS\system32\svchost.exe" timestamp="1770444351" is_undeletable="true" is_silent="true"/>
-		<item path="C:\users\tarun\appdata\roaming\code\user\globalstorage\eamodio.gitlens\gk.exe" timestamp="1771331087" is_silent="true"/>
-		<item path="C:\users\tarun\appdata\local\programs\microsoft vs code\b6a47e94e3\resources\app\node_modules\@vscode\vsce-sign\bin\vsce-sign.exe" timestamp="1771645876" is_silent="true"/>
-		<item path="D:\program files\tailscale\tailscaled.exe" timestamp="1770445181" is_enabled="true"/>
-		<item path="C:\program files\google\drive file stream\120.0.1.0\googledrivefs.exe" timestamp="1770445183" is_enabled="true"/>
-		<item path="C:\program files\mozilla firefox\pingsender.exe" timestamp="1771174159" is_silent="true"/>
-		<item path="C:\program files (x86)\lenovo\vantageservice\4.2601.20.0\lenovovantage-(lenovoaccountaddin).exe" timestamp="1771607784" is_silent="true"/>
-		<item path="C:\windows\system32\compattelrunner.exe" timestamp="1771649504" is_silent="true"/>
-		<item path="C:\program files (x86)\lenovo\vantageservice\4.2601.20.0\lenovovantage-(genericmessagingaddin).exe" timestamp="1771224015" is_silent="true"/>
-		<item path="C:\program files\mozilla firefox\firefox.exe" timestamp="1770445383" is_enabled="true"/>
-		<item path="D:\program files\steam\steam.exe" timestamp="1770445405" is_enabled="true"/>
-		<item path="D:\program files\steam\bin\cef\cef.win64\steamwebhelper.exe" timestamp="1770445425" is_enabled="true"/>
-		<item path="D:\program files\steam\steamapps\common\terraria\terraria.exe" timestamp="1770445448" is_enabled="true"/>
-		<item path="C:\program files\windowsapps\microsoft.desktopappinstaller_1.27.460.0_x64__8wekyb3d8bbwe\windowspackagemanagerserver.exe" timestamp="1771524466" is_silent="true"/>
-		<item path="C:\programdata\microsoft\windows defender\platform\4.18.26010.5-0\mpcmdrun.exe" timestamp="1771334362" is_silent="true"/>
-		<item path="C:\program files\remote desktop\msrdcw.exe" timestamp="1770446364" is_silent="true" is_enabled="true"/>
-		<item path="C:\program files (x86)\lenovo\vantageservice\4.2601.20.0\lenovovantage-(lenovosystemupdateaddin).exe" timestamp="1771607783" is_silent="true"/>
-		<item path="C:\windows\system32\certutil.exe" timestamp="1771560907" is_silent="true"/>
-		<item path="D:\program files\python311\python.exe" timestamp="1770448930" is_enabled="true"/>
-		<item path="C:\windows\system32\openssh\ssh.exe" timestamp="1770448936" is_enabled="true"/>
-		<item path="C:\windows\system32\apphostregistrationverifier.exe" timestamp="1771520895" is_silent="true"/>
-		<item path="D:\program files\git\mingw64\bin\git-lfs.exe" timestamp="1770453555" is_enabled="true"/>
-		<item path="C:\users\tarun\appdata\local\programs\microsoft vs code\code.exe" timestamp="1770455308" is_silent="true" is_enabled="true"/>
-		<item path="C:\windows\system32\sihclient.exe" timestamp="1771225688" is_silent="true"/>
-		<item path="C:\program files\ruxim\ruximics.exe" timestamp="1771236360" is_silent="true"/>
-		<item path="C:\program files\bitwarden\bitwarden.exe" timestamp="1770456179" is_enabled="true"/>
-		<item path="D:\msys64\usr\bin\pacman.exe" timestamp="1770457643" is_enabled="true"/>
-		<item path="D:\program files\git\mingw64\libexec\git-core\git-remote-https.exe" timestamp="1770458154" is_enabled="true"/>
-		<item path="C:\program files (x86)\mozilla maintenance service\update\updater.exe" timestamp="1771524464" is_silent="true"/>
-		<item path="C:\program files (x86)\lenovo\vantageservice\4.2601.20.0\lenovovantage-(vantagecoreaddin).exe" timestamp="1771317631" is_silent="true"/>
-		<item path="C:\program files (x86)\lenovo\vantageservice\4.2601.20.0\lenovovantage-(smartbeaddin).exe" timestamp="1771183318" is_silent="true"/>
-		<item path="C:\program files (x86)\lenovo\vantageservice\4.2601.20.0\lenovovantageservice.exe" timestamp="1771183319" is_silent="true"/>
-		<item path="C:\program files (x86)\lenovo\system update\tvsukernel.exe" timestamp="1771322598" is_silent="true"/>
-		<item path="C:\windows\lenovo\imcontroller\pluginhost86\lenovo.modern.imcontroller.pluginhost.device.exe" timestamp="1771519455" is_silent="true"/>
-		<item path="C:\program files (x86)\mozilla maintenance service\maintenanceservice.exe" timestamp="1771519257" is_silent="true"/>
-		<item path="C:\program files\powershell\7\pwsh.exe" timestamp="1770532716" is_enabled="true"/>
-		<item path="C:\users\tarun\appdata\local\programs\microsoft vs code\bdd88df003\resources\app\node_modules\@vscode\vsce-sign\bin\vsce-sign.exe" timestamp="1770532726" is_enabled="true"/>
-		<item path="C:\program files (x86)\microsoft\edgewebview\application\144.0.3719.104\msedgewebview2.exe" timestamp="1771207708" is_silent="true"/>
-		<item path="D:\program files\tailscale\tailscale-ipn.exe" timestamp="1770550030" is_enabled="true"/>
-		<item path="C:\windows\system32\wbem\wmiprvse.exe" timestamp="1771262018" is_silent="true"/>
-		<item path="C:\windows\system32\openssh\sshd.exe" timestamp="1770575234" is_enabled="true"/>
-		<item path="C:\program files (x86)\lenovo\vantageservice\4.2601.20.0\lenovovantage-(smartperformanceaddin).exe" timestamp="1771560903" is_silent="true"/>
-		<item path="C:\windows\uus\packages\preview\amd64\mousocoreworker.exe" timestamp="1771182696" is_silent="true"/>
-		<item path="C:\windows\lenovo\imcontroller\service\lenovo.modern.imcontroller.exe" timestamp="1771519454" is_silent="true"/>
-		<item path="D:\program files\tailscale\tailscale.exe" timestamp="1770824501" is_enabled="true"/>
-		<item path="D:\program files\bitwarden\bw.exe" timestamp="1771519444" is_enabled="true"/>
-		<item path="C:\program files\windowsapps\microsoft.6365217ce6eb4_102.2511.3002.0_x64__8wekyb3d8bbwe\microsoftsecurityapp\microsoftsecurityapp.exe" timestamp="1771183736" is_silent="true"/>
-		<item path="C:\program files\bluestacks_nxt\hd-player.exe" timestamp="1770997361" is_silent="true" is_enabled="true"/>
-		<item path="C:\users\tarun\appdata\local\discord\app-1.0.9224\discord.exe" timestamp="1770997521" is_enabled="true"/>
-		<item path="C:\windows\system32\smartscreen.exe" timestamp="1770997702" is_enabled="true"/>
-		<item path="C:\windows\system32\rundll32.exe" timestamp="1771196814" is_silent="true"/>
-		<item path="C:\programdata\microsoft\windows defender\platform\4.18.26010.5-0\msmpeng.exe" timestamp="1771175333" is_silent="true"/>
-		<item path="D:\program files\restic_v0.18\restic.exe" timestamp="1771180758" is_enabled="true"/>
-		<item path="C:\windows\system32\drivers\lenovo\udc\service\udclientservice.exe" timestamp="1771182608" is_silent="true"/>
-		<item path="C:\users\tarun\appdata\local\gitkrakencli\gk.exe" timestamp="1771181417" is_silent="true"/>
-		<item path="C:\program files (x86)\lenovo\vantageservice\4.2601.20.0\lenovovantage-(lenovosecurityaddin).exe" timestamp="1771182639" is_silent="true"/>
-		<item path="C:\program files (x86)\microsoft\edgeupdate\microsoftedgeupdate.exe" timestamp="1771176660" is_silent="true"/>
-		<item path="C:\windows\system32\taskhostw.exe" timestamp="1771175523" is_silent="true"/>
-		<item path="C:\program files (x86)\lenovo\vantageservice\4.2601.20.0\lenovovantage-(generictelemetryaddin).exe" timestamp="1771180262" is_silent="true"/>
-		<item path="C:\program files\bluestacks_nxt\bluestackshelper.exe" timestamp="1771178026" is_silent="true"/>
-		<item path="C:\program files (x86)\google\googleupdater\144.0.7547.0\updater.exe" timestamp="1771179098" is_silent="true"/>
-		<item path="C:\program files\windowsapps\microsoft.gamingservices_33.108.12001.0_x64__8wekyb3d8bbwe\gamingservices.exe" timestamp="1771174426" is_silent="true"/>
-		<item path="C:\program files\wsl\wslservice.exe" timestamp="1771647923" is_silent="true"/>
-		<item path="C:\programdata\microsoft\windows defender\platform\4.18.26010.5-0\mpdefendercoreservice.exe" timestamp="1771177830" is_silent="true"/>
-		<item path="C:\program files (x86)\microsoft visual studio\installer\resources\app\servicehub\services\microsoft.visualstudio.setup.service\backgrounddownload.exe" timestamp="1771214370" is_silent="true"/>
-		<item path="C:\windows\syswow64\windowspowershell\v1.0\powershell.exe" timestamp="1771607780"/>
-		<item path="C:\windows\system32\driverstore\filerepository\nvlti.inf_amd64_b3badde551342cd6\display.nvcontainer\nvdisplay.container.exe" timestamp="1771249075" is_silent="true"/>
+		<item path="S-1-15-2-2015459320-3065076763-404414554-287452219-753456662-3251378790-3436244644" timestamp="1771811873" is_enabled="true"/>
+		<item path="C:\WINDOWS\system32\SppExtComObj.exe" timestamp="1771812464" is_undeletable="true" is_silent="true"/>
+		<item path="C:\WINDOWS\system32\lsass.exe" timestamp="1771812464" is_undeletable="true" is_silent="true"/>
+		<item path="D:\Program Files\simplewall\simplewall.exe" timestamp="1771812464" is_undeletable="true" is_silent="true"/>
+		<item path="System" timestamp="1771812464" is_undeletable="true" is_enabled="true"/>
+		<item path="C:\WINDOWS\system32\svchost.exe" timestamp="1771812464" is_undeletable="true" is_silent="true"/>
+		<item path="C:\program files\google\drive file stream\121.0.1.0\googledrivefs.exe" timestamp="1771812599" is_enabled="true"/>
+		<item path="D:\program files\tailscale\tailscaled.exe" timestamp="1771812599" is_enabled="true"/>
+		<item path="C:\program files (x86)\microsoft\edgewebview\application\145.0.3800.70\msedgewebview2.exe" timestamp="1771812603" is_silent="true"/>
+		<item path="C:\programdata\microsoft\windows defender\platform\4.18.26010.5-0\mpdefendercoreservice.exe" timestamp="1771812606" is_silent="true" is_enabled="true"/>
+		<item path="C:\program files\mozilla firefox\firefox.exe" timestamp="1771812621" is_enabled="true"/>
+		<item path="C:\program files\windowsapps\microsoft.gamingservices_33.108.12001.0_x64__8wekyb3d8bbwe\gamingservices.exe" timestamp="1771812678" is_silent="true"/>
+		<item path="C:\program files\windowsapps\microsoft.6365217ce6eb4_102.2511.3002.0_x64__8wekyb3d8bbwe\microsoftsecurityapp\microsoftsecurityapp.exe" timestamp="1771812686" is_silent="true"/>
+		<item path="C:\program files\windowsapps\microsoft.desktopappinstaller_1.27.470.0_x64__8wekyb3d8bbwe\windowspackagemanagerserver.exe" timestamp="1771812805" is_silent="true"/>
+		<item path="C:\windows\system32\openssh\sshd.exe" timestamp="1771812967" is_enabled="true"/>
+		<item path="C:\windows\immersivecontrolpanel\systemsettings.exe" timestamp="1771813011" is_silent="true"/>
 	</apps>
 	<rules_custom>
-		<item name="Windows Update" apps="BITS|DoSvc|wuauserv"/>
 	</rules_custom>
 	<rules_config>
 		<item name="UPnP" is_enabled="false"/>
+		<item name="Windows Update Delivery service" is_enabled="true"/>
+		<item name="Windows Update service" is_enabled="true"/>
 	</rules_config>
 </root>
