@@ -4,4 +4,4 @@ function restic {
   & restic.exe --password-command 'bw get password "restic / tarun / my-files"' @args
 }
 
-Set-PSReadLineOption -HistorySaveStyle SaveEverything
+$env:EDITOR = 'nvim'
