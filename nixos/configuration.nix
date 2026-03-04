@@ -68,7 +68,7 @@
       tree
     ];
     openssh.authorizedKeys.keys = [
-      "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC+jbWDnjqCOlPEIcXdN5xU1fkklqlxGAmQNIZYYkoy8cs+bgFeTZGUySQReWtCta2GX7qiCXmmBjP+0wU03iTRvLPbl2aQEq1zYX1TBkYBzpXDUi94L31MGHSZR3QNA0Ojt5/NEPfXM2dZGchC0kKU6Hg63gY5DVL7akKFacjfNOFbpvAnrAiH6uUwKxEwDnGAHDaJ6Kri27gRvh65pg25Lkbp43TUwhl62mKSwatzsWrQL0nFsvvLp6cLkpDUJbqTljEf5hZNiDFCcoasFQ6fyaXjA6ibPoGxE8nb0dP+kXna2Z2Ap85f9NbD/gzQoLO++/h2qMzOfcjEOeKgNgpn"
+      "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIIgmaA6b4RGpFAj4+vMhCkClYYP6sY/7tUE28n3Qt+rT tarun@tarun-Ideapad-Gaming-3i"
     ];
   };
 
