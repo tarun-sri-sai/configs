@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root version="5" type="3" timestamp="1774078382">
+<root version="5" type="3" timestamp="1774080198">
 	<apps>
 		<item path="CryptSvc" timestamp="1711956444" is_undeletable="true"/>
 		<item path="Dhcp" timestamp="1711956392" is_undeletable="true"/>
@@ -11,9 +11,7 @@
 		<item path="wlidsvc" timestamp="1734012238" is_undeletable="true"/>
 		<item path="wuauserv" timestamp="1734012252" is_undeletable="true"/>
 		<item path="S-1-15-2-1910091885-1573563583-1104941280-2418270861-3411158377-2822700936-2990310272" timestamp="1741918978" is_silent="true"/>
-		<item path="S-1-15-2-1609473798-1231923017-684268153-4268514328-882773646-2760585773-1760938157" timestamp="1773406613" is_enabled="true"/>
 		<item path="S-1-15-2-283421221-3183566570-1718213290-751554359-3541592344-2312209569-3374928651" timestamp="1773473000" is_silent="true"/>
-		<item path="S-1-15-2-2015459320-3065076763-404414554-287452219-753456662-3251378790-3436244644" timestamp="1771811873" is_enabled="true"/>
 		<item path="C:\WINDOWS\system32\SppExtComObj.exe" timestamp="1771812464" is_undeletable="true" is_silent="true"/>
 		<item path="C:\WINDOWS\system32\lsass.exe" timestamp="1771812464" is_undeletable="true" is_silent="true"/>
 		<item path="D:\Program Files\simplewall\simplewall.exe" timestamp="1771812464" is_undeletable="true" is_silent="true"/>
@@ -87,6 +85,11 @@
 		<item path="C:\program files\windowsapps\microsoft.windowsstore_22601.1401.3.0_x64__8wekyb3d8bbwe\storedesktopextension.exe" timestamp="1774066328" is_enabled="true"/>
 		<item path="C:\windows\system32\runtimebroker.exe" timestamp="1774066351" is_silent="true" is_enabled="true"/>
 		<item path="D:\program files\tailscale\tailscale-ipn.exe" timestamp="1774078365" is_enabled="true"/>
+		<item path="D:\program files\git\mingw64\bin\git-lfs.exe" timestamp="1774078425" is_enabled="true"/>
+		<item path="C:\program files\docker\docker\resources\com.docker.backend.exe" timestamp="1774079197" is_silent="true" is_enabled="true"/>
+		<item path="C:\program files\docker\docker\frontend\docker desktop.exe" timestamp="1774079201" is_silent="true"/>
+		<item path="C:\windows\system32\cscript.exe" timestamp="1774079201" is_silent="true"/>
+		<item path="C:\program files\docker\docker\resources\com.docker.build.exe" timestamp="1774079257" is_silent="true"/>
 	</apps>
 	<rules_custom>
 	</rules_custom>
