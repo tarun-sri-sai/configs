@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root version="5" type="3" timestamp="1774080198">
+<root version="5" type="3" timestamp="1774671925">
 	<apps>
 		<item path="CryptSvc" timestamp="1711956444" is_undeletable="true"/>
 		<item path="Dhcp" timestamp="1711956392" is_undeletable="true"/>
@@ -22,9 +22,9 @@
 		<item path="C:\program files (x86)\microsoft\edgewebview\application\145.0.3800.70\msedgewebview2.exe" timestamp="1771812603" is_silent="true"/>
 		<item path="C:\programdata\microsoft\windows defender\platform\4.18.26010.5-0\mpdefendercoreservice.exe" timestamp="1771812606" is_silent="true" is_enabled="true"/>
 		<item path="C:\program files\mozilla firefox\firefox.exe" timestamp="1771812621" is_enabled="true"/>
-		<item path="C:\program files\windowsapps\microsoft.gamingservices_33.108.12001.0_x64__8wekyb3d8bbwe\gamingservices.exe" timestamp="1771812678" is_silent="true"/>
+		<item path="C:\users\tarun\appdata\local\programs\microsoft vs code\cfbea10c5f\resources\app\node_modules\@vscode\vsce-sign\bin\vsce-sign.exe" timestamp="1774579165" is_silent="true"/>
 		<item path="C:\program files\windowsapps\microsoft.6365217ce6eb4_102.2511.3002.0_x64__8wekyb3d8bbwe\microsoftsecurityapp\microsoftsecurityapp.exe" timestamp="1771812686" is_silent="true"/>
-		<item path="C:\program files\windowsapps\microsoft.desktopappinstaller_1.27.470.0_x64__8wekyb3d8bbwe\windowspackagemanagerserver.exe" timestamp="1771812805" is_silent="true"/>
+		<item path="C:\windows\lenovo\imcontroller\service\lenovo.modern.imcontroller.exe" timestamp="1774405070" is_silent="true"/>
 		<item path="C:\windows\system32\openssh\sshd.exe" timestamp="1771812967" is_enabled="true"/>
 		<item path="C:\windows\immersivecontrolpanel\systemsettings.exe" timestamp="1771813011" is_silent="true"/>
 		<item path="C:\users\tarun\appdata\local\programs\microsoft vs code\code.exe" timestamp="1771813283" is_enabled="true"/>
@@ -39,32 +39,23 @@
 		<item path="D:\program files\restic_v0.18\restic.exe" timestamp="1771814739" is_enabled="true"/>
 		<item path="D:\program files\python311\python.exe" timestamp="1771815105" is_enabled="true"/>
 		<item path="C:\program files\wsl\wslservice.exe" timestamp="1771815596" is_silent="true"/>
-		<item path="C:\program files (x86)\lenovo\vantageservice\4.2601.20.0\lenovovantage-(genericmessagingaddin).exe" timestamp="1771815672" is_silent="true"/>
-		<item path="C:\program files (x86)\lenovo\vantageservice\4.2601.20.0\lenovovantage-(generictelemetryaddin).exe" timestamp="1771815673" is_silent="true"/>
-		<item path="C:\program files\bluestacks_nxt\bluestackshelper.exe" timestamp="1771826027" is_silent="true"/>
-		<item path="C:\program files (x86)\google\googleupdater\144.0.7547.0\updater.exe" timestamp="1771827099" is_silent="true"/>
-		<item path="C:\program files (x86)\lenovo\vantageservice\4.2601.20.0\lenovovantage-(lenovosecurityaddin).exe" timestamp="1771828212" is_silent="true"/>
+		<item path="C:\program files (x86)\mozilla maintenance service\update\updater.exe" timestamp="1774578072" is_silent="true"/>
 		<item path="C:\program files (x86)\microsoft\edgeupdate\microsoftedgeupdate.exe" timestamp="1771839446" is_silent="true"/>
-		<item path="C:\program files (x86)\lenovo\vantageservice\4.2601.20.0\lenovovantageservice.exe" timestamp="1771841076" is_silent="true"/>
 		<item path="C:\windows\system32\sihclient.exe" timestamp="1771843543" is_silent="true"/>
 		<item path="D:\program files\qbittorrent\qbittorrent.exe" timestamp="1771849239" is_enabled="true"/>
 		<item path="C:\programdata\microsoft\windows defender\platform\4.18.26010.5-0\msmpeng.exe" timestamp="1771849245" is_silent="true"/>
 		<item path="C:\users\tarun\appdata\roaming\code\user\globalstorage\eamodio.gitlens\gk.exe" timestamp="1771849317" is_silent="true"/>
-		<item path="C:\program files (x86)\lenovo\vantageservice\4.2601.20.0\lenovovantage-(smartbeaddin).exe" timestamp="1771850543" is_silent="true"/>
 		<item path="D:\program files\iperf\iperf3.exe" timestamp="1771851110" is_enabled="true"/>
 		<item path="C:\windows\system32\rundll32.exe" timestamp="1771889355" is_silent="true"/>
 		<item path="C:\windows\system32\driverstore\filerepository\nvlti.inf_amd64_b3badde551342cd6\display.nvcontainer\nvdisplay.container.exe" timestamp="1771898611" is_silent="true"/>
 		<item path="C:\windows\system32\wbem\wmiprvse.exe" timestamp="1771899355" is_silent="true"/>
-		<item path="C:\program files (x86)\lenovo\vantageservice\4.2601.20.0\lenovovantage-(vantagecoreaddin).exe" timestamp="1771911300" is_silent="true"/>
 		<item path="C:\program files (x86)\lenovo\system update\tvsukernel.exe" timestamp="1771927399" is_silent="true"/>
 		<item path="C:\programdata\microsoft\windows defender\platform\4.18.26010.5-0\mpcmdrun.exe" timestamp="1771952123" is_silent="true"/>
 		<item path="C:\windows\uus\packages\preview\amd64\mousocoreworker.exe" timestamp="1772017820"/>
 		<item path="C:\windows\system32\apphostregistrationverifier.exe" timestamp="1772030717" is_silent="true"/>
 		<item path="C:\program files (x86)\mozilla maintenance service\maintenanceservice.exe" timestamp="1772076028" is_silent="true"/>
 		<item path="C:\program files\powershell\7\pwsh.exe" timestamp="1772076032" is_enabled="true"/>
-		<item path="C:\program files (x86)\mozilla maintenance service\update\updater.exe" timestamp="1772078864" is_silent="true"/>
 		<item path="C:\program files\google\drive file stream\122.0.1.0\googledrivefs.exe" timestamp="1773921714" is_enabled="true"/>
-		<item path="C:\program files\windowsapps\microsoft.gamingservices_34.110.25001.0_x64__8wekyb3d8bbwe\gamingservices.exe" timestamp="1773921745" is_silent="true"/>
 		<item path="D:\msys64\usr\bin\curl.exe" timestamp="1773921759" is_enabled="true"/>
 		<item path="C:\program files (x86)\lenovo\vantageservice\4.2601.21.0\lenovovantage-(lenovosecurityaddin).exe" timestamp="1773922517" is_silent="true"/>
 		<item path="C:\program files (x86)\lenovo\vantageservice\4.2601.21.0\lenovovantage-(smartbeaddin).exe" timestamp="1773922673" is_silent="true"/>
@@ -82,7 +73,7 @@
 		<item path="C:\program files\windowsapps\microsoft.desktopappinstaller_1.28.220.0_x64__8wekyb3d8bbwe\windowspackagemanagerserver.exe" timestamp="1774066147" is_enabled="true"/>
 		<item path="C:\windows\system32\smartscreen.exe" timestamp="1774066314" is_enabled="true"/>
 		<item path="C:\users\tarun\downloads\windows app installer.exe" timestamp="1774066322" is_enabled="true"/>
-		<item path="C:\program files\windowsapps\microsoft.windowsstore_22601.1401.3.0_x64__8wekyb3d8bbwe\storedesktopextension.exe" timestamp="1774066328" is_enabled="true"/>
+		<item path="C:\users\tarun\appdata\local\programs\microsoft vs code\07ff9d6178\resources\app\node_modules\@vscode\vsce-sign\bin\vsce-sign.exe" timestamp="1774406218" is_silent="true"/>
 		<item path="C:\windows\system32\runtimebroker.exe" timestamp="1774066351" is_silent="true" is_enabled="true"/>
 		<item path="D:\program files\tailscale\tailscale-ipn.exe" timestamp="1774078365" is_enabled="true"/>
 		<item path="D:\program files\git\mingw64\bin\git-lfs.exe" timestamp="1774078425" is_enabled="true"/>
@@ -90,6 +81,11 @@
 		<item path="C:\program files\docker\docker\frontend\docker desktop.exe" timestamp="1774079201" is_silent="true"/>
 		<item path="C:\windows\system32\cscript.exe" timestamp="1774079201" is_silent="true"/>
 		<item path="C:\program files\docker\docker\resources\com.docker.build.exe" timestamp="1774079257" is_silent="true"/>
+		<item path="C:\windows\uus\amd64\waasmedicagent.exe" timestamp="1774141014" is_silent="true"/>
+		<item path="C:\users\tarun\appdata\local\programs\microsoft vs code\ce099c1ed2\resources\app\node_modules\@vscode\vsce-sign\bin\vsce-sign.exe" timestamp="1774186252" is_silent="true"/>
+		<item path="C:\program files\docker\cli-plugins\docker-buildx.exe" timestamp="1774187565" is_silent="true" is_enabled="true"/>
+		<item path="C:\program files\windowsapps\microsoft.gamingservices_34.111.20001.0_x64__8wekyb3d8bbwe\gamingservices.exe" timestamp="1774404914" is_silent="true"/>
+		<item path="C:\windows\system32\drivers\lenovo\udc\service\udclientservice.exe" timestamp="1774404924" is_silent="true"/>
 	</apps>
 	<rules_custom>
 	</rules_custom>
