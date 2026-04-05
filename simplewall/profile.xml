@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root version="5" type="3" timestamp="1775273729">
+<root version="5" type="3" timestamp="1775361038">
 	<apps>
 		<item path="CryptSvc" timestamp="1711956444" is_undeletable="true"/>
 		<item path="Dhcp" timestamp="1711956392" is_undeletable="true"/>
@@ -11,6 +11,7 @@
 		<item path="wlidsvc" timestamp="1734012238" is_undeletable="true"/>
 		<item path="wuauserv" timestamp="1775271682" is_undeletable="true"/>
 		<item path="S-1-15-2-1910091885-1573563583-1104941280-2418270861-3411158377-2822700936-2990310272" timestamp="1741918978" is_enabled="true"/>
+		<item path="S-1-15-2-283421221-3183566570-1718213290-751554359-3541592344-2312209569-3374928651" timestamp="1773473000" is_silent="true"/>
 		<item path="C:\WINDOWS\system32\SppExtComObj.exe" timestamp="1775273539" is_undeletable="true"/>
 		<item path="C:\WINDOWS\system32\lsass.exe" timestamp="1775273539" is_undeletable="true"/>
 		<item path="C:\Program Files\simplewall\simplewall.exe" timestamp="1775273539" is_undeletable="true" is_enabled="true"/>
@@ -21,10 +22,42 @@
 		<item path="C:\program files\google\drive file stream\123.0.1.0\googledrivefs.exe" timestamp="1775273585" is_enabled="true"/>
 		<item path="C:\windows\systemapps\microsoft.windows.startmenuexperiencehost_cw5n1h2txyewy\startmenuexperiencehost.exe" timestamp="1775273613" is_silent="true"/>
 		<item path="C:\program files\windowsapps\microsoftcorporationii.windows365_2.0.964.0_x64__8wekyb3d8bbwe\windows365.exe" timestamp="1775273624" is_enabled="true"/>
-		<item path="C:\program files (x86)\microsoft\edgewebview\application\145.0.3800.70\msedgewebview2.exe" timestamp="1775273625" is_enabled="true"/>
-		<item path="C:\programdata\microsoft\windows defender\platform\4.18.26020.6-0\msmpeng.exe" timestamp="1775273637" is_silent="true"/>
+		<item path="C:\programdata\microsoft\windows defender\platform\4.18.26020.6-0\msmpeng.exe" timestamp="1775273637" is_silent="true" is_enabled="true"/>
 		<item path="C:\program files\windowsapps\microsoftcorporationii.windows365_2.0.964.0_x64__8wekyb3d8bbwe\msrdc\msrdc.exe" timestamp="1775273647" is_enabled="true"/>
 		<item path="C:\programdata\microsoft\windows defender\platform\4.18.26020.6-0\mpdefendercoreservice.exe" timestamp="1775273676" is_enabled="true"/>
+		<item path="C:\windows\system32\openssh\ssh.exe" timestamp="1775273756" is_enabled="true"/>
+		<item path="C:\program files\windowsapps\microsoft.gamingservices_34.111.20001.0_x64__8wekyb3d8bbwe\gamingservices.exe" timestamp="1775273768" is_silent="true"/>
+		<item path="D:\program files\git\mingw64\bin\git-lfs.exe" timestamp="1775273774" is_enabled="true"/>
+		<item path="D:\program files\bruno\bruno.exe" timestamp="1775273821" is_enabled="true"/>
+		<item path="C:\program files\docker\docker\resources\com.docker.backend.exe" timestamp="1775273837" is_enabled="true"/>
+		<item path="C:\program files\docker\docker\frontend\docker desktop.exe" timestamp="1775273841" is_silent="true"/>
+		<item path="C:\windows\system32\cscript.exe" timestamp="1775273841" is_silent="true"/>
+		<item path="C:\program files\wsl\wslservice.exe" timestamp="1775273846" is_silent="true"/>
+		<item path="C:\program files\docker\docker\resources\com.docker.build.exe" timestamp="1775273897" is_enabled="true"/>
+		<item path="C:\program files\docker\cli-plugins\docker-buildx.exe" timestamp="1775273913" is_enabled="true"/>
+		<item path="C:\windows\immersivecontrolpanel\systemsettings.exe" timestamp="1775273975" is_silent="true"/>
+		<item path="C:\windows\system32\taskhostw.exe" timestamp="1775273978" is_silent="true"/>
+		<item path="C:\program files\mozilla firefox\firefox.exe" timestamp="1775274027" is_enabled="true"/>
+		<item path="C:\program files\mozilla firefox\pingsender.exe" timestamp="1775274028" is_silent="true"/>
+		<item path="C:\users\tarun\appdata\local\programs\microsoft vs code\code.exe" timestamp="1775274871" is_enabled="true"/>
+		<item path="C:\users\tarun\appdata\local\gitkrakencli\gk.exe" timestamp="1775274883" is_enabled="true"/>
+		<item path="C:\windows\system32\drivers\lenovo\udc\service\udclientservice.exe" timestamp="1775275268" is_silent="true"/>
+		<item path="C:\windows\system32\driverstore\filerepository\nvlti.inf_amd64_b3badde551342cd6\display.nvcontainer\nvdisplay.container.exe" timestamp="1775275440" is_silent="true"/>
+		<item path="C:\program files (x86)\google\googleupdater\148.0.7730.0\updater.exe" timestamp="1775276233" is_enabled="true"/>
+		<item path="C:\program files (x86)\lenovo\vantageservice\4.2601.21.0\lenovovantage-(lenovosecurityaddin).exe" timestamp="1775284210" is_silent="true"/>
+		<item path="C:\program files (x86)\lenovo\vantageservice\4.2601.21.0\lenovovantage-(genericmessagingaddin).exe" timestamp="1775284548" is_silent="true"/>
+		<item path="C:\program files (x86)\lenovo\vantageservice\4.2601.21.0\lenovovantage-(smartbeaddin).exe" timestamp="1775284549" is_silent="true"/>
+		<item path="C:\program files (x86)\lenovo\vantageservice\4.2601.21.0\lenovovantage-(generictelemetryaddin).exe" timestamp="1775286716" is_silent="true"/>
+		<item path="C:\program files (x86)\microsoft\edgeupdate\microsoftedgeupdate.exe" timestamp="1775291806" is_enabled="true"/>
+		<item path="C:\windows\system32\sihclient.exe" timestamp="1775293291" is_silent="true"/>
+		<item path="C:\program files (x86)\lenovo\vantageservice\4.2601.21.0\lenovovantageservice.exe" timestamp="1775299522" is_silent="true"/>
+		<item path="C:\windows\uus\packages\preview\amd64\mousocoreworker.exe" timestamp="1775308966"/>
+		<item path="D:\program files\python311\python.exe" timestamp="1775311531" is_enabled="true"/>
+		<item path="C:\windows\system32\openssh\sshd.exe" timestamp="1775319511" is_enabled="true"/>
+		<item path="D:\program files\python311\scripts\uv.exe" timestamp="1775322845" is_enabled="true"/>
+		<item path="C:\program files (x86)\microsoft\edgewebview\application\146.0.3856.97\msedgewebview2.exe" timestamp="1775360910" is_enabled="true"/>
+		<item path="C:\program files (x86)\lenovo\system update\tvsukernel.exe" timestamp="1775360944" is_silent="true"/>
+		<item path="C:\program files\windowsapps\microsoftwindows.client.webexperience_526.1202.40.0_x64__cw5n1h2txyewy\dashboard\widgets.exe" timestamp="1775361005" is_silent="true"/>
 	</apps>
 	<rules_custom>
 	</rules_custom>
