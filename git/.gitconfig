@@ -16,4 +16,4 @@
 [maintenance]
 	auto = true
 [lfs]
-	storage = D:\\Users\\tarun\\my_files\\git_lfs
+	storage = D:\\Users\\tarun\\my-files\\git-lfs
