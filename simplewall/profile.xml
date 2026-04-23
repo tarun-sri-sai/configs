@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root version="5" type="3" timestamp="1775829072">
+<root version="5" type="3" timestamp="1776958717">
 	<apps>
 		<item path="CryptSvc" timestamp="1711956444" is_undeletable="true"/>
 		<item path="Dhcp" timestamp="1711956392" is_undeletable="true"/>
@@ -29,6 +29,7 @@
 		<item path="C:\windows\system32\openssh\ssh.exe" timestamp="1775273756" is_enabled="true"/>
 		<item path="C:\program files\windowsapps\microsoft.gamingservices_34.111.20001.0_x64__8wekyb3d8bbwe\gamingservices.exe" timestamp="1775273768" is_silent="true"/>
 		<item path="D:\program files\git\mingw64\bin\git-lfs.exe" timestamp="1775273774" is_enabled="true"/>
+		<item path="D:\program files\wireshark\wireshark.exe" timestamp="1775839381" is_enabled="true"/>
 		<item path="C:\windows\system32\cscript.exe" timestamp="1775273841" is_silent="true"/>
 		<item path="C:\program files\wsl\wslservice.exe" timestamp="1775273846" is_silent="true"/>
 		<item path="C:\windows\immersivecontrolpanel\systemsettings.exe" timestamp="1775273975" is_silent="true"/>
@@ -51,7 +52,6 @@
 		<item path="D:\program files\python311\python.exe" timestamp="1775311531" is_enabled="true"/>
 		<item path="C:\windows\system32\openssh\sshd.exe" timestamp="1775319511" is_enabled="true"/>
 		<item path="D:\program files\python311\scripts\uv.exe" timestamp="1775322845" is_enabled="true"/>
-		<item path="C:\program files (x86)\microsoft\edgewebview\application\146.0.3856.97\msedgewebview2.exe" timestamp="1775360910" is_enabled="true"/>
 		<item path="C:\program files (x86)\lenovo\system update\tvsukernel.exe" timestamp="1775360944" is_silent="true"/>
 		<item path="C:\program files\windowsapps\microsoftwindows.client.webexperience_526.1202.40.0_x64__cw5n1h2txyewy\dashboard\widgets.exe" timestamp="1775361005" is_silent="true"/>
 		<item path="C:\program files\powershell\7\pwsh.exe" timestamp="1775361117" is_enabled="true"/>
@@ -75,9 +75,18 @@
 		<item path="C:\windows\uus\amd64\waasmedicagent.exe" timestamp="1775585431" is_silent="true"/>
 		<item path="C:\windows\syswow64\windowspowershell\v1.0\powershell.exe" timestamp="1775667907" is_silent="true"/>
 		<item path="D:\windowsapps\ilovepdfs.l.ilovepdf-pdfreaderandeditor_2.2.14.0_x64__0q01bhdkqq106\ilovepdf\ilovepdf.exe" timestamp="1775668145" is_silent="true"/>
-		<item path="C:\program files (x86)\microsoft\edgewebview\application\146.0.3856.109\msedgewebview2.exe" timestamp="1775679104" is_enabled="true"/>
-		<item path="C:\users\tarun\appdata\local\programs\microsoft vs code\e7fb5e96c0\resources\app\node_modules\@vscode\vsce-sign\bin\vsce-sign.exe" timestamp="1775784663" is_enabled="true"/>
 		<item path="C:\users\tarun\appdata\roaming\code\user\globalstorage\eamodio.gitlens\gk.exe" timestamp="1775784668" is_silent="true"/>
+		<item path="C:\windows\system32\dxgiadaptercache.exe" timestamp="1775834257" is_silent="true"/>
+		<item path="D:\program files\git\mingw64\libexec\git-core\git-remote-https.exe" timestamp="1775835051" is_enabled="true"/>
+		<item path="C:\users\tarun\appdata\local\programs\microsoft vs code\560a9dba96\resources\app\node_modules\@vscode\vsce-sign\bin\vsce-sign.exe" timestamp="1776306321" is_enabled="true"/>
+		<item path="C:\program files\windowsapps\microsoft.desktopappinstaller_1.28.220.0_x64__8wekyb3d8bbwe\winget.exe" timestamp="1776397643" is_enabled="true"/>
+		<item path="C:\windows\system32\msiexec.exe" timestamp="1776397669" is_enabled="true"/>
+		<item path="D:\program files\libreoffice\program\soffice.bin" timestamp="1776399263" is_silent="true"/>
+		<item path="C:\program files (x86)\lenovo\vantageservice\4.2601.21.0\lenovovantage-(lenovosystemupdateaddin).exe" timestamp="1776446185" is_silent="true"/>
+		<item path="C:\program files (x86)\lenovo\vantageservice\4.2601.21.0\lenovovantage-(lenovoaccountaddin).exe" timestamp="1776446185" is_silent="true"/>
+		<item path="C:\windows\system32\windowspowershell\v1.0\powershell.exe" timestamp="1776522496"/>
+		<item path="C:\program files (x86)\microsoft\edgewebview\application\147.0.3912.72\msedgewebview2.exe" timestamp="1776958539" is_enabled="true"/>
+		<item path="D:\program files\github cli\gh.exe" timestamp="1776958678"/>
 	</apps>
 	<rules_custom>
 	</rules_custom>
