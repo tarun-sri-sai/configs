@@ -20,7 +20,7 @@ notion_backup.py
 package*.json
 spoj_solver.cpp
 Test-RepoProtection.ps1
-transfer_comits.py
+transfer_commits.py
 update_git_repos.py
 view_totp.py
 ws-client.js
