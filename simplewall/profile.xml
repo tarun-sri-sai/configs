@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root version="5" type="3" timestamp="1776992986">
+<root version="5" type="3" timestamp="1777213056">
 	<apps>
 		<item path="CryptSvc" timestamp="1711956444" is_undeletable="true"/>
 		<item path="Dhcp" timestamp="1711956392" is_undeletable="true"/>
@@ -18,6 +18,7 @@
 		<item path="System" timestamp="1775273539" is_undeletable="true" is_enabled="true"/>
 		<item path="C:\WINDOWS\system32\svchost.exe" timestamp="1775273539" is_undeletable="true" is_silent="true"/>
 		<item path="C:\program files\windowsapps\microsoft.desktopappinstaller_1.28.220.0_x64__8wekyb3d8bbwe\windowspackagemanagerserver.exe" timestamp="1775273579" is_silent="true"/>
+		<item path="C:\programdata\microsoft\windows defender\platform\4.18.26030.3011-0\msmpeng.exe" timestamp="1776993204" is_enabled="true"/>
 		<item path="C:\program files\google\drive file stream\123.0.1.0\googledrivefs.exe" timestamp="1775273585" is_enabled="true"/>
 		<item path="C:\windows\systemapps\microsoft.windows.startmenuexperiencehost_cw5n1h2txyewy\startmenuexperiencehost.exe" timestamp="1775273613" is_silent="true"/>
 		<item path="C:\program files\windowsapps\microsoftcorporationii.windows365_2.0.964.0_x64__8wekyb3d8bbwe\windows365.exe" timestamp="1775273624" is_enabled="true"/>
@@ -85,6 +86,14 @@
 		<item path="C:\program files (x86)\microsoft\edgewebview\application\147.0.3912.72\msedgewebview2.exe" timestamp="1776958539" is_enabled="true"/>
 		<item path="D:\program files\github cli\gh.exe" timestamp="1776958678"/>
 		<item path="C:\programdata\microsoft\windows defender\platform\4.18.26030.3011-0\mpdefendercoreservice.exe" timestamp="1776992596" is_enabled="true"/>
+		<item path="C:\windows\system32\nslookup.exe" timestamp="1777036087" is_enabled="true"/>
+		<item path="C:\users\tarun\downloads\docker desktop installer.exe" timestamp="1777089727" is_enabled="true"/>
+		<item path="C:\program files\docker\docker\frontend\docker desktop.exe" timestamp="1777212615" is_silent="true"/>
+		<item path="C:\programdata\microsoft\windows defender\platform\4.18.26030.3011-0\mpcmdrun.exe" timestamp="1777183286" is_enabled="true"/>
+		<item path="C:\users\tarun\appdata\local\programs\microsoft vs code\10c8e557c8\resources\app\node_modules\@vscode\vsce-sign\bin\vsce-sign.exe" timestamp="1777199764" is_enabled="true"/>
+		<item path="C:\users\tarun\appdata\local\discord\app-1.0.9224\discord.exe" timestamp="1777212761" is_enabled="true"/>
+		<item path="C:\program files\docker\docker\resources\com.docker.backend.exe" timestamp="1777212608" is_enabled="true"/>
+		<item path="C:\program files\docker\docker\resources\com.docker.build.exe" timestamp="1777212670" is_enabled="true"/>
 	</apps>
 	<rules_custom>
 	</rules_custom>
