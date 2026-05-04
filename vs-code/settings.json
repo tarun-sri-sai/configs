@@ -1,63 +1,63 @@
 {
   "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[markdown]": {
-    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
   },
   "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[yaml]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "css.lint.unknownAtRules": "ignore",
+  "dcrypt.gpgKeyId": "0C3A452F8D7AF2C7D70ACC83C88A3C2980E6ADCE",
+  "dcrypt.useGpgKey": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "diffEditor.maxComputationTime": 50000,
+  "diffEditor.maxFileSize": 500,
+  "editor.acceptSuggestionOnCommitCharacter": false,
   "editor.fontFamily": "'JetBrainsMono Nerd Font', Consolas, 'Courier New', monospace",
   "editor.fontSize": 13,
   "editor.renderWhitespace": "all",
-  "files.autoSave": "afterDelay",
-  "telemetry.telemetryLevel": "crash",
-  "terminal.integrated.fontSize": 13,
-  "css.lint.unknownAtRules": "ignore",
-  "gitlens.ai.model": "vscode",
-  "gitlens.ai.vscode.model": "copilot:gpt-4.1",
-  "diffEditor.ignoreTrimWhitespace": false,
-  "git.openRepositoryInParentFolders": "always",
-  "remote.SSH.remotePlatform": {
-    "tarun-ideapad-g": "windows",
-  },
   "editor.suggestOnTriggerCharacters": false,
-  "editor.acceptSuggestionOnCommitCharacter": false,
-  "terminal.integrated.enableMultiLinePasteWarning": "never",
-  "github.copilot.nextEditSuggestions.enabled": false,
-  "explorer.confirmPasteNative": false,
   "explorer.confirmDelete": false,
-  "workbench.colorTheme": "Dark Modern",
-  "dcrypt.gpgKeyId": "0C3A452F8D7AF2C7D70ACC83C88A3C2980E6ADCE",
+  "explorer.confirmPasteNative": false,
+  "files.autoSave": "afterDelay",
+  "git.addAICoAuthor": "off",
+  "git.openRepositoryInParentFolders": "always",
   "git.scanRepositories": [
     "**/repos"
   ],
+  "github.copilot.nextEditSuggestions.enabled": false,
+  "gitlens.ai.model": "vscode",
+  "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+  "remote.SSH.remotePlatform": {
+    "tarun-ideapad-g": "windows"
+  },
+  "telemetry.telemetryLevel": "crash",
+  "terminal.integrated.enableMultiLinePasteWarning": "never",
+  "terminal.integrated.fontSize": 13,
+  "workbench.colorTheme": "Dark Modern",
   "workbench.editor.limit.enabled": true,
-  "workbench.editor.limit.value": 3,
-  "diffEditor.maxComputationTime": 50000,
-  "diffEditor.maxFileSize": 500,
-  "dcrypt.useGpgKey": true,
-  "git.addAICoAuthor": "off"
+  "workbench.editor.limit.value": 3
 }
