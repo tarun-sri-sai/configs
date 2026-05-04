@@ -1,0 +1,63 @@
+{
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "editor.fontFamily": "'JetBrainsMono Nerd Font', Consolas, 'Courier New', monospace",
+  "editor.fontSize": 13,
+  "editor.renderWhitespace": "all",
+  "files.autoSave": "afterDelay",
+  "telemetry.telemetryLevel": "crash",
+  "terminal.integrated.fontSize": 13,
+  "css.lint.unknownAtRules": "ignore",
+  "gitlens.ai.model": "vscode",
+  "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "git.openRepositoryInParentFolders": "always",
+  "remote.SSH.remotePlatform": {
+    "tarun-ideapad-g": "windows",
+  },
+  "editor.suggestOnTriggerCharacters": false,
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "terminal.integrated.enableMultiLinePasteWarning": "never",
+  "github.copilot.nextEditSuggestions.enabled": false,
+  "explorer.confirmPasteNative": false,
+  "explorer.confirmDelete": false,
+  "workbench.colorTheme": "Dark Modern",
+  "dcrypt.gpgKeyId": "0C3A452F8D7AF2C7D70ACC83C88A3C2980E6ADCE",
+  "git.scanRepositories": [
+    "**/repos"
+  ],
+  "workbench.editor.limit.enabled": true,
+  "workbench.editor.limit.value": 3,
+  "diffEditor.maxComputationTime": 50000,
+  "diffEditor.maxFileSize": 500,
+  "dcrypt.useGpgKey": true,
+  "git.addAICoAuthor": "off"
+}
