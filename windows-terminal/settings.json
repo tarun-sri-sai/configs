@@ -101,12 +101,6 @@
         "useAcrylic": false
       },
       {
-        "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
-        "hidden": false,
-        "name": "Git Bash",
-        "source": "Git"
-      },
-      {
         "colorScheme": "Campbell",
         "commandline": "D:\\msys64\\usr\\bin\\bash.exe",
         "guid": "{8e34b34a-2b3b-4b1b-aa44-b8a522bcc086}",
@@ -115,7 +109,19 @@
         "name": "MSYS"
       },
       {
-        "guid": "{2fa2dbda-eb9e-5ea9-a387-3b45f107d528}",
+        "guid": "{68301a15-357d-5477-9ed6-b7c9d6d944f1}",
+        "hidden": false,
+        "name": "Developer Command Prompt for VS 18",
+        "source": "Windows.Terminal.VisualStudio"
+      },
+      {
+        "guid": "{13671e15-ef68-5e49-baf0-225f54545530}",
+        "hidden": false,
+        "name": "Developer PowerShell for VS 18",
+        "source": "Windows.Terminal.VisualStudio"
+      },
+      {
+        "guid": "{dd9b7d0f-4a0a-5a1b-b918-b7840998d1c5}",
         "hidden": false,
         "name": "Debian",
         "source": "Microsoft.WSL"
