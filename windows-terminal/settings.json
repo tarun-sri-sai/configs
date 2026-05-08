@@ -55,6 +55,8 @@
   ],
   "profiles": {
     "defaults": {
+      "altGrAliasing": true,
+      "antialiasingMode": "grayscale",
       "cursorShape": "filledBox",
       "elevate": false,
       "font": {
@@ -64,7 +66,7 @@
       },
       "opacity": 90,
       "startingDirectory": "%MY_FILES%",
-      "useAcrylic": true
+      "useAcrylic": false
     },
     "list": [
       {
@@ -81,24 +83,11 @@
         "name": "Windows PowerShell"
       },
       {
-        "altGrAliasing": true,
-        "antialiasingMode": "grayscale",
-        "closeOnExit": "automatic",
-        "colorScheme": "Campbell",
         "commandline": "%SystemRoot%\\System32\\cmd.exe",
         "elevate": false,
-        "font": {
-          "size": 12
-        },
         "guid": "{cec96bb4-6d67-4d99-ad24-c08891c4fa4a}",
         "hidden": false,
-        "historySize": 9001,
-        "icon": "ms-appx:///ProfileIcons/{0caa0dad-35be-5f56-a8ff-afceeeaa6101}.png",
-        "name": "Command Prompt",
-        "padding": "8, 8, 8, 8",
-        "snapOnInput": true,
-        "startingDirectory": "%USERPROFILE%",
-        "useAcrylic": false
+        "name": "Command Prompt"
       },
       {
         "colorScheme": "Campbell",
