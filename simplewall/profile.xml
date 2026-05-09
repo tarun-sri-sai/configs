@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root version="5" type="3" timestamp="1777608826">
+<root version="5" type="3" timestamp="1778296264">
 	<apps>
 		<item path="CryptSvc" timestamp="1711956444" is_undeletable="true"/>
 		<item path="Dhcp" timestamp="1711956392" is_undeletable="true"/>
@@ -74,6 +74,7 @@
 		<item path="C:\windows\uus\amd64\waasmedicagent.exe" timestamp="1775585431" is_silent="true"/>
 		<item path="C:\windows\syswow64\windowspowershell\v1.0\powershell.exe" timestamp="1775667907" is_silent="true"/>
 		<item path="D:\windowsapps\ilovepdfs.l.ilovepdf-pdfreaderandeditor_2.2.14.0_x64__0q01bhdkqq106\ilovepdf\ilovepdf.exe" timestamp="1775668145" is_silent="true"/>
+		<item path="D:\program files\tailscale\tailscaled.exe" timestamp="1777739740" is_enabled="true"/>
 		<item path="C:\windows\system32\dxgiadaptercache.exe" timestamp="1775834257" is_silent="true"/>
 		<item path="D:\program files\git\mingw64\libexec\git-core\git-remote-https.exe" timestamp="1775835051" is_enabled="true"/>
 		<item path="C:\program files\windowsapps\microsoft.desktopappinstaller_1.28.220.0_x64__8wekyb3d8bbwe\winget.exe" timestamp="1776397643" is_enabled="true"/>
@@ -88,14 +89,22 @@
 		<item path="C:\windows\system32\nslookup.exe" timestamp="1777036087" is_enabled="true"/>
 		<item path="C:\program files\docker\docker\frontend\docker desktop.exe" timestamp="1777212615" is_silent="true"/>
 		<item path="C:\programdata\microsoft\windows defender\platform\4.18.26030.3011-0\mpcmdrun.exe" timestamp="1777183286" is_enabled="true"/>
+		<item path="D:\program files\processexplorer\procexp64.exe" timestamp="1777685495" is_enabled="true"/>
 		<item path="C:\users\tarun\appdata\local\discord\app-1.0.9224\discord.exe" timestamp="1777212761" is_enabled="true"/>
 		<item path="C:\program files\docker\docker\resources\com.docker.backend.exe" timestamp="1777212608" is_enabled="true"/>
 		<item path="D:\msys64\usr\bin\pacman.exe" timestamp="1777260080" is_enabled="true"/>
 		<item path="C:\program files\docker\docker\resources\com.docker.build.exe" timestamp="1777212670" is_enabled="true"/>
-		<item path="C:\program files (x86)\microsoft\edgewebview\application\147.0.3912.86\msedgewebview2.exe" timestamp="1777398497" is_enabled="true"/>
 		<item path="D:\program files\bruno\bruno.exe" timestamp="1777603348" is_enabled="true"/>
 		<item path="C:\users\tarun\appdata\local\yt-dlp\yt-dlp.exe" timestamp="1777400263" is_enabled="true"/>
 		<item path="C:\program files\google\drive file stream\124.0.3.0\googledrivefs.exe" timestamp="1777605480" is_enabled="true"/>
+		<item path="C:\program files\windowsapps\19453.net.rufus_4.13.2316.0_x64__y8nh7bq2a8dtt\rufus\rufus.exe" timestamp="1777685699" is_silent="true"/>
+		<item path="C:\program files (x86)\microsoft\edge\application\msedge.exe" timestamp="1777735920" is_enabled="true"/>
+		<item path="D:\program files\nodejs\node.exe" timestamp="1777741886" is_enabled="true"/>
+		<item path="D:\program files\tailscale\tailscale-ipn.exe" timestamp="1777739744" is_enabled="true"/>
+		<item path="C:\program files (x86)\microsoft\edgewebview\application\147.0.3912.98\msedgewebview2.exe" timestamp="1777785990" is_enabled="true"/>
+		<item path="C:\program files (x86)\lenovo\vantageservice\4.2601.21.0\lenovovantage-(multimediaaddin).exe" timestamp="1777839229" is_silent="true"/>
+		<item path="C:\program files (x86)\google\googleupdater\149.0.7814.0\updater.exe" timestamp="1778030537" is_silent="true"/>
+		<item path="C:\users\tarun\appdata\local\temp\dockerdesktopinstallers\1778295831330209000\docker desktop installer.exe" timestamp="1778295835"/>
 	</apps>
 	<rules_custom>
 	</rules_custom>
