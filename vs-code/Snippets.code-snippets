@@ -13,7 +13,7 @@
       "\t\tsc.close();",
       "\t\tbw.flush();",
       "\t}",
-      "}"
+      "}",
     ],
     "description": "Initialise code for Java console I/O"
   },
@@ -31,7 +31,7 @@
       "\t\tbr.close();",
       "\t\tbw.close();",
       "\t}",
-      "}"
+      "}",
     ],
     "description": "Initialise code for Java file I/O"
   },
@@ -88,23 +88,49 @@
     "body": [
       "def main():",
       "\t$1\n\n",
-      "if __name__ == '__main__':",
+      "if __name__ == \"__main__\":",
       "\tmain()\n"
     ]
   },
   "Prompt for ChatGPT to get material": {
     "prefix": "material_prompt",
-    "body": ["Prepare detailed notes in Markdown for $1"]
+    "body": [
+      "Prepare a detailed study material in Markdown for \"$1\""
+    ]
   },
-
   "Current Date": {
     "prefix": "date_now",
-    "body": ["$CURRENT_YEAR/$CURRENT_MONTH/$CURRENT_DATE"]
+    "body": [
+      "$CURRENT_YEAR/$CURRENT_MONTH/$CURRENT_DATE"
+    ]
   },
   "Current Time": {
     "prefix": "time_now",
     "body": [
       "$CURRENT_YEAR/$CURRENT_MONTH/$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND"
     ]
+  },
+  "React Component": {
+    "scope": "javascript,typescript,typescriptreact,javascriptreact",
+    "prefix": "component",
+    "body": [
+      "function $1() {",
+      "  return <></>;",
+      "}",
+      "",
+      "export default $1;"
+    ]
+  },
+  "Header Guard": {
+    "prefix": "ifndef",
+    "body": [
+      "#ifndef ${1:HEADER_NAME}_H",
+      "#define ${1:HEADER_NAME}_H",
+      "",
+      "$0",
+      "",
+      "#endif // ${1:HEADER_NAME}_H"
+    ],
+    "description": "Insert header guard"
   }
 }
