@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root version="5" type="3" timestamp="1778917839">
+<root version="5" type="3" timestamp="1779006251">
 	<apps>
 		<item path="CryptSvc" timestamp="1711956444" is_undeletable="true"/>
 		<item path="Dhcp" timestamp="1711956392" is_undeletable="true"/>
@@ -111,5 +111,6 @@
 		<item name="UPnP" is_enabled="false"/>
 		<item name="Windows Update Delivery service" is_enabled="true"/>
 		<item name="Windows Update service" is_enabled="true"/>
+		<item name="Microsoft account" is_enabled="true"/>
 	</rules_config>
 </root>
