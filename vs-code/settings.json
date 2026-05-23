@@ -59,5 +59,6 @@
   "terminal.integrated.initialHint": false,
   "workbench.colorTheme": "Dark Modern",
   "workbench.editor.limit.enabled": true,
-  "workbench.editor.limit.value": 5
+  "workbench.editor.limit.value": 5,
+  "diffEditor.ignoreTrimWhitespace": false
 }
