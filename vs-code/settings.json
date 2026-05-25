@@ -20,6 +20,9 @@
   "[markdown]": {
     "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
   },
+  "[plaintext]": {
+    "editor.wordWrap": "on"
+  },
   "[sql]": {
     "editor.defaultFormatter": "mtxr.sqltools"
   },
