@@ -4,9 +4,8 @@
 # exclude patterns (uncomment them if you want to use them):
 # *.[oa]
 # *~
-adb_analyse.py
-ADB_GUIDE.md
-adb_parse.py
+ANDROID_APP_USAGE.md
+android_app_usage.py
 build_archive.py
 check_repo_safety.py
 finances.py
@@ -21,3 +20,4 @@ Test-RepoProtection.ps1
 transfer_commits.py
 update_git_repos.py
 view_totp.py
+youtube_subscriptions.py
