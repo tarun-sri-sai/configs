@@ -4,7 +4,6 @@
 # exclude patterns (uncomment them if you want to use them):
 # *.[oa]
 # *~
-.nvmrc
 adb_analyse.py
 ADB_GUIDE.md
 adb_parse.py
@@ -17,11 +16,8 @@ lines_of_code.py
 material_builder.py
 normalize.py
 notion_backup.py
-package*.json
 spoj_solver.cpp
 Test-RepoProtection.ps1
 transfer_commits.py
 update_git_repos.py
 view_totp.py
-ws-client.js
-ws-server.js
