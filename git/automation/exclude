@@ -4,20 +4,20 @@
 # exclude patterns (uncomment them if you want to use them):
 # *.[oa]
 # *~
-ANDROID_APP_USAGE.md
-android_app_usage.py
-build_archive.py
-check_repo_safety.py
-finances.py
-git_indexer.py
-Invoke-Commit.ps1
-lines_of_code.py
-material_builder.py
-normalize.py
-notion_backup.py
-spoj_solver.cpp
-Test-RepoProtection.ps1
-transfer_commits.py
-update_git_repos.py
-view_totp.py
-youtube_subscriptions.py
+/ANDROID_APP_USAGE.md
+/android_app_usage.py
+/build_archive.py
+/check_repo_safety.py
+/finances.py
+/git_indexer.py
+/Invoke-Commit.ps1
+/lines_of_code.py
+/material_builder.py
+/normalize.py
+/notion_backup.py
+/spoj_solver.cpp
+/Test-RepoProtection.ps1
+/transfer_commits.py
+/update_git_repos.py
+/view_totp.py
+/youtube_subscriptions.py
