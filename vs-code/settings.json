@@ -63,5 +63,8 @@
   "workbench.colorTheme": "Dark Modern",
   "workbench.editor.limit.enabled": true,
   "workbench.editor.limit.value": 5,
-  "diffEditor.ignoreTrimWhitespace": false
+  "diffEditor.ignoreTrimWhitespace": false,
+  "diffEditor.maxComputationTime": 0,
+  "github.copilot.nextEditSuggestions.enabled": false,
+  "chat.viewSessions.orientation": "stacked"
 }
