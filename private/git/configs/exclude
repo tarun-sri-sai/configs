@@ -4,12 +4,4 @@
 # exclude patterns (uncomment them if you want to use them):
 # *.[oa]
 # *~
-/chatgpt/
-/firefox/
-/nixos/
-/restic/
-/scripts/
-/schedules/
-/simplewall/
-/ssh/
-/terraria/
+/private/
