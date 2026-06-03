@@ -4,6 +4,7 @@
 # exclude patterns (uncomment them if you want to use them):
 # *.[oa]
 # *~
+/lib/private/
 /ANDROID_APP_USAGE.md
 /android_app_usage.py
 /build_archive.py
