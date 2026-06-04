@@ -66,5 +66,6 @@
   "diffEditor.ignoreTrimWhitespace": false,
   "diffEditor.maxComputationTime": 0,
   "github.copilot.nextEditSuggestions.enabled": false,
-  "chat.viewSessions.orientation": "stacked"
+  "chat.viewSessions.orientation": "stacked",
+  "python.terminal.activateEnvironment": false
 }
