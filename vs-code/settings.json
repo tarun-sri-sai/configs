@@ -67,5 +67,7 @@
   "diffEditor.maxComputationTime": 0,
   "github.copilot.nextEditSuggestions.enabled": false,
   "chat.viewSessions.orientation": "stacked",
-  "python.terminal.activateEnvironment": false
+  "python.terminal.activateEnvironment": false,
+  "extensions.autoUpdate": false,
+  "extensions.autoCheckUpdates": false
 }
