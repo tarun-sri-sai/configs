@@ -21,4 +21,4 @@
 /transfer_commits.py
 /update_git_repos.py
 /view_totp.py
-/youtube_subscriptions.py
+/generate_youtube_subscription_report.py
