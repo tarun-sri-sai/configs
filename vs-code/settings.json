@@ -69,5 +69,6 @@
   "chat.viewSessions.orientation": "stacked",
   "python.terminal.activateEnvironment": false,
   "extensions.autoUpdate": false,
-  "extensions.autoCheckUpdates": false
+  "extensions.autoCheckUpdates": false,
+  "gitlens.ai.enabled": false
 }
