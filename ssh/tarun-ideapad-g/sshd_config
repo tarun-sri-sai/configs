@@ -21,7 +21,7 @@
 
 # Logging
 #SyslogFacility AUTH
-LogLevel DEBUG3
+LogLevel VERBOSE
 
 # Authentication:
 
