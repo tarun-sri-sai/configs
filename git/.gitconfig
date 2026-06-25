@@ -1,3 +1,6 @@
+[user]
+	name = tarun-sri-sai
+	email = 76744890+tarun-sri-sai@users.noreply.github.com
 [init]
 	defaultBranch = main
 [safe]
@@ -12,3 +15,5 @@
 	required = true
 [maintenance]
 	auto = true
+[lfs]
+	storage = D:\\Users\\tarun\\my-files\\git-lfs
