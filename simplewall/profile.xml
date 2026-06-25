@@ -1,0 +1,137 @@
+<?xml version="1.0"?>
+<root version="5" type="3" timestamp="1781426036">
+  <apps>
+    <item path="C:\Program Files\simplewall\simplewall.exe" timestamp="1775273539" is_undeletable="true" is_enabled="true"/>
+    <item path="C:\WINDOWS\system32\SppExtComObj.exe" timestamp="1775273539" is_undeletable="true"/>
+    <item path="C:\WINDOWS\system32\lsass.exe" timestamp="1775273539" is_undeletable="true"/>
+    <item path="C:\WINDOWS\system32\svchost.exe" timestamp="1775273539" timer="1781429544" is_undeletable="true" is_silent="true" is_enabled="true"/>
+    <item path="C:\program files (x86)\lenovo\system update\tvsukernel.exe" timestamp="1775360944" is_silent="true"/>
+    <item path="C:\program files (x86)\lenovo\vantageservice\4.2601.21.0\lenovovantage-(genericmessagingaddin).exe" timestamp="1775284548" is_silent="true"/>
+    <item path="C:\program files (x86)\lenovo\vantageservice\4.2601.21.0\lenovovantage-(generictelemetryaddin).exe" timestamp="1775286716" is_silent="true"/>
+    <item path="C:\program files (x86)\lenovo\vantageservice\4.2601.21.0\lenovovantage-(lenovoaccountaddin).exe" timestamp="1776446185" is_silent="true"/>
+    <item path="C:\program files (x86)\lenovo\vantageservice\4.2601.21.0\lenovovantage-(lenovosecurityaddin).exe" timestamp="1775284210" is_silent="true"/>
+    <item path="C:\program files (x86)\lenovo\vantageservice\4.2601.21.0\lenovovantage-(lenovosystemupdateaddin).exe" timestamp="1776446185" is_silent="true"/>
+    <item path="C:\program files (x86)\lenovo\vantageservice\4.2601.21.0\lenovovantage-(multimediaaddin).exe" timestamp="1777839229" is_silent="true"/>
+    <item path="C:\program files (x86)\lenovo\vantageservice\4.2601.21.0\lenovovantage-(smartbeaddin).exe" timestamp="1775284549" is_silent="true"/>
+    <item path="C:\program files (x86)\lenovo\vantageservice\4.2601.21.0\lenovovantage-(smartperformanceaddin).exe" timestamp="1775794503" is_silent="true"/>
+    <item path="C:\program files (x86)\lenovo\vantageservice\4.2601.21.0\lenovovantage-(vantagecoreaddin).exe" timestamp="1775391391" is_silent="true"/>
+    <item path="C:\program files (x86)\lenovo\vantageservice\4.2601.21.0\lenovovantageservice.exe" timestamp="1775299522" is_silent="true"/>
+    <item path="C:\program files (x86)\microsoft visual studio\installer\resources\app\servicehub\services\microsoft.visualstudio.setup.service\backgrounddownload.exe" timestamp="1779152860" is_silent="true"/>
+    <item path="C:\program files (x86)\microsoft visual studio\installer\setup.exe" timestamp="1779255439" is_silent="true"/>
+    <item path="C:\program files (x86)\microsoft\edge\application\msedge.exe" timestamp="1777735920" is_enabled="true"/>
+    <item path="C:\program files (x86)\microsoft\edgeupdate\microsoftedgeupdate.exe" timestamp="1775291806" is_enabled="true"/>
+    <item path="C:\program files (x86)\microsoft\edgewebview\application\148.0.3967.96\msedgewebview2.exe" timestamp="1780200202" is_enabled="true"/>
+    <item path="C:\program files (x86)\microsoft\edgewebview\application\149.0.4022.52\msedgewebview2.exe" timestamp="1781067144" is_enabled="true"/>
+    <item path="C:\program files (x86)\microsoft\edgewebview\application\149.0.4022.62\msedgewebview2.exe" timestamp="1781319230" is_enabled="true"/>
+    <item path="C:\program files (x86)\mozilla maintenance service\maintenanceservice.exe" timestamp="1775788131" is_silent="true"/>
+    <item path="C:\program files (x86)\windows media player\wmplayer.exe" timestamp="1777400395" is_silent="true"/>
+    <item path="C:\program files\docker\cli-plugins\docker-buildx.exe" timestamp="1778914306" is_enabled="true"/>
+    <item path="C:\program files\docker\docker\frontend\docker desktop.exe" timestamp="1778917813" is_silent="true"/>
+    <item path="C:\program files\docker\docker\resources\com.docker.backend.exe" timestamp="1777212608" is_enabled="true"/>
+    <item path="C:\program files\docker\docker\resources\com.docker.build.exe" timestamp="1777212670" is_enabled="true"/>
+    <item path="C:\program files\mozilla firefox\firefox.exe" timestamp="1775274027" is_enabled="true"/>
+    <item path="C:\program files\mozilla firefox\pingsender.exe" timestamp="1775274028" is_silent="true"/>
+    <item path="C:\program files\powershell\7\pwsh.exe" timestamp="1775361117" is_enabled="true"/>
+    <item path="C:\program files\proton\vpn\v4.4.0\protonvpn.client.exe" timestamp="1779849548" is_enabled="true"/>
+    <item path="C:\program files\proton\vpn\v4.4.0\protonvpn.wireguardservice.exe" timestamp="1779849643" is_enabled="true"/>
+    <item path="C:\program files\proton\vpn\v4.4.0\protonvpnservice.exe" timestamp="1779849555" is_enabled="true"/>
+    <item path="C:\program files\ruxim\ruximics.exe" timestamp="1775457080" is_silent="true"/>
+    <item path="C:\program files\windowsapps\e046963f.lenovocompanion_10.2603.12.0_x64__k1h2ywk1493x8\lenovovantage\lenovovantage.exe" timestamp="1779254553" is_silent="true"/>
+    <item path="C:\program files\windowsapps\microsoft.6365217ce6eb4_102.2602.23002.0_x64__8wekyb3d8bbwe\microsoftsecurityapp\microsoftsecurityapp.exe" timestamp="1775361300" is_silent="true"/>
+    <item path="C:\program files\windowsapps\microsoft.desktopappinstaller_1.28.240.0_x64__8wekyb3d8bbwe\windowspackagemanagerserver.exe" timestamp="1778580293" is_silent="true"/>
+    <item path="C:\program files\windowsapps\microsoft.desktopappinstaller_1.28.240.0_x64__8wekyb3d8bbwe\winget.exe" timestamp="1779467399" is_enabled="true"/>
+    <item path="C:\program files\windowsapps\microsoft.gamingservices_36.113.14003.0_x64__8wekyb3d8bbwe\gamingservices.exe" timestamp="1779515554" is_silent="true"/>
+    <item path="C:\program files\windowsapps\microsoft.yourphone_1.26032.102.0_x64__8wekyb3d8bbwe\phoneexperiencehost.exe" timestamp="1779425831" is_enabled="true"/>
+    <item path="C:\program files\windowsapps\microsoftcorporationii.windows365_2.0.1186.0_x64__8wekyb3d8bbwe\msrdc\msrdc.exe" timestamp="1780840793" is_enabled="true"/>
+    <item path="C:\program files\windowsapps\microsoftcorporationii.windows365_2.0.1186.0_x64__8wekyb3d8bbwe\windows365.exe" timestamp="1780840786" is_enabled="true"/>
+    <item path="C:\program files\windowsapps\microsoftwindows.client.webexperience_526.1202.40.0_x64__cw5n1h2txyewy\dashboard\widgets.exe" timestamp="1775361005" is_silent="true"/>
+    <item path="C:\program files\wsl\wsl.exe" timestamp="1775388540" is_enabled="true"/>
+    <item path="C:\program files\wsl\wslservice.exe" timestamp="1775273846" is_silent="true"/>
+    <item path="C:\programdata\microsoft\windows defender\platform\4.18.26040.7-0\mpcmdrun.exe" timestamp="1779416547" is_silent="true"/>
+    <item path="C:\programdata\microsoft\windows defender\platform\4.18.26040.7-0\mpdefendercoreservice.exe" timestamp="1779257620" is_silent="true"/>
+    <item path="C:\programdata\microsoft\windows defender\platform\4.18.26040.7-0\msmpeng.exe" timestamp="1779257633" is_silent="true"/>
+    <item path="C:\programdata\microsoft\windows defender\platform\4.18.26050.15-0\mpcmdrun.exe" timestamp="1781229023" is_enabled="true"/>
+    <item path="C:\programdata\microsoft\windows defender\platform\4.18.26050.15-0\mpdefendercoreservice.exe" timestamp="1781075914" is_silent="true"/>
+    <item path="C:\programdata\microsoft\windows defender\platform\4.18.26050.15-0\msmpeng.exe" timestamp="1781075934" is_silent="true"/>
+    <item path="C:\users\tarun\appdata\local\discord\app-1.0.9224\discord.exe" timestamp="1777212761" is_enabled="true"/>
+    <item path="C:\users\tarun\appdata\local\gitkrakencli\gk.exe" timestamp="1775274883" is_enabled="true"/>
+    <item path="C:\users\tarun\appdata\local\nvm\nvm.exe" timestamp="1779471740" is_enabled="true"/>
+    <item path="C:\users\tarun\appdata\local\nvm\v20.20.2\node.exe" timestamp="1779471812" is_enabled="true"/>
+    <item path="C:\users\tarun\appdata\local\programs\microsoft vs code\code.exe" timestamp="1775274871" is_enabled="true"/>
+    <item path="C:\users\tarun\appdata\local\yt-dlp\yt-dlp.exe" timestamp="1777400263" is_enabled="true"/>
+    <item path="C:\users\tarun\appdata\roaming\code\user\globalstorage\eamodio.gitlens\gk.exe" timestamp="1778858532" is_enabled="true"/>
+    <item path="C:\users\tarun\downloads\anydesk.exe" timestamp="1779639056" is_enabled="true"/>
+    <item path="C:\windows\immersivecontrolpanel\systemsettings.exe" timestamp="1775273975" is_silent="true"/>
+    <item path="C:\windows\lenovo\imcontroller\pluginhost86\lenovo.modern.imcontroller.pluginhost.device.exe" timestamp="1779904720" is_silent="true"/>
+    <item path="C:\windows\lenovo\imcontroller\service\lenovo.modern.imcontroller.exe" timestamp="1775361088" is_silent="true"/>
+    <item path="C:\windows\system32\aggregatorhost.exe" timestamp="1779763297" is_silent="true"/>
+    <item path="C:\windows\system32\apphostregistrationverifier.exe" timestamp="1775571029" is_silent="true"/>
+    <item path="C:\windows\system32\certutil.exe" timestamp="1775794506" is_silent="true"/>
+    <item path="C:\windows\system32\compattelrunner.exe" timestamp="1775391766" is_silent="true"/>
+    <item path="C:\windows\system32\cscript.exe" timestamp="1775273841" is_silent="true"/>
+    <item path="C:\windows\system32\dashost.exe" timestamp="1775387532" is_silent="true"/>
+    <item path="C:\windows\system32\dllhost.exe" timestamp="1779442494" is_silent="true"/>
+    <item path="C:\windows\system32\drivers\lenovo\udc\service\udclientservice.exe" timestamp="1775275268" is_silent="true"/>
+    <item path="C:\windows\system32\driverstore\filerepository\nvlti.inf_amd64_b3badde551342cd6\display.nvcontainer\nvdisplay.container.exe" timestamp="1775275440" is_silent="true"/>
+    <item path="C:\windows\system32\dxgiadaptercache.exe" timestamp="1775834257" is_silent="true"/>
+    <item path="C:\windows\system32\msiexec.exe" timestamp="1776397669" is_enabled="true"/>
+    <item path="C:\windows\system32\nslookup.exe" timestamp="1777036087" is_enabled="true"/>
+    <item path="C:\windows\system32\openssh\ssh.exe" timestamp="1775273756" is_enabled="true"/>
+    <item path="C:\windows\system32\openssh\sshd.exe" timestamp="1775319511" is_enabled="true"/>
+    <item path="C:\windows\system32\rundll32.exe" timestamp="1775387826" is_silent="true"/>
+    <item path="C:\windows\system32\sihclient.exe" timestamp="1775293291" is_silent="true"/>
+    <item path="C:\windows\system32\smartscreen.exe" timestamp="1775389871" is_enabled="true"/>
+    <item path="C:\windows\system32\taskhostw.exe" timestamp="1775273978" is_silent="true"/>
+    <item path="C:\windows\system32\wbem\wmiprvse.exe" timestamp="1775475319" is_silent="true"/>
+    <item path="C:\windows\system32\windowspowershell\v1.0\powershell.exe" timestamp="1776522496" is_silent="true"/>
+    <item path="C:\windows\systemapps\microsoft.windows.startmenuexperiencehost_cw5n1h2txyewy\startmenuexperiencehost.exe" timestamp="1775273613" is_silent="true"/>
+    <item path="C:\windows\systemapps\microsoftwindows.client.cbs_cw5n1h2txyewy\textinputhost.exe" timestamp="1779451074" is_silent="true"/>
+    <item path="C:\windows\syswow64\windowspowershell\v1.0\powershell.exe" timestamp="1775667907" is_silent="true"/>
+    <item path="C:\windows\uus\amd64\waasmedicagent.exe" timestamp="1775585431" is_silent="true"/>
+    <item path="CryptSvc" timestamp="1711956444" is_undeletable="true"/>
+    <item path="D:\msys64\usr\bin\curl.exe" timestamp="1779469618" is_enabled="true"/>
+    <item path="D:\msys64\usr\bin\pacman.exe" timestamp="1777260080" is_enabled="true"/>
+    <item path="D:\program files\android sdk platform tools\adb.exe" timestamp="1779969606" is_enabled="true"/>
+    <item path="D:\program files\bitwarden\bw.exe" timestamp="1775362217" is_enabled="true"/>
+    <item path="D:\program files\bruno\bruno.exe" timestamp="1777603348" is_enabled="true"/>
+    <item path="D:\program files\cpuid\hwmonitor\hwmonitor.exe" timestamp="1779553931" is_silent="true"/>
+    <item path="D:\program files\git\mingw64\bin\git-lfs.exe" timestamp="1775273774" is_enabled="true"/>
+    <item path="D:\program files\git\mingw64\libexec\git-core\git-remote-https.exe" timestamp="1775835051" is_enabled="true"/>
+    <item path="D:\program files\github cli\gh.exe" timestamp="1776958678" is_enabled="true"/>
+    <item path="D:\program files\go\bin\go.exe" timestamp="1779624131" is_enabled="true"/>
+    <item path="D:\program files\libreoffice\program\soffice.bin" timestamp="1776399263" is_silent="true"/>
+    <item path="D:\program files\processexplorer\procexp64.exe" timestamp="1777685495" is_enabled="true"/>
+    <item path="D:\program files\python311\python.exe" timestamp="1775311531" is_enabled="true"/>
+    <item path="D:\program files\python311\scripts\uv.exe" timestamp="1775322845" is_enabled="true"/>
+    <item path="D:\program files\qbittorrent\qbittorrent.exe" timestamp="1779848804" is_enabled="true"/>
+    <item path="D:\program files\restic_v0.18\restic.exe" timestamp="1775362536" is_enabled="true"/>
+    <item path="D:\program files\sunshine\scripts\vigembus_installer.exe" timestamp="1780677054" is_silent="true"/>
+    <item path="D:\program files\tailscale\tailscale-ipn.exe" timestamp="1777739744" is_enabled="true"/>
+    <item path="D:\program files\tailscale\tailscaled.exe" timestamp="1777739740" is_enabled="true"/>
+    <item path="D:\program files\vs revo group\revo uninstaller\revounin.exe" timestamp="1779256086" is_silent="true"/>
+    <item path="D:\program files\wireshark\wireshark.exe" timestamp="1775839381" is_enabled="true"/>
+    <item path="D:\windowsapps\ilovepdfs.l.ilovepdf-pdfreaderandeditor_2.2.18.0_x64__0q01bhdkqq106\ilovepdf\ilovepdf.exe" timestamp="1779553973" is_silent="true"/>
+    <item path="Dhcp" timestamp="1711956392" is_undeletable="true"/>
+    <item path="Dnscache" timestamp="1757710357" is_undeletable="true"/>
+    <item path="DoSvc" timestamp="1775271682" is_undeletable="true"/>
+    <item path="NlaSvc" timestamp="1711956392" is_undeletable="true"/>
+    <item path="S-1-15-2-1714399563-1326177402-2048222277-143663168-2151391019-765408921-4098702777" timestamp="1779151685" is_silent="true"/>
+    <item path="S-1-15-2-1910091885-1573563583-1104941280-2418270861-3411158377-2822700936-2990310272" timestamp="1741918978" is_enabled="true"/>
+    <item path="S-1-15-2-283421221-3183566570-1718213290-751554359-3541592344-2312209569-3374928651" timestamp="1773473000" is_silent="true"/>
+    <item path="S-1-15-2-515815643-2845804217-1874292103-218650560-777617685-4287762684-137415000" timestamp="1753317394" is_silent="true"/>
+    <item path="Spooler" timestamp="1711956392" is_undeletable="true"/>
+    <item path="System" timestamp="1775273539" is_undeletable="true" is_enabled="true"/>
+    <item path="UsoSvc" timestamp="1775271682" is_undeletable="true"/>
+    <item path="wlidsvc" timestamp="1734012238" is_undeletable="true"/>
+    <item path="wuauserv" timestamp="1775271682" is_undeletable="true"/>
+  </apps>
+  <rules_custom/>
+  <rules_config>
+    <item name="Microsoft account" is_enabled="true"/>
+    <item name="SSDP [inbound]" is_enabled="false"/>
+    <item name="SSDP [outbound]" is_enabled="false"/>
+    <item name="UPnP" is_enabled="false"/>
+    <item name="Windows Update Delivery service" is_enabled="true"/>
+    <item name="Windows Update service" is_enabled="true"/>
+  </rules_config>
+</root>
