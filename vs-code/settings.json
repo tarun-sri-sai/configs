@@ -36,7 +36,6 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "css.lint.unknownAtRules": "ignore",
-  "dcrypt.gpgKeyId": "0C3A452F8D7AF2C7D70ACC83C88A3C2980E6ADCE",
   "dcrypt.useGpgKey": true,
   "editor.acceptSuggestionOnCommitCharacter": false,
   "editor.fontFamily": "'JetBrainsMono Nerd Font', Consolas, 'Courier New', monospace",
