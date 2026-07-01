@@ -67,7 +67,7 @@
   "github.copilot.nextEditSuggestions.enabled": false,
   "chat.viewSessions.orientation": "stacked",
   "python.terminal.activateEnvironment": false,
-  "extensions.autoUpdate": false,
+  "extensions.autoUpdate": "off",
   "extensions.autoCheckUpdates": false,
   "gitlens.ai.enabled": false
 }
