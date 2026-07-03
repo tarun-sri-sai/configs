@@ -113,6 +113,18 @@
         "hidden": false,
         "name": "Debian",
         "source": "Microsoft.WSL"
+      },
+      {
+        "guid": "{47a95e0e-5645-57ba-b75c-29f0c7746268}",
+        "hidden": false,
+        "name": "Developer Command Prompt for VS 2022",
+        "source": "Windows.Terminal.VisualStudio"
+      },
+      {
+        "guid": "{7e3ae060-a6db-5b0a-a4e5-de0a6df258df}",
+        "hidden": false,
+        "name": "Developer PowerShell for VS 2022",
+        "source": "Windows.Terminal.VisualStudio"
       }
     ]
   },
