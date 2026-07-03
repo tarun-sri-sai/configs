@@ -1,4 +1,5 @@
 .tmp.drivedownload
 .tmp.driveupload
 node_modules
+temp
 *venv
