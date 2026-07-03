@@ -5,6 +5,7 @@
 [core]
 	autocrlf = input
 	ignorecase = false
+	longpaths = true
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
@@ -12,3 +13,9 @@
 	required = true
 [maintenance]
 	auto = true
+[difftool "sourcetree"]
+	cmd = "'' "
+[mergetool "sourcetree"]
+	cmd = "'' "
+	trustExitCode = false
+	keepBackup = false
