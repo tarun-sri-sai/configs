@@ -52,8 +52,8 @@
     "**/node_modules": true,
     "**/{.,}venv": true
   },
-  "search.useGlobalIgnoreFiles": false,
-  "search.useIgnoreFiles": false,
+  "search.useGlobalIgnoreFiles": true,
+  "search.useIgnoreFiles": true,
   "search.useParentIgnoreFiles": false,
   "telemetry.telemetryLevel": "crash",
   "terminal.integrated.enablePersistentSessions": false,
@@ -69,5 +69,10 @@
   "python.terminal.activateEnvironment": false,
   "extensions.autoUpdate": "off",
   "extensions.autoCheckUpdates": false,
-  "gitlens.ai.enabled": false
+  "gitlens.ai.enabled": false,
+  "cSpell.checkOnlyEnabledFileTypes": true,
+  "cSpell.enabledFileTypes": {
+    "html": true,
+    "markdown": true
+  }
 }
