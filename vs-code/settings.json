@@ -53,8 +53,8 @@
     "**/node_modules": true,
     "**/{.,}venv": true
   },
-  "search.useGlobalIgnoreFiles": false,
-  "search.useIgnoreFiles": false,
+  "search.useGlobalIgnoreFiles": true,
+  "search.useIgnoreFiles": true,
   "search.useParentIgnoreFiles": false,
   "telemetry.telemetryLevel": "crash",
   "terminal.integrated.enablePersistentSessions": false,
