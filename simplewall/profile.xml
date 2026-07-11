@@ -1,10 +1,6 @@
 <?xml version="1.0"?>
 <root version="5" type="3" timestamp="1781426036">
   <apps>
-    <item path="C:\Program Files\simplewall\simplewall.exe" timestamp="1775273539" is_undeletable="true" is_enabled="true"/>
-    <item path="C:\WINDOWS\system32\SppExtComObj.exe" timestamp="1775273539" is_undeletable="true"/>
-    <item path="C:\WINDOWS\system32\lsass.exe" timestamp="1775273539" is_undeletable="true"/>
-    <item path="C:\WINDOWS\system32\svchost.exe" timestamp="1775273539" timer="1781429544" is_undeletable="true" is_silent="true" is_enabled="true"/>
     <item path="C:\program files (x86)\lenovo\system update\tvsukernel.exe" timestamp="1775360944" is_silent="true"/>
     <item path="C:\program files (x86)\lenovo\vantageservice\4.2601.21.0\lenovovantage-(genericmessagingaddin).exe" timestamp="1775284548" is_silent="true"/>
     <item path="C:\program files (x86)\lenovo\vantageservice\4.2601.21.0\lenovovantage-(generictelemetryaddin).exe" timestamp="1775286716" is_silent="true"/>
@@ -36,6 +32,7 @@
     <item path="C:\program files\proton\vpn\v4.4.0\protonvpn.wireguardservice.exe" timestamp="1779849643" is_enabled="true"/>
     <item path="C:\program files\proton\vpn\v4.4.0\protonvpnservice.exe" timestamp="1779849555" is_enabled="true"/>
     <item path="C:\program files\ruxim\ruximics.exe" timestamp="1775457080" is_silent="true"/>
+    <item path="C:\Program Files\simplewall\simplewall.exe" timestamp="1775273539" is_undeletable="true" is_enabled="true"/>
     <item path="C:\program files\windowsapps\e046963f.lenovocompanion_10.2603.12.0_x64__k1h2ywk1493x8\lenovovantage\lenovovantage.exe" timestamp="1779254553" is_silent="true"/>
     <item path="C:\program files\windowsapps\microsoft.6365217ce6eb4_102.2602.23002.0_x64__8wekyb3d8bbwe\microsoftsecurityapp\microsoftsecurityapp.exe" timestamp="1775361300" is_silent="true"/>
     <item path="C:\program files\windowsapps\microsoft.desktopappinstaller_1.28.240.0_x64__8wekyb3d8bbwe\windowspackagemanagerserver.exe" timestamp="1778580293" is_silent="true"/>
@@ -74,6 +71,7 @@
     <item path="C:\windows\system32\drivers\lenovo\udc\service\udclientservice.exe" timestamp="1775275268" is_silent="true"/>
     <item path="C:\windows\system32\driverstore\filerepository\nvlti.inf_amd64_b3badde551342cd6\display.nvcontainer\nvdisplay.container.exe" timestamp="1775275440" is_silent="true"/>
     <item path="C:\windows\system32\dxgiadaptercache.exe" timestamp="1775834257" is_silent="true"/>
+    <item path="C:\WINDOWS\system32\lsass.exe" timestamp="1775273539" is_undeletable="true"/>
     <item path="C:\windows\system32\msiexec.exe" timestamp="1776397669" is_enabled="true"/>
     <item path="C:\windows\system32\nslookup.exe" timestamp="1777036087" is_enabled="true"/>
     <item path="C:\windows\system32\openssh\ssh.exe" timestamp="1775273756" is_enabled="true"/>
@@ -81,6 +79,8 @@
     <item path="C:\windows\system32\rundll32.exe" timestamp="1775387826" is_silent="true"/>
     <item path="C:\windows\system32\sihclient.exe" timestamp="1775293291" is_silent="true"/>
     <item path="C:\windows\system32\smartscreen.exe" timestamp="1775389871" is_enabled="true"/>
+    <item path="C:\WINDOWS\system32\SppExtComObj.exe" timestamp="1775273539" is_undeletable="true"/>
+    <item path="C:\WINDOWS\system32\svchost.exe" timestamp="1775273539" timer="1781429544" is_undeletable="true" is_silent="true" is_enabled="true"/>
     <item path="C:\windows\system32\taskhostw.exe" timestamp="1775273978" is_silent="true"/>
     <item path="C:\windows\system32\wbem\wmiprvse.exe" timestamp="1775475319" is_silent="true"/>
     <item path="C:\windows\system32\windowspowershell\v1.0\powershell.exe" timestamp="1776522496" is_silent="true"/>
