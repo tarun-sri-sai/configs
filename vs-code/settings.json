@@ -75,5 +75,6 @@
   "cSpell.enabledFileTypes": {
     "html": true,
     "markdown": true
-  }
+  },
+  "chat.disableAIFeatures": true
 }
