@@ -21,7 +21,7 @@
 
 # Logging
 #SyslogFacility AUTH
-LogLevel DEBUG3
+#LogLevel DEBUG3
 
 # Authentication:
 
