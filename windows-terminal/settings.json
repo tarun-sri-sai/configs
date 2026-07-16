@@ -14,16 +14,16 @@
       "id": "User.paste"
     },
     {
+      "command": "find",
+      "id": "User.find"
+    },
+    {
       "command": {
         "action": "splitPane",
         "split": "auto",
         "splitMode": "duplicate"
       },
       "id": "User.splitPane.A6751878"
-    },
-    {
-      "command": "find",
-      "id": "User.find"
     }
   ],
   "copyFormatting": "none",
@@ -34,12 +34,12 @@
       "keys": "ctrl+c"
     },
     {
-      "id": "User.find",
-      "keys": "ctrl+shift+f"
-    },
-    {
       "id": "User.paste",
       "keys": "ctrl+v"
+    },
+    {
+      "id": "User.find",
+      "keys": "ctrl+shift+f"
     },
     {
       "id": "User.splitPane.A6751878",
