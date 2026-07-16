@@ -77,5 +77,8 @@
   "cSpell.enabledFileTypes": {
     "html": true,
     "markdown": true
-  }
+  },
+  "scm.repositories.selectionMode": "single",
+  "diffEditor.useInlineViewWhenSpaceIsLimited": false,
+  "markdown.extension.orderedList.marker": "one"
 }
