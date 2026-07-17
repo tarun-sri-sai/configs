@@ -1,0 +1,28 @@
+{
+"mcpServers": {
+    "knotwork": {
+      "command": "docker",
+      "args": [
+        "compose",
+        "--project-directory",
+        "D:\\Users\\tarun\\my-files\\repos\\knotwork",
+        "-f",
+        "D:\\Users\\tarun\\my-files\\repos\\knotwork\\compose.mcp.yaml",
+        "run",
+        "--rm",
+        "-T",
+        "mcp"
+      ]
+    },
+    "filesystem": {
+      "command": "cmd",
+      "args": [
+        "/c",
+        "npx",
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "D:\\Users\\tarun\\my-files"
+      ]
+    }
+  }
+}
