@@ -14,16 +14,16 @@
       "id": "User.paste"
     },
     {
-      "command": "find",
-      "id": "User.find"
-    },
-    {
       "command": {
         "action": "splitPane",
         "split": "auto",
         "splitMode": "duplicate"
       },
       "id": "User.splitPane.A6751878"
+    },
+    {
+      "command": "find",
+      "id": "User.find"
     }
   ],
   "copyFormatting": "none",
@@ -35,12 +35,12 @@
       "keys": "ctrl+c"
     },
     {
-      "id": "User.paste",
-      "keys": "ctrl+v"
-    },
-    {
       "id": "User.find",
       "keys": "ctrl+shift+f"
+    },
+    {
+      "id": "User.paste",
+      "keys": "ctrl+v"
     },
     {
       "id": "User.splitPane.A6751878",
@@ -89,51 +89,19 @@
         "name": "Command Prompt"
       },
       {
-        "colorScheme": "Campbell",
-        "commandline": "D:\\msys64\\usr\\bin\\bash.exe",
-        "guid": "{8e34b34a-2b3b-4b1b-aa44-b8a522bcc086}",
-        "hidden": false,
-        "icon": "D:\\msys64\\msys2.ico",
-        "name": "MSYS"
-      },
-      {
-        "guid": "{68301a15-357d-5477-9ed6-b7c9d6d944f1}",
-        "hidden": false,
-        "name": "Developer Command Prompt for VS 18",
-        "source": "Windows.Terminal.VisualStudio"
-      },
-      {
-        "guid": "{13671e15-ef68-5e49-baf0-225f54545530}",
-        "hidden": false,
-        "name": "Developer PowerShell for VS 18",
-        "source": "Windows.Terminal.VisualStudio"
-      },
-      {
-        "guid": "{dd9b7d0f-4a0a-5a1b-b918-b7840998d1c5}",
+        "guid": "{7f20c6de-338e-5843-a557-6501ef76cc2a}",
         "hidden": false,
         "name": "Debian",
         "source": "Microsoft.WSL"
       },
       {
-        "guid": "{47a95e0e-5645-57ba-b75c-29f0c7746268}",
-        "hidden": false,
-        "name": "Developer Command Prompt for VS 2022",
-        "source": "Windows.Terminal.VisualStudio"
-      },
-      {
-        "guid": "{7e3ae060-a6db-5b0a-a4e5-de0a6df258df}",
-        "hidden": false,
-        "name": "Developer PowerShell for VS 2022",
-        "source": "Windows.Terminal.VisualStudio"
-      },
-      {
-        "guid": "{3c7a0ae3-523a-51fd-8dca-a6f74511423b}",
+        "guid": "{1e2d6542-25ce-549e-bdc3-2f5046eaa714}",
         "hidden": false,
         "name": "Developer Command Prompt for VS 18",
         "source": "Windows.Terminal.VisualStudio"
       },
       {
-        "guid": "{b7999729-3a3f-5a6f-bac7-70b1d3ae6544}",
+        "guid": "{112903ac-49e8-5e48-ac6d-0b1435247622}",
         "hidden": false,
         "name": "Developer PowerShell for VS 18",
         "source": "Windows.Terminal.VisualStudio"
