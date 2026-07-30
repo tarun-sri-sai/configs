@@ -81,5 +81,13 @@
   },
   "scm.repositories.selectionMode": "single",
   "diffEditor.useInlineViewWhenSpaceIsLimited": false,
-  "markdown.extension.orderedList.marker": "one"
+  "markdown.extension.orderedList.marker": "one",
+  "files.associations": {
+    ".dockerignore": "ignore"
+  },
+  "markdownlint.config": {
+    "MD033": {
+      "allowed_elements": ["ins"]
+    }
+  }
 }
