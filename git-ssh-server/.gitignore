@@ -1,0 +1,7 @@
+# ignore nginx SSL certs
+/nginx/certs/combined.crt
+/nginx/certs/combined.key
+
+# ignore environment files
+.env*
+!.env*.example
