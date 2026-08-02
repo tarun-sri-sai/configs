@@ -4,3 +4,6 @@
 [submodule "neovim"]
 	path = neovim
 	url = https://github.com/tarun-sri-sai/nvchad-starter
+[submodule "pi/agents/extensions/ollama-params"]
+	path = pi/agents/extensions/ollama-params
+	url = https://github.com/tarun-sri-sai/ollama-params
