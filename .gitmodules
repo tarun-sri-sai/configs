@@ -1,9 +1,9 @@
-[submodule "pi/agents/extensions/openrouter-params"]
-	path = pi/agents/extensions/openrouter-params
-	url = https://github.com/azmeenafandi/openrouter-params
 [submodule "neovim"]
 	path = neovim
 	url = https://github.com/tarun-sri-sai/nvchad-starter
-[submodule "pi/agents/extensions/ollama-params"]
-	path = pi/agents/extensions/ollama-params
+[submodule "pi/agent/extensions/openrouter-params"]
+	path = pi/agent/extensions/openrouter-params
+	url = https://github.com/azmeenafandi/openrouter-params
+[submodule "pi/agent/extensions/ollama-params"]
+	path = pi/agent/extensions/ollama-params
 	url = https://github.com/tarun-sri-sai/ollama-params
