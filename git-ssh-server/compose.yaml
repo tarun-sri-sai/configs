@@ -3,7 +3,7 @@ services:
     image: mariadb:11.8
     env_file: .env.db
     volumes:
-      - /srv/gitea/mysql:/var/lib/mysql
+      - ./gitea/mysql:/var/lib/mysql
 
   gitea:
     image: gitea/gitea:1.25
@@ -11,7 +11,7 @@ services:
       - db
     env_file: .env.gitea
     volumes:
-      - /srv/gitea/data:/data
+      - ./gitea/data:/data
     ports:
       - "222:22"
 
@@ -23,7 +23,7 @@ services:
       - "19333"
       - "9324"
     volumes:
-      - /srv/seaweedfs/master:/data
+      - ./seaweedfs/master:/data
     restart: unless-stopped
 
   volume:
@@ -36,7 +36,7 @@ services:
       - "18080"
       - "9325"
     volumes:
-      - /srv/seaweedfs/volume:/data
+      - ./seaweedfs/volume:/data
     restart: unless-stopped
 
   filer:
@@ -50,7 +50,7 @@ services:
       - "18888"
       - "9326"
     volumes:
-      - /srv/seaweedfs/filer:/data
+      - ./seaweedfs/filer:/data
     restart: unless-stopped
 
   s3:
@@ -60,7 +60,7 @@ services:
       - master
       - volume
       - filer
-    env_file: .env.gitea
+    env_file: .env.s3
     expose:
       - "8333"
       - "9327"
@@ -73,7 +73,9 @@ services:
       - filer
       - s3
     ports:
-      - "443:443"
+      - "9443:9443"
+      - "10443:10443"
+      - "11443:11443"
     volumes:
       - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
       - ./nginx/certs:/etc/nginx/certs:ro
