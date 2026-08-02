@@ -1,0 +1,3 @@
+[submodule "pi/agents/extensions/openrouter-params"]
+	path = pi/agents/extensions/openrouter-params
+	url = https://github.com/azmeenafandi/openrouter-params
