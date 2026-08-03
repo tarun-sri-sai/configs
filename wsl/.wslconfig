@@ -1,4 +1,4 @@
 [wsl2]
-memory=2GB
-processors=2
+memory=3GB
+processors=3
 swap=0
