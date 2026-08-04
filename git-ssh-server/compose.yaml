@@ -11,7 +11,7 @@ services:
       - db
     env_file: .env.gitea
     volumes:
-      - ./gitea/data:/data
+      - D:\Users\tarun\git-ssh-server\gitea\data:/data
     ports:
       - "222:22"
 
@@ -36,7 +36,7 @@ services:
       - "18080"
       - "9325"
     volumes:
-      - ./seaweedfs/volume:/data
+      - D:\Users\tarun\git-ssh-server\seaweedfs\data:/data
     restart: unless-stopped
 
   filer:
