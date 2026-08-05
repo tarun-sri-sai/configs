@@ -3,7 +3,7 @@ services:
     image: mariadb:11.8
     env_file: .env.db
     volumes:
-      - ./gitea/mysql:/var/lib/mysql
+      - ${GITEA_DB}:/var/lib/mysql
 
   gitea:
     image: gitea/gitea:1.25
@@ -11,7 +11,7 @@ services:
       - db
     env_file: .env.gitea
     volumes:
-      - D:\Users\tarun\git-ssh-server\gitea\data:/data
+      - ${GITEA_DATA}:/data
     ports:
       - "222:22"
 
@@ -23,7 +23,7 @@ services:
       - "19333"
       - "9324"
     volumes:
-      - ./seaweedfs/master:/data
+      - ${SEAWEEDFS_MASTER}:/data
     restart: unless-stopped
 
   volume:
@@ -36,7 +36,7 @@ services:
       - "18080"
       - "9325"
     volumes:
-      - D:\Users\tarun\git-ssh-server\seaweedfs\data:/data
+      - ${SEAWEEDFS_VOLUME}:/data
     restart: unless-stopped
 
   filer:
@@ -50,7 +50,7 @@ services:
       - "18888"
       - "9326"
     volumes:
-      - ./seaweedfs/filer:/data
+      - ${SEAWEEDFS_FILER}:/data
     restart: unless-stopped
 
   s3:
