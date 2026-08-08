@@ -17,7 +17,7 @@
 [maintenance]
 	auto = true
 [lfs]
-	storage = D:\\Users\\tarun\\my-files\\git-lfs
+	storage = D:\\Users\\tarun\\git\\lfs
 [difftool "sourcetree"]
 	cmd = "'' "
 [mergetool "sourcetree"]
