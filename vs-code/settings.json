@@ -89,5 +89,7 @@
     "MD033": {
       "allowed_elements": ["ins"]
     }
-  }
+  },
+  "gitlens.ai.model": "vscode",
+  "gitlens.ai.vscode.model": "copilot:gpt-4o-mini"
 }

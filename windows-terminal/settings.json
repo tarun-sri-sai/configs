@@ -89,12 +89,6 @@
         "name": "Command Prompt"
       },
       {
-        "guid": "{7f20c6de-338e-5843-a557-6501ef76cc2a}",
-        "hidden": false,
-        "name": "Debian",
-        "source": "Microsoft.WSL"
-      },
-      {
         "guid": "{1e2d6542-25ce-549e-bdc3-2f5046eaa714}",
         "hidden": false,
         "name": "Developer Command Prompt for VS 18",
@@ -105,6 +99,24 @@
         "hidden": false,
         "name": "Developer PowerShell for VS 18",
         "source": "Windows.Terminal.VisualStudio"
+      },
+      {
+        "guid": "{b6645777-fb1f-55f8-bbd2-acb526aeae42}",
+        "hidden": false,
+        "name": "Debian",
+        "source": "Microsoft.WSL"
+      },
+      {
+        "guid": "{46eb913c-3fb9-5a0f-ad3c-054165098d65}",
+        "hidden": false,
+        "name": "rancher-desktop",
+        "source": "Microsoft.WSL"
+      },
+      {
+        "guid": "{33f8b72a-5f32-5b89-a954-efea6b381fbb}",
+        "hidden": false,
+        "name": "rancher-desktop-data",
+        "source": "Microsoft.WSL"
       }
     ]
   },
