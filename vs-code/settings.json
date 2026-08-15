@@ -71,11 +71,6 @@
   "extensions.autoUpdate": "off",
   "extensions.autoCheckUpdates": false,
   "gitlens.ai.enabled": false,
-  "cSpell.checkOnlyEnabledFileTypes": true,
-  "cSpell.enabledFileTypes": {
-    "html": true,
-    "markdown": true
-  },
   "scm.repositories.selectionMode": "single",
   "diffEditor.useInlineViewWhenSpaceIsLimited": false,
   "markdown.extension.orderedList.marker": "one",
@@ -86,5 +81,9 @@
     "MD033": {
       "allowed_elements": ["ins"]
     }
-  }
+  },
+  "files.readonlyInclude": {
+    "**/*.log*": true
+  },
+  "cSpell.useGitignore": false
 }
