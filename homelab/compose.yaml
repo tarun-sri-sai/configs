@@ -1,0 +1,6 @@
+include:
+  - ./nginx/compose.include.yaml
+  - ./postgres/compose.include.yaml
+  - ./redis/compose.include.yaml
+  - ./immich/compose.include.yaml
+  - ./seaweedfs/compose.include.yaml
