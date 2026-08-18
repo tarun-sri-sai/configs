@@ -16,3 +16,4 @@ services:
       - postgres
     healthcheck:
       disable: false
+    restart: unless-stopped

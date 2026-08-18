@@ -9,6 +9,7 @@ services:
       - "9324"
     volumes:
       - ${SEAWEEDFS_MASTER}:/data
+    restart: unless-stopped
 
   volume:
     image: docker.io/chrislusf/seaweedfs:4.42
@@ -22,6 +23,7 @@ services:
       - "9325"
     volumes:
       - ${SEAWEEDFS_VOLUME}:/data
+    restart: unless-stopped
 
   filer:
     image: docker.io/chrislusf/seaweedfs:4.42
@@ -36,6 +38,7 @@ services:
       - "9326"
     volumes:
       - ${SEAWEEDFS_FILER}:/data
+    restart: unless-stopped
 
   s3:
     image: docker.io/chrislusf/seaweedfs:4.42
@@ -49,3 +52,4 @@ services:
     expose:
       - "8333"
       - "9327"
+    restart: unless-stopped

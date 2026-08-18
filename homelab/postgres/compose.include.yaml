@@ -8,3 +8,4 @@ services:
     volumes:
       - ${POSTGRES_DATA}:/var/lib/postgresql
       - ./init:/docker-entrypoint-initdb.d
+    restart: unless-stopped

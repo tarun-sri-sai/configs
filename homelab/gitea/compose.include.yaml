@@ -12,3 +12,4 @@ services:
       - ${GITEA_DATA}:/data
     ports:
       - "2222:22"
+    restart: unless-stopped

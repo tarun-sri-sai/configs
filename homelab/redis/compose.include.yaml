@@ -4,3 +4,4 @@ services:
     hostname: redis
     healthcheck:
       test: redis-cli ping || exit 1
+    restart: unless-stopped
