@@ -12,9 +12,9 @@ services:
     hostname: nginx
     image: docker.io/library/nginx:1.30-alpine
     ports:
-      - "443:443"
+      - "3000:3000"
       - "2283:2283"
+      - "8333:8333"
     restart: unless-stopped
     volumes:
       - ./nginx.conf:/etc/nginx/nginx.conf:ro
-      - ./certs:/etc/nginx/certs:ro
