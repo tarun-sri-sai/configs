@@ -5,16 +5,16 @@ include:
 
 services:
   nginx:
-    image: docker.io/library/nginx:1.30-alpine
-    hostname: nginx
     depends_on:
       - immich-server
       - s3
       - gitea
+    hostname: nginx
+    image: docker.io/library/nginx:1.30-alpine
     ports:
       - "443:443"
       - "2283:2283"
+    restart: unless-stopped
     volumes:
       - ./nginx.conf:/etc/nginx/nginx.conf:ro
       - ./certs:/etc/nginx/certs:ro
-    restart: unless-stopped

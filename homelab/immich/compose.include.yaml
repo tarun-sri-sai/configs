@@ -4,16 +4,16 @@ include:
 
 services:
   immich-server:
-    image: ghcr.io/immich-app/immich-server:${IMMICH_VERSION:-release}
-    hostname: immich-server
-    volumes:
-      - ${UPLOAD_LOCATION}:/data
-      - /etc/localtime:/etc/localtime:ro
-    env_file:
-      - .env
     depends_on:
       - redis
       - postgres
+    env_file:
+      - .env
     healthcheck:
       disable: false
+    hostname: immich-server
+    image: ghcr.io/immich-app/immich-server:${IMMICH_VERSION:-release}
     restart: unless-stopped
+    volumes:
+      - ${UPLOAD_LOCATION}:/data
+      - /etc/localtime:/etc/localtime:ro

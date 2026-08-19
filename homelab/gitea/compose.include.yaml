@@ -3,13 +3,14 @@ include:
 
 services:
   gitea:
-    image: docker.io/gitea/gitea:1.26
     depends_on:
       - postgres
     env_file:
       - .env
-    volumes:
-      - ${GITEA_DATA}:/data
+    hostname: gitea
+    image: docker.io/gitea/gitea:1.26
     ports:
       - "2222:22"
     restart: unless-stopped
+    volumes:
+      - ${GITEA_DATA}:/data
