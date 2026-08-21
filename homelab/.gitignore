@@ -1,3 +1,6 @@
 # ignore environment files
 .env*
 !.env*.example
+
+# ignore rendered compose file
+compose.rendered.yaml
