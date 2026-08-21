@@ -1,0 +1,16 @@
+services:
+  llama-server:
+    command: -hf ${HF_MODEL_ID} -c ${CONTEXT_SIZE} -ngl ${GPU_LAYERS}
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              device_ids: ["0"]
+              capabilities: [gpu]
+    environment:
+      HF_HOME: /models
+    image: ghcr.io/ggml-org/llama.cpp:server-cuda
+    restart: unless-stopped
+    volumes:
+      - ${MODELS_PATH}:/models
