@@ -1,14 +1,14 @@
 include:
   - ../immich/compose.include.yaml
   - ../seaweedfs/compose.include.yaml
-  - ../gitea/compose.include.yaml
+  - ../forgejo/compose.include.yaml
 
 services:
   nginx:
     depends_on:
       - immich-server
       - s3
-      - gitea
+      - forgejo
     hostname: nginx
     image: docker.io/library/nginx:1.30-alpine
     ports:

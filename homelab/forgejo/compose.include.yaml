@@ -2,15 +2,15 @@ include:
   - ../postgres/compose.include.yaml
 
 services:
-  gitea:
+  forgejo:
     depends_on:
       - postgres
     env_file:
       - .env
-    hostname: gitea
-    image: docker.io/gitea/gitea:1.26
+    hostname: forgejo
+    image: codeberg.org/forgejo/forgejo:16
     ports:
       - "2222:22"
     restart: unless-stopped
     volumes:
-      - ${GITEA_DATA}:/data
+      - ${FORGEJO_DATA}:/data
