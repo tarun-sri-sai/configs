@@ -125,3 +125,7 @@ alias pod-cp='podman-compose -f compose.rendered.yaml'
 
 # zoxide
 eval "$(zoxide init bash)"
+
+# pi config
+OLLAMA_TEMPERATURE=0.3
+OLLAMA_TOP_P=0.2
