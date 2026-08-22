@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<root version="6" type="3" timestamp="1786772726">
+<root version="6" type="3" timestamp="1787374963">
   <apps>
     <item path="%ALLUSERSPROFILE%\microsoft\windows defender\platform\4.18.26060.3008-0\mpdefendercoreservice.exe" timestamp="1783567500" is_silent="true"/>
     <item path="%ALLUSERSPROFILE%\microsoft\windows defender\platform\4.18.26060.3008-0\msmpeng.exe" timestamp="1783567151" is_silent="true"/>
@@ -22,7 +22,7 @@
     <item path="%ProgramFiles% (x86)\microsoft visual studio\installer\setup.exe" timestamp="1784077480" is_enabled="true"/>
     <item path="%ProgramFiles% (x86)\microsoft\edge\application\msedge.exe" timestamp="1783565200" is_enabled="true"/>
     <item path="%ProgramFiles% (x86)\microsoft\edgeupdate\microsoftedgeupdate.exe" timestamp="1783652219" is_enabled="true"/>
-    <item path="%ProgramFiles% (x86)\microsoft\edgewebview\application\151.0.4129.78\msedgewebview2.exe" timestamp="1786679099" is_enabled="true"/>
+    <item path="%ProgramFiles% (x86)\microsoft\edgewebview\application\151.0.4129.93\msedgewebview2.exe" timestamp="1787175226" is_enabled="true"/>
     <item path="%ProgramFiles% (x86)\mozilla maintenance service\maintenanceservice.exe" timestamp="1783735905" is_silent="true"/>
     <item path="%ProgramFiles%\dotnet\dotnet.exe" timestamp="1784082128" is_enabled="true"/>
     <item path="%ProgramFiles%\google\drive file stream\126.0.5.0\crashpad_handler.exe" timestamp="1784457137" is_silent="true"/>
@@ -32,20 +32,15 @@
     <item path="%ProgramFiles%\mozilla firefox\firefox.exe" timestamp="1783565196" is_enabled="true"/>
     <item path="%ProgramFiles%\mozilla firefox\pingsender.exe" timestamp="1783567234" is_silent="true"/>
     <item path="%ProgramFiles%\powershell\7\pwsh.exe" timestamp="1783567150" is_enabled="true"/>
-    <item path="%ProgramFiles%\rancher desktop\rancher desktop.exe" timestamp="1786682202" is_enabled="true"/>
-    <item path="%ProgramFiles%\rancher desktop\resources\resources\win32\bin\docker.exe" timestamp="1786691389" is_enabled="true"/>
-    <item path="%ProgramFiles%\rancher desktop\resources\resources\win32\docker-cli-plugins\docker-buildx.exe" timestamp="1786691292" is_enabled="true"/>
-    <item path="%ProgramFiles%\rancher desktop\resources\resources\win32\internal\host-switch.exe" timestamp="1786683206" is_enabled="true"/>
     <item path="%ProgramFiles%\ruxim\ruximics.exe" timestamp="1783745996" is_silent="true"/>
     <item path="%ProgramFiles%\simplewall\simplewall.exe" timestamp="1775273539" is_undeletable="true" is_enabled="true"/>
+    <item path="%ProgramFiles%\windowsapps\19453.net.rufus_4.15.2396.0_x64__y8nh7bq2a8dtt\rufus\rufus.exe" timestamp="1786973469" is_silent="true"/>
     <item path="%ProgramFiles%\windowsapps\microsoft.6365217ce6eb4_102.2602.23002.0_x64__8wekyb3d8bbwe\microsoftsecurityapp\microsoftsecurityapp.exe" timestamp="1783693697" is_silent="true"/>
-    <item path="%ProgramFiles%\windowsapps\microsoft.desktopappinstaller_1.29.280.0_x64__8wekyb3d8bbwe\windowspackagemanagerserver.exe" timestamp="1784080208" is_silent="true"/>
-    <item path="%ProgramFiles%\windowsapps\microsoft.desktopappinstaller_1.29.280.0_x64__8wekyb3d8bbwe\winget.exe" timestamp="1785679672" is_enabled="true"/>
-    <item path="%ProgramFiles%\windowsapps\microsoft.gamingservices_37.114.26001.0_x64__8wekyb3d8bbwe\gamingservices.exe" timestamp="1783831463" is_silent="true"/>
-    <item path="%ProgramFiles%\windowsapps\microsoftcorporationii.windows365_2.0.1315.0_x64__8wekyb3d8bbwe\msrdc\msrdc.exe" timestamp="1786683291" is_enabled="true"/>
-    <item path="%ProgramFiles%\windowsapps\microsoftcorporationii.windows365_2.0.1315.0_x64__8wekyb3d8bbwe\windows365.exe" timestamp="1786683284" is_enabled="true"/>
-    <item path="%ProgramFiles%\windowsapps\microsoftwindows.client.webexperience_526.17301.80.0_x64__cw5n1h2txyewy\dashboard\widgets.exe" timestamp="1785986814" is_silent="true"/>
-    <item path="%ProgramFiles%\windowsapps\microsoftwindows.crossdevice_1.26062.105.0_x64__cw5n1h2txyewy\crossdeviceservice.exe" timestamp="1785935011" is_silent="true"/>
+    <item path="%ProgramFiles%\windowsapps\microsoft.desktopappinstaller_1.29.290.0_x64__8wekyb3d8bbwe\windowspackagemanagerserver.exe" timestamp="1787322560" is_silent="true"/>
+    <item path="%ProgramFiles%\windowsapps\microsoft.desktopappinstaller_1.29.290.0_x64__8wekyb3d8bbwe\winget.exe" timestamp="1787374956" is_enabled="true"/>
+    <item path="%ProgramFiles%\windowsapps\microsoft.gamingservices_38.116.6003.0_x64__8wekyb3d8bbwe\gamingservices.exe" timestamp="1787034095" is_silent="true"/>
+    <item path="%ProgramFiles%\windowsapps\microsoft.startexperiencesapp_1.380.2.0_x64__8wekyb3d8bbwe\microsoftstartfeedprovider\microsoftstartfeedprovider.exe" timestamp="1787322334" is_silent="true"/>
+    <item path="%ProgramFiles%\windowsapps\microsoftwindows.crossdevice_1.26071.84.0_x64__cw5n1h2txyewy\crossdeviceservice.exe" timestamp="1787365501" is_silent="true"/>
     <item path="%ProgramFiles%\wsl\wsl.exe" timestamp="1784449867" is_enabled="true"/>
     <item path="%ProgramFiles%\wsl\wslservice.exe" timestamp="1783567087" is_silent="true"/>
     <item path="%SystemRoot%\explorer.exe" timestamp="1784214567" is_silent="true"/>
@@ -63,6 +58,7 @@
     <item path="%SystemRoot%\system32\driverstore\filerepository\nvlti.inf_amd64_b3badde551342cd6\display.nvcontainer\nvdisplay.container.exe" timestamp="1783652177" is_silent="true"/>
     <item path="%SystemRoot%\system32\dxgiadaptercache.exe" timestamp="1784083297" is_silent="true"/>
     <item path="%SystemRoot%\system32\lsass.exe" timestamp="1775273539" is_undeletable="true"/>
+    <item path="%SystemRoot%\system32\nslookup.exe" timestamp="1787127194" is_enabled="true"/>
     <item path="%SystemRoot%\system32\openssh\ssh.exe" timestamp="1783567464" is_enabled="true"/>
     <item path="%SystemRoot%\system32\openssh\sshd.exe" timestamp="1784564844" is_enabled="true"/>
     <item path="%SystemRoot%\system32\rundll32.exe" timestamp="1783652236" is_silent="true"/>
@@ -74,16 +70,19 @@
     <item path="%SystemRoot%\system32\taskhostw.exe" timestamp="1783565962" is_silent="true"/>
     <item path="%SystemRoot%\systemapps\microsoft.windows.startmenuexperiencehost_cw5n1h2txyewy\startmenuexperiencehost.exe" timestamp="1783909904" is_silent="true"/>
     <item path="%SystemRoot%\systemapps\microsoftwindows.client.cbs_cw5n1h2txyewy\crossdeviceresume.exe" timestamp="1783746044" is_silent="true"/>
+    <item path="%SystemRoot%\systemapps\microsoftwindows.client.cbs_cw5n1h2txyewy\textinputhost.exe" timestamp="1787274182" is_silent="true" is_enabled="true"/>
     <item path="%SystemRoot%\syswow64\windowspowershell\v1.0\powershell.exe" timestamp="1783735448" is_silent="true"/>
     <item path="%USERPROFILE%\appdata\local\element-desktop\app-1.12.25\element.exe" timestamp="1786772600" is_enabled="true"/>
     <item path="%USERPROFILE%\appdata\local\element-desktop\update.exe" timestamp="1786772629" is_silent="true"/>
+    <item path="%USERPROFILE%\appdata\local\microsoft\winget\packages\ar51an.iperf3_microsoft.winget.source_8wekyb3d8bbwe\iperf3.exe" timestamp="1786901107" is_enabled="true"/>
     <item path="%USERPROFILE%\appdata\local\microsoft\winget\packages\aria2.aria2_microsoft.winget.source_8wekyb3d8bbwe\aria2-1.37.0-win-64bit-build1\aria2c.exe" timestamp="1786293326" is_enabled="true"/>
     <item path="%USERPROFILE%\appdata\local\nvm\v24.18.0\node.exe" timestamp="1784335459" is_enabled="true"/>
     <item path="%USERPROFILE%\appdata\local\programs\microsoft vs code\code.exe" timestamp="1783565260" is_enabled="true"/>
     <item path="%USERPROFILE%\appdata\local\puccinialin\puccinialin\cache\rustup-init\rustup-init.exe" timestamp="1783689485" is_enabled="true"/>
-    <item path="%USERPROFILE%\appdata\local\squirreltemp\update.exe" timestamp="1786772595" is_silent="true"/>
-    <item path="%USERPROFILE%\appdata\local\temp\ixlitea1.emk\resources\app\servicehub\services\microsoft.visualstudio.setup.service\backgrounddownload.exe" timestamp="1786498869" is_silent="true"/>
+    <item path="%USERPROFILE%\downloads\setup-x86_64.exe" timestamp="1787298503" is_enabled="true"/>
     <item path="CryptSvc" timestamp="1711956444" is_undeletable="true"/>
+    <item path="D:\program files (x86)\gnupg\bin\dirmngr.exe" timestamp="1786899084" is_enabled="true"/>
+    <item path="D:\program files\amazon\awscliv2\aws.exe" timestamp="1787070780" is_enabled="true"/>
     <item path="D:\program files\android\android studio\bin\studio64.exe" timestamp="1784451667" is_enabled="true"/>
     <item path="D:\program files\android\android studio\jbr\bin\java.exe" timestamp="1784451513" is_enabled="true"/>
     <item path="D:\program files\anydesk\anydesk.exe" timestamp="1784042864" is_enabled="true"/>
@@ -107,6 +106,7 @@
     <item path="D:\program files\tailscale\tailscale-ipn.exe" timestamp="1783565220" is_enabled="true"/>
     <item path="D:\program files\tailscale\tailscale.exe" timestamp="1785861923" is_enabled="true"/>
     <item path="D:\program files\tailscale\tailscaled.exe" timestamp="1783565196" is_enabled="true"/>
+    <item path="D:\program files\trid\trid.exe" timestamp="1787298455" is_silent="true" is_enabled="true"/>
     <item path="D:\program files\videolan\vlc\vlc.exe" timestamp="1784473270" is_enabled="true"/>
     <item path="D:\program files\vs revo group\revo uninstaller\revounin.exe" timestamp="1786292722" is_silent="true"/>
     <item path="D:\program files\wireshark\wireshark.exe" timestamp="1783735655" is_enabled="true"/>
