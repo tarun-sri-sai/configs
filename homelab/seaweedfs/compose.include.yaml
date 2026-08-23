@@ -26,7 +26,7 @@ services:
       - ${SEAWEEDFS_VOLUME}:/data
 
   filer:
-    command: filer -ip=filer -master="master:9333" -ip.bind=0.0.0.0 -metricsPort=9326
+    command: filer -ip=filer -master="master:9333" -ip.bind=0.0.0.0 -metricsPort=9326 -encryptVolumeData
     depends_on:
       - master
       - volume
