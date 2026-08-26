@@ -46,7 +46,8 @@ services:
       - master
       - volume
       - filer
-    env_file: .env
+    env_file: 
+      - .env
     expose:
       - "8333"
       - "9327"
