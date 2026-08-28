@@ -1,0 +1,19 @@
+include:
+  - ../postgres/compose.include.yaml
+
+services:
+  nextcloud:
+    depends_on:
+      - postgres
+      - redis
+    env_file:
+      - .env
+    hostname: nextcloud
+    image: docker.io/library/nextcloud:34.0
+    networks:
+      - postgres_net
+      - nginx_net
+      - redis_net
+    restart: unless-stopped
+    volumes:
+      - ${NEXTCLOUD_DATA}:/var/www/html
