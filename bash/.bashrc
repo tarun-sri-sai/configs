@@ -132,3 +132,6 @@ OLLAMA_TOP_P=0.2
 
 # tmux config
 alias txss='tmux new-session -As default'
+
+# add go binaries to path
+export PATH="$PATH:$(go env GOPATH)/bin"
