@@ -7,6 +7,8 @@ services:
       - "9324"
     hostname: master
     image: docker.io/chrislusf/seaweedfs:4.42
+    networks:
+      - seaweedfs_net
     restart: unless-stopped
     volumes:
       - ${SEAWEEDFS_MASTER}:/data
@@ -21,6 +23,8 @@ services:
       - "9325"
     hostname: volume
     image: docker.io/chrislusf/seaweedfs:4.42
+    networks:
+      - seaweedfs_net
     restart: unless-stopped
     volumes:
       - ${SEAWEEDFS_VOLUME}:/data
@@ -36,6 +40,8 @@ services:
       - "9326"
     hostname: filer
     image: docker.io/chrislusf/seaweedfs:4.42
+    networks:
+      - seaweedfs_net
     restart: unless-stopped
     volumes:
       - ${SEAWEEDFS_FILER}:/data
@@ -53,4 +59,11 @@ services:
       - "9327"
     hostname: s3
     image: docker.io/chrislusf/seaweedfs:4.42
+    networks:
+      - seaweedfs_net
+      - nginx_net
     restart: unless-stopped
+
+networks:
+  seaweedfs_net:
+    internal: true

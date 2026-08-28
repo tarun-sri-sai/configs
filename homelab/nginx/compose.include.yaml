@@ -13,6 +13,8 @@ services:
       - llama-server
     hostname: nginx
     image: docker.io/library/nginx:1.30-alpine
+    networks:
+      - nginx_net
     ports:
       - "3000:3000"
       - "2283:2283"
@@ -21,3 +23,7 @@ services:
     restart: unless-stopped
     volumes:
       - ./nginx.conf:/etc/nginx/nginx.conf:ro
+
+networks:
+  nginx_net:
+    internal: true

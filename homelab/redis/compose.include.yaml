@@ -4,4 +4,10 @@ services:
       test: redis-cli ping || exit 1
     hostname: redis
     image: docker.io/valkey/valkey:9
+    networks:
+      - redis_net
     restart: unless-stopped
+
+networks:
+  redis_net:
+    internal: true

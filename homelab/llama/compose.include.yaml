@@ -11,6 +11,8 @@ services:
     environment:
       HF_HOME: /models
     image: ghcr.io/ggml-org/llama.cpp:server-cuda
+    networks:
+      - nginx_net
     restart: unless-stopped
     volumes:
       - ${MODELS_PATH}:/models
