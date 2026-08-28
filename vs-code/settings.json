@@ -90,5 +90,10 @@
   "files.readonlyInclude": {
     "**/*.log*": true
   },
-  "cSpell.useGitignore": false
+  "cSpell.useGitignore": false,
+  "remote.SSH.remotePlatform": {
+    "tarun-precision": "linux"
+  },
+  "remote.autoForwardPorts": false,
+  "remote.restoreForwardedPorts": false
 }
