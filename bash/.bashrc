@@ -129,3 +129,6 @@ eval "$(zoxide init bash)"
 # pi config
 OLLAMA_TEMPERATURE=0.3
 OLLAMA_TOP_P=0.2
+
+# tmux config
+alias txss='tmux new-session -As default'
