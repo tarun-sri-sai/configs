@@ -6,7 +6,7 @@ services:
       - "19333"
       - "9324"
     hostname: master
-    image: docker.io/chrislusf/seaweedfs:4.42
+    image: docker.io/chrislusf/seaweedfs:4.42@sha256:f7cbc8bdbbf60a1aaba7d61784a3bdff3ec1e0657f6ad0b26d5b6ab2cd9d0dc6
     networks:
       - seaweedfs_net
     restart: unless-stopped
@@ -22,7 +22,7 @@ services:
       - "18080"
       - "9325"
     hostname: volume
-    image: docker.io/chrislusf/seaweedfs:4.42
+    image: docker.io/chrislusf/seaweedfs:4.42@sha256:f7cbc8bdbbf60a1aaba7d61784a3bdff3ec1e0657f6ad0b26d5b6ab2cd9d0dc6
     networks:
       - seaweedfs_net
     restart: unless-stopped
@@ -39,7 +39,7 @@ services:
       - "18888"
       - "9326"
     hostname: filer
-    image: docker.io/chrislusf/seaweedfs:4.42
+    image: docker.io/chrislusf/seaweedfs:4.42@sha256:f7cbc8bdbbf60a1aaba7d61784a3bdff3ec1e0657f6ad0b26d5b6ab2cd9d0dc6
     networks:
       - seaweedfs_net
     restart: unless-stopped
@@ -58,7 +58,7 @@ services:
       - "8333"
       - "9327"
     hostname: s3
-    image: docker.io/chrislusf/seaweedfs:4.42
+    image: docker.io/chrislusf/seaweedfs:4.42@sha256:f7cbc8bdbbf60a1aaba7d61784a3bdff3ec1e0657f6ad0b26d5b6ab2cd9d0dc6
     networks:
       - seaweedfs_net
       - nginx_net

@@ -3,7 +3,7 @@ services:
     env_file:
       - .env
     hostname: postgres
-    image: docker.io/tensorchord/vchord-postgres:pg18-v1.1.1
+    image: docker.io/tensorchord/vchord-postgres:pg18-v1.1.1@sha256:700ff05ebdc7e4afd4dd8442e0684293046c3833677fec326550000a04cf8a91
     networks:
       - postgres_net
     restart: unless-stopped
