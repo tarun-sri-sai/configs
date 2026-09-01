@@ -12,8 +12,6 @@ services:
     networks:
       - postgres_net
       - nginx_net
-    ports:
-      - "2222:22"
     restart: unless-stopped
     volumes:
       - ${FORGEJO_DATA}:/data

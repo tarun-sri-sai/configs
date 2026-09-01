@@ -1,3 +1,2 @@
 include:
-  - ./forgejo/compose.include.yaml
   - ./nginx/compose.include.yaml
