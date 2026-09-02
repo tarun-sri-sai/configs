@@ -3,10 +3,31 @@ include:
   - ../postgres/compose.include.yaml
 
 services:
+  immich-machine-learning:
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              device_ids: ["0"]
+              capabilities: [gpu]
+    env_file:
+      - .env
+    healthcheck:
+      disable: false
+    hostname: immich-machine-learning
+    image: ghcr.io/immich-app/immich-machine-learning:v3-cuda@sha256:82d3f6a093455964508052e0b3bc55a91075b48b65be35e78b40774a72c1ebb3
+    networks:
+      - immich_net
+    restart: unless-stopped
+    volumes:
+      - model-cache:/cache
+
   immich-server:
     depends_on:
       - redis
       - postgres
+      - immich-machine-learning
     env_file:
       - .env
     healthcheck:
@@ -17,7 +38,15 @@ services:
       - postgres_net
       - redis_net
       - nginx_net
+      - immich_net
     restart: unless-stopped
     volumes:
       - ${UPLOAD_LOCATION}:/data
       - /etc/localtime:/etc/localtime:ro
+
+networks:
+  immich_net:
+    internal: true
+
+volumes:
+  model-cache:
