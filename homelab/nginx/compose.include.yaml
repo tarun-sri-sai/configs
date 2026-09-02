@@ -1,6 +1,6 @@
 include:
   - ../immich/compose.include.yaml
-  # - ../llama/compose.include.yaml
+  - ../llama/compose.include.yaml
   - ../seaweedfs/compose.include.yaml
   - ../forgejo/compose.include.yaml
   - ../nextcloud/compose.include.yaml
@@ -11,7 +11,7 @@ services:
       - immich-server
       - s3
       - forgejo
-      # - llama-server
+      - llama-server
       - nextcloud
     hostname: nginx
     image: docker.io/library/nginx:1-alpine@sha256:97d490c12ba55b4946b01546d1c3ed324e8d41ab1c9fcb2a616aa470620e5b46
@@ -21,7 +21,7 @@ services:
       - "3000:3000"
       - "2283:2283"
       - "8333:8333"
-      # - "8080:8080"
+      - "8080:8080"
       - "80:80"
       - "2222:2222"
     restart: unless-stopped
