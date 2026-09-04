@@ -13,6 +13,10 @@ services:
     image: ghcr.io/ggml-org/llama.cpp:server-cuda@sha256:c50a38601c8bbb6dcb2fdbe60ee336faea7c7c7e11a1d5a6396993783617d911
     networks:
       - nginx_net
+      - llama_net
     restart: unless-stopped
     volumes:
       - ${MODELS_PATH}:/models
+networks:
+  llama_net:
+    internal: true
