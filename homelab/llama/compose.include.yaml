@@ -1,6 +1,6 @@
 services:
   llama-server:
-    command: -hf ${HF_MODEL_ID} -c ${CONTEXT_SIZE} -ngl ${GPU_LAYERS}
+    command: -hf ${HF_MODEL_ID} --alias ${HF_MODEL_ALIAS} -c ${CONTEXT_SIZE} -ngl ${GPU_LAYERS}
     deploy:
       resources:
         reservations:
