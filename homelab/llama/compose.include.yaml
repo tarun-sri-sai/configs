@@ -13,11 +13,24 @@ services:
     hostname: llama-server
     image: ghcr.io/ggml-org/llama.cpp:server-cuda@sha256:c50a38601c8bbb6dcb2fdbe60ee336faea7c7c7e11a1d5a6396993783617d911
     networks:
-      - nginx_net
       - llama_net
     restart: unless-stopped
     volumes:
       - ${MODELS_PATH}:/models
+
+  open-webui:
+    depends_on:
+      - llama-server
+    env_file:
+      - .env
+    hostname: open-webui
+    image: ghcr.io/open-webui/open-webui:0.11.3-slim@sha256:bb3633af77b35d97783affc9cd8097d8a6dc89fedd5a410ce9a50d85556a870c
+    networks:
+      - llama_net
+      - nginx_net
+    restart: unless-stopped
+    volumes:
+      - ${OPEN_WEBUI_DATA}:/app/backend/data
 
 networks:
   llama_net:
