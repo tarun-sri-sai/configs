@@ -1,16 +1,6 @@
 services:
-  ddgs-mcp-container:
-    hostname: ddgs-mcp-container
-    image: docker.io/tarunsrisai/ddgs-mcp-container:latest@sha256:cc887aff625887c6939ca3d9ebd4a86e6422e3182bb5480e7e3f8192e6b7f814
-    networks:
-      - ddgs_net
-      - nginx_net
-    restart: unless-stopped
-
   llama-server:
     command: -hf ${HF_MODEL_ID} --alias ${HF_MODEL_ALIAS} -c ${CONTEXT_SIZE} -ngl ${GPU_LAYERS} --temp ${TEMPERATURE} --top-p ${TOP_P}
-    depends_on:
-      - ddgs-mcp-container
     deploy:
       resources:
         reservations:
@@ -32,4 +22,3 @@ services:
 networks:
   llama_net:
     internal: true
-  ddgs_net:
