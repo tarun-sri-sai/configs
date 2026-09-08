@@ -122,6 +122,7 @@ export PATH="/opt/nvim:$PATH"
 alias pod-ps='podman ps --format "table {{.ID}}\t{{.Status}}\t{{.Names}}\t{{.Image}}"'
 alias pod-cb='docker compose config > compose.rendered.yaml'
 alias pod-cp='podman-compose -f compose.rendered.yaml'
+alias pod-st='podman stats --no-stream --no-reset --format "table {{.ID}}\t{{.Name}}\t{{.CPUPerc}}\t{{.MemUsage}}\t{{.MemPerc}}"'
 
 # zoxide
 eval "$(zoxide init bash)"
@@ -135,3 +136,7 @@ alias txss='tmux new-session -As default'
 
 # add go binaries to path
 export PATH="$PATH:$(go env GOPATH)/bin"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
