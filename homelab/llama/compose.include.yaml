@@ -1,6 +1,6 @@
 services:
   llama-server:
-    command: -hf ${HF_MODEL_ID} --alias ${HF_MODEL_ALIAS} -c ${CONTEXT_SIZE} -ngl ${GPU_LAYERS} --temp ${TEMPERATURE} --top-p ${TOP_P}
+    command: -hf ${HF_MODEL_ID} --alias ${HF_MODEL_ALIAS} -c ${CONTEXT_SIZE} -n ${OUTPUT_TOKENS} -ngl ${GPU_LAYERS} --temp ${TEMPERATURE} --top-p ${TOP_P} -fa on -ctk q8_0 -ctv q4_0 -lv 4
     deploy:
       resources:
         reservations:
