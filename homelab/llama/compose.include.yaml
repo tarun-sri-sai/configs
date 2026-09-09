@@ -28,6 +28,7 @@ services:
     networks:
       - llama_net
       - nginx_net
+      - open-webui_net
     restart: unless-stopped
     volumes:
       - ${OPEN_WEBUI_DATA}:/app/backend/data
@@ -35,3 +36,4 @@ services:
 networks:
   llama_net:
     internal: true
+  open-webui_net:
