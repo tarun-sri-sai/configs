@@ -18,15 +18,29 @@ services:
     volumes:
       - ${MODELS_PATH}:/models
 
-  open-webui:
+  bifrost:
     depends_on:
       - llama-server
+    env_file:
+      - .env
+    hostname: bifrost
+    image: docker.io/maximhq/bifrost:v2.1.1-amd64@sha256:6faa9c041af1d7c53888630cc8e152bdfb8df381179a330a5ef60c57d25ebde8
+    networks:
+      - llama_net
+      - open-webui_net
+      - nginx_net
+    restart: unless-stopped
+    volumes:
+      - ${BIFROST_DATA}:/app/data
+
+  open-webui:
+    depends_on:
+      - bifrost
     env_file:
       - .env
     hostname: open-webui
     image: ghcr.io/open-webui/open-webui:0.11.3-slim@sha256:bb3633af77b35d97783affc9cd8097d8a6dc89fedd5a410ce9a50d85556a870c
     networks:
-      - llama_net
       - nginx_net
       - open-webui_net
     restart: unless-stopped
