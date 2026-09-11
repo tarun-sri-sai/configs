@@ -1,11 +1,15 @@
 <?xml version="1.0"?>
-<root version="6" type="3" timestamp="1787374963">
+<root version="6" type="3" timestamp="1789101262">
   <apps>
     <item path="%ALLUSERSPROFILE%\microsoft\windows defender\platform\4.18.26060.3008-0\mpdefendercoreservice.exe" timestamp="1783567500" is_silent="true"/>
     <item path="%ALLUSERSPROFILE%\microsoft\windows defender\platform\4.18.26060.3008-0\msmpeng.exe" timestamp="1783567151" is_silent="true"/>
     <item path="%ALLUSERSPROFILE%\microsoft\windows defender\platform\4.18.26070.9-0\mpdefendercoreservice.exe" timestamp="1785908456" is_silent="true"/>
     <item path="%ALLUSERSPROFILE%\microsoft\windows defender\platform\4.18.26070.9-0\msmpeng.exe" timestamp="1785908758" is_silent="true"/>
+    <item path="%ALLUSERSPROFILE%\microsoft\windows defender\platform\4.18.26080.3-0\mpdefendercoreservice.exe" timestamp="1788429048" is_silent="true"/>
+    <item path="%ALLUSERSPROFILE%\microsoft\windows defender\platform\4.18.26080.3-0\msmpeng.exe" timestamp="1788431101" is_silent="true"/>
+    <item path="%APPDATA%\code\agent-host\sdk-cache\claude\0.3.220\win32-x64\node_modules\@anthropic-ai\claude-agent-sdk-win32-x64\claude.exe" timestamp="1787831664" is_silent="true"/>
     <item path="%APPDATA%\python\python311\scripts\uv.exe" timestamp="1783689452" is_enabled="true"/>
+    <item path="%ProgramFiles% (x86)\google\googleupdater\152.0.7933.0\updater.exe" timestamp="1789100862" is_silent="true"/>
     <item path="%ProgramFiles% (x86)\lenovo\system update\tvsukernel.exe" timestamp="1783651966" is_silent="true"/>
     <item path="%ProgramFiles% (x86)\lenovo\vantageservice\5.1.2606.17\configserviceagent.exe" timestamp="1783567390" is_silent="true"/>
     <item path="%ProgramFiles% (x86)\lenovo\vantageservice\5.1.2606.17\lenovovantage-(genericmessagingaddin).exe" timestamp="1783689338" is_silent="true"/>
@@ -22,11 +26,10 @@
     <item path="%ProgramFiles% (x86)\microsoft visual studio\installer\setup.exe" timestamp="1784077480" is_enabled="true"/>
     <item path="%ProgramFiles% (x86)\microsoft\edge\application\msedge.exe" timestamp="1783565200" is_enabled="true"/>
     <item path="%ProgramFiles% (x86)\microsoft\edgeupdate\microsoftedgeupdate.exe" timestamp="1783652219" is_enabled="true"/>
-    <item path="%ProgramFiles% (x86)\microsoft\edgewebview\application\151.0.4129.93\msedgewebview2.exe" timestamp="1787175226" is_enabled="true"/>
     <item path="%ProgramFiles% (x86)\mozilla maintenance service\maintenanceservice.exe" timestamp="1783735905" is_silent="true"/>
+    <item path="%ProgramFiles% (x86)\mozilla maintenance service\update\updater.exe" timestamp="1787728062" is_silent="true"/>
     <item path="%ProgramFiles%\dotnet\dotnet.exe" timestamp="1784082128" is_enabled="true"/>
-    <item path="%ProgramFiles%\google\drive file stream\126.0.5.0\crashpad_handler.exe" timestamp="1784457137" is_silent="true"/>
-    <item path="%ProgramFiles%\google\drive file stream\126.0.5.0\googledrivefs.exe" timestamp="1783565216" is_enabled="true"/>
+    <item path="%ProgramFiles%\google\nearbyshare\nearby_share.exe" timestamp="1789100924" is_enabled="true"/>
     <item path="%ProgramFiles%\malwarebytes\anti-malware\malwarebytes.exe" timestamp="1784307248" is_enabled="true"/>
     <item path="%ProgramFiles%\malwarebytes\anti-malware\mbamservice.exe" timestamp="1784307246" is_enabled="true"/>
     <item path="%ProgramFiles%\mozilla firefox\firefox.exe" timestamp="1783565196" is_enabled="true"/>
@@ -71,11 +74,16 @@
     <item path="%SystemRoot%\systemapps\microsoft.windows.startmenuexperiencehost_cw5n1h2txyewy\startmenuexperiencehost.exe" timestamp="1783909904" is_silent="true"/>
     <item path="%SystemRoot%\systemapps\microsoftwindows.client.cbs_cw5n1h2txyewy\crossdeviceresume.exe" timestamp="1783746044" is_silent="true"/>
     <item path="%SystemRoot%\systemapps\microsoftwindows.client.cbs_cw5n1h2txyewy\textinputhost.exe" timestamp="1787274182" is_silent="true" is_enabled="true"/>
+    <item path="%SystemRoot%\systemtemp\google17540_1573738981\bin\updater.exe" timestamp="1789100878" is_silent="true"/>
     <item path="%SystemRoot%\syswow64\windowspowershell\v1.0\powershell.exe" timestamp="1783735448" is_silent="true"/>
+    <item path="%SystemRoot%\uus\amd64\waasmedicagent.exe" timestamp="1787437361" is_silent="true"/>
+    <item path="%SystemRoot%\uus\amd64\wuaucltcore.exe" timestamp="1788926675"/>
+    <item path="%USERPROFILE%\.vscode\extensions\myriad-dreamin.tinymist-0.15.2-win32-x64\out\tinymist.exe" timestamp="1788279483" is_silent="true"/>
     <item path="%USERPROFILE%\appdata\local\element-desktop\app-1.12.25\element.exe" timestamp="1786772600" is_enabled="true"/>
     <item path="%USERPROFILE%\appdata\local\element-desktop\update.exe" timestamp="1786772629" is_silent="true"/>
     <item path="%USERPROFILE%\appdata\local\microsoft\winget\packages\ar51an.iperf3_microsoft.winget.source_8wekyb3d8bbwe\iperf3.exe" timestamp="1786901107" is_enabled="true"/>
     <item path="%USERPROFILE%\appdata\local\microsoft\winget\packages\aria2.aria2_microsoft.winget.source_8wekyb3d8bbwe\aria2-1.37.0-win-64bit-build1\aria2c.exe" timestamp="1786293326" is_enabled="true"/>
+    <item path="%USERPROFILE%\appdata\local\microsoft\winget\packages\isc.bind_microsoft.winget.source_8wekyb3d8bbwe\dig.exe" timestamp="1787745010" is_enabled="true"/>
     <item path="%USERPROFILE%\appdata\local\nvm\v24.18.0\node.exe" timestamp="1784335459" is_enabled="true"/>
     <item path="%USERPROFILE%\appdata\local\programs\microsoft vs code\code.exe" timestamp="1783565260" is_enabled="true"/>
     <item path="%USERPROFILE%\appdata\local\puccinialin\puccinialin\cache\rustup-init\rustup-init.exe" timestamp="1783689485" is_enabled="true"/>
@@ -99,6 +107,7 @@
     <item path="D:\program files\microsoft visual studio\18\community\common7\ide\vsngenrunner.exe" timestamp="1784781723" is_silent="true"/>
     <item path="D:\program files\microsoft visual studio\18\community\common7\servicehub\hosts\servicehub.host.extensibility.amd64\net10.0-windows10.0.19041.0\devhub.exe" timestamp="1784781569" is_silent="true"/>
     <item path="D:\program files\mitmproxy\bin\mitmweb.exe" timestamp="1785297851" is_enabled="true"/>
+    <item path="D:\program files\nextcloud\nextcloud.exe" timestamp="1787926549" is_enabled="true"/>
     <item path="D:\program files\python311\python.exe" timestamp="1783747580" is_enabled="true"/>
     <item path="D:\program files\qbittorrent\qbittorrent.exe" timestamp="1783950225" is_enabled="true"/>
     <item path="D:\program files\restic\restic.exe" timestamp="1783695054" is_enabled="true"/>
