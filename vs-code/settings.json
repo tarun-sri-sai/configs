@@ -78,7 +78,8 @@
   "diffEditor.useInlineViewWhenSpaceIsLimited": false,
   "markdown.extension.orderedList.marker": "one",
   "files.associations": {
-    ".dockerignore": "ignore"
+    ".dockerignore": "ignore",
+    "sshd_config": "ssh_config"
   },
   "markdownlint.config": {
     "MD033": {
