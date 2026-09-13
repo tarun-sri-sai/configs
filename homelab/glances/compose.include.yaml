@@ -1,0 +1,18 @@
+services:
+  glances:
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              device_ids: ["0"]
+              capabilities: [gpu]
+    environment:
+      GLANCES_OPT: "-w"
+    hostname: glances
+    image: docker.io/nicolargo/glances:ubuntu-4.5.6-full@sha256:7121167e4b6c971ed51686966bd0f7ebedec3a73d95cd75886ff31ee31cb9466
+    network_mode: host
+    pid: host
+    restart: unless-stopped
+    volumes:
+      - /run/user/1000/podman/podman.sock:/run/user/1000/podman/podman.sock:ro

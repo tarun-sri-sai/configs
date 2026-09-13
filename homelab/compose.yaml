@@ -1,2 +1,3 @@
 include:
   - ./nginx/compose.include.yaml
+  - ./glances/compose.include.yaml
