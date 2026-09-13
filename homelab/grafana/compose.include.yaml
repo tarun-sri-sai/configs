@@ -1,0 +1,17 @@
+include:
+  - ../influxdb/compose.include.yaml
+
+services:
+  grafana:
+    depends_on:
+      - influxdb
+    env_file:
+      - .env
+    hostname: grafana
+    image: docker.io/grafana/grafana:13.2.1-slim@sha256:ea0498ceaaf2f2a17be943a8e8b5a6fa02c58f662d79fa8583e77427ee5e6c25
+    networks:
+      - influxdb_net
+      - nginx_net
+    restart: unless-stopped
+    volumes:
+      - ${GRAFANA_DATA}:/var/lib/grafana

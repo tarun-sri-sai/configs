@@ -1,0 +1,16 @@
+services:
+  influxdb:
+    command: influxdb3 serve --node-id=node0 --object-store=file --data-dir=/var/lib/influxdb3/data --plugin-dir=/var/lib/influxdb3/plugins
+    hostname: influxdb
+    image: docker.io/library/influxdb:3.11.4-core@sha256:0063e44f37c8cdf20e9d38543c06ce98f0bef91e93798b5dc398f24a9261c443
+    networks:
+      - nginx_net
+      - influxdb_net
+    restart: unless-stopped
+    volumes:
+      - ${INFLUXDB_DATA}:/var/lib/influxdb3/data
+      - ${INFLUXDB_PLUGINS}:/var/lib/influxdb3/plugins
+
+networks:
+  influxdb_net:
+    internal: true
