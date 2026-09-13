@@ -12,6 +12,10 @@ services:
     networks:
       - influxdb_net
       - nginx_net
+      - grafana_net
     restart: unless-stopped
     volumes:
       - ${GRAFANA_DATA}:/var/lib/grafana
+
+networks:
+  grafana_net:
