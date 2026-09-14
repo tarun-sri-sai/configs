@@ -10,6 +10,7 @@ services:
               capabilities: [gpu]
     environment:
       HF_HOME: /models
+      HF_TOKEN: ${HF_TOKEN}
     hostname: llama-server
     image: ghcr.io/ggml-org/llama.cpp:server-cuda-b10630@sha256:c50a38601c8bbb6dcb2fdbe60ee336faea7c7c7e11a1d5a6396993783617d911
     networks:
@@ -27,7 +28,6 @@ services:
     image: docker.io/maximhq/bifrost:v2.1.1-amd64@sha256:6faa9c041af1d7c53888630cc8e152bdfb8df381179a330a5ef60c57d25ebde8
     networks:
       - llama_net
-      - open-webui_net
       - nginx_net
     restart: unless-stopped
     volumes:
@@ -41,13 +41,11 @@ services:
     hostname: open-webui
     image: ghcr.io/open-webui/open-webui:0.11.3-slim@sha256:bb3633af77b35d97783affc9cd8097d8a6dc89fedd5a410ce9a50d85556a870c
     networks:
+      - llama_net
       - nginx_net
-      - open-webui_net
     restart: unless-stopped
     volumes:
       - ${OPEN_WEBUI_DATA}:/app/backend/data
 
 networks:
   llama_net:
-    internal: true
-  open-webui_net:
