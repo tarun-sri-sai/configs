@@ -1,0 +1,65 @@
+[
+    {
+        "data": [
+            {
+                "allowSdrSoftwareBrightness": false,
+                "autoRotation": "InTabletMode",
+                "brightness": 0.66,
+                "colorPowerTradeoff": "PreferAccuracy",
+                "colorProfileSource": "ICC",
+                "connectorName": "eDP-1",
+                "edidHash": "854121db36f7e2f855afd9a4afa6d030",
+                "edidIdentifier": "AUO 14482 0 0 2020 0",
+                "highDynamicRange": false,
+                "iccProfilePath": "/etc/icc/gamma-icc/sRGB-1.05G.icc",
+                "mode": {
+                    "height": 1080,
+                    "refreshRate": 60052,
+                    "width": 1920
+                },
+                "overscan": 0,
+                "rgbRange": "Full",
+                "scale": 1.25,
+                "sdrBrightness": 200,
+                "sdrGamutWideness": 0,
+                "transform": "Normal",
+                "vrrPolicy": "Never",
+                "wideColorGamut": false
+            }
+        ],
+        "name": "outputs"
+    },
+    {
+        "data": [
+            {
+                "lidClosed": false,
+                "outputs": [
+                    {
+                        "enabled": true,
+                        "outputIndex": 0,
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "priority": 0
+                    }
+                ]
+            },
+            {
+                "lidClosed": true,
+                "outputs": [
+                    {
+                        "enabled": true,
+                        "outputIndex": 0,
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "priority": 0
+                    }
+                ]
+            }
+        ],
+        "name": "setups"
+    }
+]
