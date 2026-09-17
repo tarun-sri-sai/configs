@@ -5,8 +5,8 @@
     "name": "adnjjm5",
     "namespace": "default",
     "uid": "faa4fae8-fba3-48f0-ba40-60a63997afa7",
-    "resourceVersion": "1789613526515986",
-    "generation": 34,
+    "resourceVersion": "1789616286515982",
+    "generation": 44,
     "creationTimestamp": "2026-09-16T17:24:55Z",
     "labels": {
       "grafana.app/deprecatedInternalID": "1597321424121856"
@@ -15,7 +15,7 @@
       "grafana.app/createdBy": "user:efy5hmidhibk0e",
       "grafana.app/saved-from-ui": "Grafana v13.2.1 (56cd3e9288)",
       "grafana.app/updatedBy": "user:efy5hmidhibk0e",
-      "grafana.app/updatedTimestamp": "2026-09-17T02:52:06Z"
+      "grafana.app/updatedTimestamp": "2026-09-17T03:38:06Z"
     }
   },
   "spec": {
@@ -184,6 +184,133 @@
                     "thresholdsStyle": {
                       "mode": "dashed"
                     }
+                  }
+                },
+                "overrides": []
+              }
+            }
+          }
+        }
+      },
+      "panel-10": {
+        "kind": "Panel",
+        "spec": {
+          "id": 10,
+          "title": "/srv %",
+          "description": "",
+          "links": [],
+          "data": {
+            "kind": "QueryGroup",
+            "spec": {
+              "queries": [
+                {
+                  "kind": "PanelQuery",
+                  "spec": {
+                    "query": {
+                      "kind": "DataQuery",
+                      "group": "influxdb",
+                      "version": "v0",
+                      "datasource": {
+                        "name": "afy5ht9dleiv4f"
+                      },
+                      "spec": {
+                        "dataset": "iox",
+                        "editorMode": "code",
+                        "format": "table",
+                        "rawQuery": true,
+                        "rawSql": "SELECT \"time\", \"percent\" FROM \"fs\" WHERE \"time\" >= $__timeFrom AND \"time\" <= $__timeTo AND mnt_point = '/rootfs/srv' ORDER BY \"time\"",
+                        "sql": {
+                          "columns": [
+                            {
+                              "parameters": [
+                                {
+                                  "name": "size",
+                                  "type": "functionParameter"
+                                }
+                              ],
+                              "type": "function"
+                            }
+                          ],
+                          "groupBy": [
+                            {
+                              "property": {
+                                "type": "string"
+                              },
+                              "type": "groupBy"
+                            }
+                          ]
+                        },
+                        "table": "fs"
+                      }
+                    },
+                    "refId": "A",
+                    "hidden": false
+                  }
+                }
+              ],
+              "transformations": [],
+              "queryOptions": {}
+            }
+          },
+          "vizConfig": {
+            "kind": "VizConfig",
+            "group": "gauge",
+            "version": "13.2.1",
+            "spec": {
+              "options": {
+                "barShape": "flat",
+                "barWidthFactor": 0.54,
+                "effects": {
+                  "barGlow": false,
+                  "centerGlow": false,
+                  "gradient": false
+                },
+                "endpointMarker": "point",
+                "minVizHeight": 75,
+                "minVizWidth": 75,
+                "orientation": "auto",
+                "reduceOptions": {
+                  "calcs": [
+                    "lastNotNull"
+                  ],
+                  "fields": "",
+                  "values": false
+                },
+                "segmentCount": 1,
+                "segmentSpacing": 0.3,
+                "shape": "circle",
+                "showThresholdLabels": false,
+                "showThresholdMarkers": true,
+                "sizing": "auto",
+                "sparkline": true,
+                "textMode": "auto"
+              },
+              "fieldConfig": {
+                "defaults": {
+                  "unit": "percent",
+                  "thresholds": {
+                    "mode": "absolute",
+                    "steps": [
+                      {
+                        "value": 0,
+                        "color": "green"
+                      },
+                      {
+                        "value": 50,
+                        "color": "#EAB839"
+                      },
+                      {
+                        "value": 70,
+                        "color": "orange"
+                      },
+                      {
+                        "value": 90,
+                        "color": "red"
+                      }
+                    ]
+                  },
+                  "color": {
+                    "mode": "thresholds"
                   }
                 },
                 "overrides": []
@@ -941,7 +1068,7 @@
         "kind": "Panel",
         "spec": {
           "id": 7,
-          "title": "Root(/) %",
+          "title": "/ %",
           "description": "",
           "links": [],
           "data": {
@@ -963,7 +1090,7 @@
                         "editorMode": "code",
                         "format": "table",
                         "rawQuery": true,
-                        "rawSql": "SELECT \"time\", \"percent\" FROM \"fs\" WHERE \"time\" >= $__timeFrom AND \"time\" <= $__timeTo AND device_name LIKE '%nvme0n1p2%' ORDER BY \"time\"",
+                        "rawSql": "SELECT \"time\", \"percent\" FROM \"fs\" WHERE \"time\" >= $__timeFrom AND \"time\" <= $__timeTo AND mnt_point = '/rootfs' ORDER BY \"time\"",
                         "sql": {
                           "columns": [
                             {
@@ -1021,9 +1148,9 @@
                   "fields": "",
                   "values": false
                 },
-                "segmentCount": 63,
+                "segmentCount": 1,
                 "segmentSpacing": 0.3,
-                "shape": "gauge",
+                "shape": "circle",
                 "showThresholdLabels": false,
                 "showThresholdMarkers": true,
                 "sizing": "auto",
@@ -1032,6 +1159,7 @@
               },
               "fieldConfig": {
                 "defaults": {
+                  "unit": "percent",
                   "thresholds": {
                     "mode": "absolute",
                     "steps": [
@@ -1379,7 +1507,7 @@
               "height": 8,
               "element": {
                 "kind": "ElementReference",
-                "name": "panel-3"
+                "name": "panel-7"
               }
             }
           },
@@ -1392,7 +1520,7 @@
               "height": 8,
               "element": {
                 "kind": "ElementReference",
-                "name": "panel-7"
+                "name": "panel-5"
               }
             }
           },
@@ -1431,7 +1559,7 @@
               "height": 8,
               "element": {
                 "kind": "ElementReference",
-                "name": "panel-5"
+                "name": "panel-10"
               }
             }
           },
@@ -1458,6 +1586,19 @@
               "element": {
                 "kind": "ElementReference",
                 "name": "panel-9"
+              }
+            }
+          },
+          {
+            "kind": "GridLayoutItem",
+            "spec": {
+              "x": 12,
+              "y": 16,
+              "width": 6,
+              "height": 8,
+              "element": {
+                "kind": "ElementReference",
+                "name": "panel-3"
               }
             }
           }
