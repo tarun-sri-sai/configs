@@ -5,8 +5,8 @@
     "name": "adnjjm5",
     "namespace": "default",
     "uid": "faa4fae8-fba3-48f0-ba40-60a63997afa7",
-    "resourceVersion": "1789611869892986",
-    "generation": 30,
+    "resourceVersion": "1789612692368991",
+    "generation": 32,
     "creationTimestamp": "2026-09-16T17:24:55Z",
     "labels": {
       "grafana.app/deprecatedInternalID": "1597321424121856"
@@ -15,7 +15,7 @@
       "grafana.app/createdBy": "user:efy5hmidhibk0e",
       "grafana.app/saved-from-ui": "Grafana v13.2.1 (56cd3e9288)",
       "grafana.app/updatedBy": "user:efy5hmidhibk0e",
-      "grafana.app/updatedTimestamp": "2026-09-17T02:24:29Z"
+      "grafana.app/updatedTimestamp": "2026-09-17T02:38:12Z"
     }
   },
   "spec": {
@@ -792,7 +792,7 @@
         "kind": "Panel",
         "spec": {
           "id": 6,
-          "title": "WiFi Noise",
+          "title": "WiFi Strength",
           "description": "",
           "links": [],
           "data": {
@@ -814,7 +814,7 @@
                         "editorMode": "code",
                         "format": "table",
                         "rawQuery": true,
-                        "rawSql": "SELECT \"time\", -\"quality_level\" AS \"wifi_quality_neg\" FROM \"wifi\" WHERE \"time\" >= $__timeFrom AND \"time\" <= $__timeTo ORDER BY \"time\"",
+                        "rawSql": "SELECT \"time\", \"quality_level\" FROM \"wifi\" WHERE \"time\" >= $__timeFrom AND \"time\" <= $__timeTo ORDER BY \"time\"",
                         "sql": {
                           "columns": [
                             {
@@ -873,19 +873,19 @@
                     "steps": [
                       {
                         "value": 0,
-                        "color": "green"
+                        "color": "red"
                       },
                       {
-                        "value": 65,
-                        "color": "#EAB839"
-                      },
-                      {
-                        "value": 75,
+                        "value": -85,
                         "color": "orange"
                       },
                       {
-                        "value": 85,
-                        "color": "red"
+                        "value": -75,
+                        "color": "#EAB839"
+                      },
+                      {
+                        "value": -65,
+                        "color": "green"
                       }
                     ]
                   },
