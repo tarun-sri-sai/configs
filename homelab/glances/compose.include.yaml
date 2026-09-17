@@ -20,5 +20,6 @@ services:
     pid: host
     restart: unless-stopped
     volumes:
+      - "/:/rootfs:ro"
       - /run/user/1000/podman/podman.sock:/run/user/1000/podman/podman.sock:ro
       - ./glances.conf:/etc/glances/glances.conf:ro
