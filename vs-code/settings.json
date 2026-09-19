@@ -84,7 +84,8 @@
     }
   },
   "files.readonlyInclude": {
-    "**/*.log*": true
+    "**/*.log": true,
+    "**/*.log.*": true
   },
   "cSpell.useGitignore": false,
   "remote.autoForwardPorts": false,
