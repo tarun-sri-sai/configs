@@ -117,7 +117,6 @@ export PATH="/opt/nvim:$PATH"
 
 # podman aliases
 alias pod-ps='podman ps --format "table {{.ID}}\t{{.Status}}\t{{.Names}}\t{{.Image}}"'
-alias pod-cp='podman compose --progress plain'
 
 # zoxide
 eval "$(zoxide init bash)"
