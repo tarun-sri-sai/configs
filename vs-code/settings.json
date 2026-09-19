@@ -89,7 +89,8 @@
   "gitlens.ai.model": "vscode",
   "gitlens.ai.vscode.model": "copilot:gpt-4o-mini",
   "files.readonlyInclude": {
-    "**/*.log*": true
+    "**/*.log": true,
+    "**/*.log.*": true
   },
   "cSpell.useGitignore": false,
   "remote.SSH.remotePlatform": {
