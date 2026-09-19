@@ -112,9 +112,6 @@ if ! shopt -oq posix; then
   fi
 fi
 
-# Created by `pipx` on 2026-08-18 14:21:01
-export PATH="$PATH:/home/tarun/.local/bin"
-
 # neovim using appimage
 export PATH="/opt/nvim:$PATH"
 
@@ -127,16 +124,5 @@ alias pod-st='podman stats --no-stream --no-reset --format "table {{.ID}}\t{{.Na
 # zoxide
 eval "$(zoxide init bash)"
 
-# pi config
-OLLAMA_TEMPERATURE=0.3
-OLLAMA_TOP_P=0.2
-
 # tmux config
 alias txss='tmux new-session -As default'
-
-# add go binaries to path
-export PATH="$PATH:$(go env GOPATH)/bin"
-
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
