@@ -120,3 +120,6 @@ alias pod-ps='podman ps --format "table {{.ID}}\t{{.Status}}\t{{.Names}}\t{{.Ima
 
 # zoxide
 eval "$(zoxide init bash)"
+
+# tmux config
+alias txss='tmux new-session -As default'
