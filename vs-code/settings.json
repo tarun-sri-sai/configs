@@ -75,7 +75,8 @@
   "diffEditor.useInlineViewWhenSpaceIsLimited": false,
   "markdown.extension.orderedList.marker": "one",
   "files.associations": {
-    ".dockerignore": "ignore"
+    ".dockerignore": "ignore",
+    "sshd_config": "ssh_config"
   },
   "markdownlint.config": {
     "MD033": {
@@ -85,5 +86,7 @@
   "files.readonlyInclude": {
     "**/*.log*": true
   },
-  "cSpell.useGitignore": false
+  "cSpell.useGitignore": false,
+  "remote.autoForwardPorts": false,
+  "remote.restoreForwardedPorts": false
 }
