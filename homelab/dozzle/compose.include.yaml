@@ -1,0 +1,9 @@
+services:
+  dozzle:
+    hostname: dozzle
+    image: docker.io/amir20/dozzle:v11.1.0-alpine@sha256:20c35b49a5663393805f63eec6e428c5bb55ccd2613a3538e98737b060b5a069
+    networks:
+      - nginx_net
+    restart: unless-stopped
+    volumes:
+      - /run/user/1000/podman/podman.sock:/var/run/docker.sock:ro
