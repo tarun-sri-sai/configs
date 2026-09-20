@@ -19,6 +19,7 @@ services:
     image: ghcr.io/immich-app/immich-machine-learning:v3-cuda@sha256:82d3f6a093455964508052e0b3bc55a91075b48b65be35e78b40774a72c1ebb3
     networks:
       - immich_net
+      - immich-machine-learning_net
     restart: unless-stopped
     volumes:
       - model-cache:/cache
@@ -47,6 +48,7 @@ services:
 networks:
   immich_net:
     internal: true
+  immich-machine-learning_net:
 
 volumes:
   model-cache:
