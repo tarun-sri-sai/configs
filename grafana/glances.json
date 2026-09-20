@@ -88,7 +88,7 @@
           "description": "",
           "id": 1,
           "links": [],
-          "title": "CPU %",
+          "title": "CPU Usage",
           "vizConfig": {
             "group": "timeseries",
             "kind": "VizConfig",
@@ -237,7 +237,7 @@
           "description": "",
           "id": 10,
           "links": [],
-          "title": "/srv %",
+          "title": "Server Partition",
           "vizConfig": {
             "group": "gauge",
             "kind": "VizConfig",
@@ -364,7 +364,7 @@
           "description": "",
           "id": 2,
           "links": [],
-          "title": "GPU %",
+          "title": "GPU Usage",
           "vizConfig": {
             "group": "timeseries",
             "kind": "VizConfig",
@@ -513,7 +513,7 @@
           "description": "",
           "id": 3,
           "links": [],
-          "title": "GPU ┬░C",
+          "title": "GPU Temp",
           "vizConfig": {
             "group": "timeseries",
             "kind": "VizConfig",
@@ -662,7 +662,7 @@
           "description": "",
           "id": 4,
           "links": [],
-          "title": "CPU Max ┬░C",
+          "title": "CPU Max Temp",
           "vizConfig": {
             "group": "timeseries",
             "kind": "VizConfig",
@@ -811,7 +811,7 @@
           "description": "",
           "id": 5,
           "links": [],
-          "title": "RAM %",
+          "title": "RAM Usage",
           "vizConfig": {
             "group": "timeseries",
             "kind": "VizConfig",
@@ -960,7 +960,7 @@
           "description": "",
           "id": 7,
           "links": [],
-          "title": "/ %",
+          "title": "Root Partition",
           "vizConfig": {
             "group": "gauge",
             "kind": "VizConfig",
@@ -1087,7 +1087,7 @@
           "description": "",
           "id": 8,
           "links": [],
-          "title": "Battery %",
+          "title": "Battery Perc",
           "vizConfig": {
             "group": "gauge",
             "kind": "VizConfig",
@@ -1214,7 +1214,7 @@
           "description": "",
           "id": 9,
           "links": [],
-          "title": "VRAM %",
+          "title": "VRAM Usage",
           "vizConfig": {
             "group": "timeseries",
             "kind": "VizConfig",
