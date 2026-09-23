@@ -1,6 +1,6 @@
 services:
   llama-server:
-    command: -hf nvidia/NVIDIA-Nemotron-3-Nano-4B-GGUF:Q4_K_M --alias Nvidia-Nemotron-3-Nano-4B -c 32768 -n 32768 -ngl 999 -fa on -ctk q8_0 -ctv q4_0 -lv 4 -np 1 --no-mmproj --jinja --chat-template-kwargs '{"reasoning_effort":"low"}' --sleep-idle-seconds 900
+    command: -hf google/gemma-4-E4B-it-qat-q4_0-gguf:Q4_0 --alias Gemma-4-E4B -c 32768 -n 32768 -ngl 999 -fa on -ctk q8_0 -ctv q4_0 -lv 4 -np 1 --no-mmproj --jinja --chat-template-kwargs '{"reasoning_effort":"low"}' --sleep-idle-seconds 900
     deploy:
       resources:
         reservations:
