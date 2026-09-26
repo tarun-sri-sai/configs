@@ -8,7 +8,7 @@ services:
     volumes:
       - jellyfin-cache:/cache
       - ${JELLYFIN_CONFIG}:/config
-      - ${JELLYFIN_MEDIA}:/media
+      - ${JELLYFIN_MEDIA}:/media:ro
 
 volumes:
   jellyfin-cache:
