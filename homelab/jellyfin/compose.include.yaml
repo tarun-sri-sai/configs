@@ -1,0 +1,14 @@
+services:
+  jellyfin:
+    hostname: jellyfin
+    image: docker.io/jellyfin/jellyfin:12.1.20260915-010956@sha256:326be1010b16c92e492f6c7dd6fd105943db84ce723c73183279a1ab357b8f9b
+    networks:
+      - nginx_net
+    restart: unless-stopped
+    volumes:
+      - jellyfin-cache:/cache
+      - ${JELLYFIN_CONFIG}:/config
+      - ${JELLYFIN_MEDIA}:/media
+
+volumes:
+  jellyfin-cache:
