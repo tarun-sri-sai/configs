@@ -16,7 +16,7 @@ services:
     healthcheck:
       disable: false
     hostname: immich-machine-learning
-    image: ghcr.io/immich-app/immich-machine-learning:v3-cuda@sha256:82d3f6a093455964508052e0b3bc55a91075b48b65be35e78b40774a72c1ebb3
+    image: ghcr.io/immich-app/immich-machine-learning:v3.1.0-cuda@sha256:82d3f6a093455964508052e0b3bc55a91075b48b65be35e78b40774a72c1ebb3
     networks:
       - immich_net
       - immich-machine-learning_net
@@ -34,7 +34,7 @@ services:
     healthcheck:
       disable: false
     hostname: immich-server
-    image: ghcr.io/immich-app/immich-server:v3@sha256:b434cb9287eea1471c9974845914d4dd328c9c2d652e446ed4930f99944f0ceb
+    image: ghcr.io/immich-app/immich-server:v3.1.0@sha256:b434cb9287eea1471c9974845914d4dd328c9c2d652e446ed4930f99944f0ceb
     networks:
       - postgres_net
       - redis_net
