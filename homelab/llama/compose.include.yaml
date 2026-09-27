@@ -12,7 +12,7 @@ services:
       HF_HOME: /models
       HF_TOKEN: ${HF_TOKEN}
     hostname: llama-server
-    image: ghcr.io/ggml-org/llama.cpp:server-cuda-b10630@sha256:c50a38601c8bbb6dcb2fdbe60ee336faea7c7c7e11a1d5a6396993783617d911
+    image: ghcr.io/ggml-org/llama.cpp:server-cuda-b10630
     networks:
       - llama_net
     restart: unless-stopped
@@ -25,7 +25,7 @@ services:
     env_file:
       - .env
     hostname: bifrost
-    image: docker.io/maximhq/bifrost:v2.1.1-amd64@sha256:6faa9c041af1d7c53888630cc8e152bdfb8df381179a330a5ef60c57d25ebde8
+    image: docker.io/maximhq/bifrost:v2.1.1-amd64
     networks:
       - llama_net
       - nginx_net
@@ -40,7 +40,7 @@ services:
     env_file:
       - .env
     hostname: open-webui
-    image: ghcr.io/open-webui/open-webui:0.11.4-slim@sha256:0487ad4a5a4b986062dedace806c3ef1e88fec38c10d1e64d6a5501c66671e5e
+    image: ghcr.io/open-webui/open-webui:0.11.4-slim
     networks:
       - llama_net
       - nginx_net
@@ -53,7 +53,7 @@ services:
     env_file:
       - .env
     hostname: open-terminal
-    image: ghcr.io/open-webui/open-terminal:0.14.0-slim@sha256:ba7a67129bbaf8618887eb6283d7e351275e2838c0751bbafebbce6b22938687
+    image: ghcr.io/open-webui/open-terminal:0.14.0-slim
     networks:
       - open-terminal_net
     restart: unless-stopped

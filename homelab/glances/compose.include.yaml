@@ -15,7 +15,7 @@ services:
     env_file:
       - .env
     hostname: glances
-    image: docker.io/nicolargo/glances:ubuntu-4.3.2-full@sha256:b58d312c7339acc40321b4965e73dfb41bd57b3e68eef79b29a42d16d49485c6
+    image: docker.io/nicolargo/glances:ubuntu-4.3.2-full
     network_mode: host
     pid: host
     restart: unless-stopped
