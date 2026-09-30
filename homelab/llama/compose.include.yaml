@@ -40,7 +40,7 @@ services:
     env_file:
       - .env
     hostname: open-webui
-    image: ghcr.io/open-webui/open-webui:0.11.4-slim
+    image: ghcr.io/open-webui/open-webui:0.11.4
     networks:
       - llama_net
       - nginx_net
