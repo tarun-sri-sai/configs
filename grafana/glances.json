@@ -297,7 +297,7 @@
                 "showThresholdLabels": false,
                 "showThresholdMarkers": true,
                 "sizing": "auto",
-                "sparkline": true,
+                "sparkline": false,
                 "textMode": "auto"
               }
             },
@@ -1020,7 +1020,7 @@
                 "showThresholdLabels": false,
                 "showThresholdMarkers": true,
                 "sizing": "auto",
-                "sparkline": true,
+                "sparkline": false,
                 "textMode": "auto"
               }
             },
@@ -1128,7 +1128,7 @@
                 "effects": {
                   "barGlow": false,
                   "centerGlow": false,
-                  "gradient": true
+                  "gradient": false
                 },
                 "endpointMarker": "point",
                 "minVizHeight": 75,
@@ -1147,7 +1147,7 @@
                 "showThresholdLabels": false,
                 "showThresholdMarkers": true,
                 "sizing": "auto",
-                "sparkline": true,
+                "sparkline": false,
                 "textMode": "auto"
               }
             },
