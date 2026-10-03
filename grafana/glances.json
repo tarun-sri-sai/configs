@@ -297,7 +297,7 @@
                 "showThresholdLabels": false,
                 "showThresholdMarkers": true,
                 "sizing": "auto",
-                "sparkline": true,
+                "sparkline": false,
                 "textMode": "auto"
               }
             },
@@ -1020,7 +1020,7 @@
                 "showThresholdLabels": false,
                 "showThresholdMarkers": true,
                 "sizing": "auto",
-                "sparkline": true,
+                "sparkline": false,
                 "textMode": "auto"
               }
             },
@@ -1106,15 +1106,27 @@
                       },
                       {
                         "color": "orange",
+                        "value": 5
+                      },
+                      {
+                        "color": "yellow",
                         "value": 20
                       },
                       {
                         "color": "green",
+                        "value": 55
+                      },
+                      {
+                        "color": "yellow",
                         "value": 60
                       },
                       {
-                        "color": "#6ED0E0",
-                        "value": 100
+                        "color": "orange",
+                        "value": 80
+                      },
+                      {
+                        "color": "red",
+                        "value": 95
                       }
                     ]
                   },
@@ -1128,7 +1140,7 @@
                 "effects": {
                   "barGlow": false,
                   "centerGlow": false,
-                  "gradient": true
+                  "gradient": false
                 },
                 "endpointMarker": "point",
                 "minVizHeight": 75,
@@ -1147,7 +1159,7 @@
                 "showThresholdLabels": false,
                 "showThresholdMarkers": true,
                 "sizing": "auto",
-                "sparkline": true,
+                "sparkline": false,
                 "textMode": "auto"
               }
             },
