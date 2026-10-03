@@ -1110,11 +1110,15 @@
                       },
                       {
                         "color": "green",
+                        "value": 55
+                      },
+                      {
+                        "color": "orange",
                         "value": 60
                       },
                       {
-                        "color": "#6ED0E0",
-                        "value": 100
+                        "color": "red",
+                        "value": 80
                       }
                     ]
                   },
