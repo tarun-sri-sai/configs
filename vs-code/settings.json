@@ -88,14 +88,11 @@
   },
   "gitlens.ai.model": "vscode",
   "gitlens.ai.vscode.model": "copilot:gpt-4o-mini",
-  "files.readonlyInclude": {
-    "**/*.log": true,
-    "**/*.log.*": true
-  },
   "cSpell.useGitignore": false,
   "remote.SSH.remotePlatform": {
     "tarun-precision": "linux"
   },
   "remote.autoForwardPorts": false,
-  "remote.restoreForwardedPorts": false
+  "remote.restoreForwardedPorts": false,
+  "workbench.editorLargeFileConfirmation": 1
 }

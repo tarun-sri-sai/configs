@@ -101,21 +101,15 @@
         "source": "Windows.Terminal.VisualStudio"
       },
       {
-        "guid": "{b6645777-fb1f-55f8-bbd2-acb526aeae42}",
-        "hidden": false,
-        "name": "Debian",
-        "source": "Microsoft.WSL"
-      },
-      {
-        "guid": "{46eb913c-3fb9-5a0f-ad3c-054165098d65}",
-        "hidden": false,
-        "name": "rancher-desktop",
-        "source": "Microsoft.WSL"
-      },
-      {
-        "guid": "{33f8b72a-5f32-5b89-a954-efea6b381fbb}",
+        "guid": "{97467e54-bbfb-5f5e-a502-eba2f23a1bd1}",
         "hidden": false,
         "name": "rancher-desktop-data",
+        "source": "Microsoft.WSL"
+      },
+      {
+        "guid": "{df828d23-fd10-531c-9ded-c3c387d62ada}",
+        "hidden": false,
+        "name": "rancher-desktop",
         "source": "Microsoft.WSL"
       }
     ]
