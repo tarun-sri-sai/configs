@@ -9,7 +9,7 @@
 	autocrlf = input
 	ignorecase = false
 	longpaths = true
-	editor = vi
+	editor = nvim
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
