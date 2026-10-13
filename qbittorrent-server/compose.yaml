@@ -1,0 +1,10 @@
+services:
+  qbittorrent-server:
+    hostname: qbittorrent-server
+    image: lscr.io/linuxserver/qbittorrent:5.2.4
+    ports:
+      - 8080:8080
+    restart: unless-stopped
+    volumes:
+      - ${QBITTORRENT_CONFIG}:/config
+      - ${QBITTORRENT_DOWNLOADS}:/downloads
