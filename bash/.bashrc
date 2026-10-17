@@ -16,8 +16,8 @@ HISTCONTROL=ignoreboth
 shopt -s histappend
 
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
-HISTSIZE=1000
-HISTFILESIZE=2000
+HISTSIZE=10000
+HISTFILESIZE=20000
 
 # check the window size after each command and, if necessary,
 # update the values of LINES and COLUMNS.
@@ -123,3 +123,6 @@ eval "$(zoxide init bash)"
 
 # tmux config
 alias txss='tmux new-session -As default'
+
+# compare files with their .example counterparts
+alias exdiff='find -type f -name "*.example" -print0 | xargs -0 -I {} sh -c '\''diff -ruN "$1" "${1%.example}"'\'' _ {} | batcat --plain -l diff'
