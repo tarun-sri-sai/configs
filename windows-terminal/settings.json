@@ -60,7 +60,7 @@
       "cursorShape": "filledBox",
       "elevate": false,
       "font": {
-        "builtinGlyphs": false,
+        "builtinGlyphs": true,
         "face": "JetBrainsMono Nerd Font",
         "size": 10
       },
