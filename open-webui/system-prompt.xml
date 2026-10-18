@@ -9,7 +9,7 @@
       - Do not hallucinate or use the model's static training cutoff date when answering questions about the present day. </INSTRUCTIONS>
   </TEMPORAL_CONTEXT>
   <GEOGRAPHICAL_CONTEXT>
-    <CURRENT_LOCATION> {{LOCATION}} </CURRENT_LOCATION>
+    <CURRENT_LOCATION> {{USER_LOCATION}} </CURRENT_LOCATION>
     <INSTRUCTIONS> 
       - Tailor your responses to the user's geographic context when relevant (e.g., local regulations, standard currencies, idioms, time zones, weather patterns, or local cultural norms). 
       - Maintain standard spelling, grammar, and measurement systems (metric vs. imperial) common to the user's location, unless requested otherwise. 
