@@ -297,7 +297,7 @@
                 "showThresholdLabels": false,
                 "showThresholdMarkers": true,
                 "sizing": "auto",
-                "sparkline": false,
+                "sparkline": true,
                 "textMode": "auto"
               }
             },
@@ -1020,7 +1020,7 @@
                 "showThresholdLabels": false,
                 "showThresholdMarkers": true,
                 "sizing": "auto",
-                "sparkline": false,
+                "sparkline": true,
                 "textMode": "auto"
               }
             },
@@ -1159,7 +1159,7 @@
                 "showThresholdLabels": false,
                 "showThresholdMarkers": true,
                 "sizing": "auto",
-                "sparkline": false,
+                "sparkline": true,
                 "textMode": "auto"
               }
             },
