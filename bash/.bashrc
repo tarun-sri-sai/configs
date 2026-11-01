@@ -121,9 +121,6 @@ alias pod-cb='docker compose config > compose.rendered.yaml'
 alias pod-cp='podman-compose -f compose.rendered.yaml'
 alias pod-st='podman stats --no-stream --no-reset --format "table {{.ID}}\t{{.Name}}\t{{.CPUPerc}}\t{{.MemUsage}}\t{{.MemPerc}}"'
 
-# zoxide
-eval "$(zoxide init bash)"
-
 # tmux config
 alias txss='tmux new-session -As default'
 
@@ -132,3 +129,6 @@ alias exdiff='find -type f -name "*.example" -print0 | xargs -0 -I {} sh -c '\''
 
 # starship config
 eval $(starship init bash)
+
+# zoxide config (always initialize zoxide at the end of the file)
+eval "$(zoxide init bash)"
