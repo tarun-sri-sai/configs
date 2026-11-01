@@ -129,3 +129,6 @@ alias txss='tmux new-session -As default'
 
 # compare files with their .example counterparts
 alias exdiff='find -type f -name "*.example" -print0 | xargs -0 -I {} sh -c '\''diff -ruN "$1" "${1%.example}"'\'' _ {}'
+
+# starship config
+eval $(starship init bash)
