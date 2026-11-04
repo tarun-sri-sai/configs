@@ -25,14 +25,8 @@
   },
   "65": {
     "inputs": {
-      "samples": [
-        "70",
-        0
-      ],
-      "vae": [
-        "63",
-        0
-      ],
+      "samples": ["70", 0],
+      "vae": ["63", 0],
       "tile_size": 512,
       "overlap": 64,
       "temporal_size": 64,
@@ -60,10 +54,7 @@
   "67": {
     "inputs": {
       "text": "anime RPG game style, cute anime girl with gigantic fennec ears and a big fluffy fox tail with long wavy blonde hair and large blue eyes blonde colored eyelashes wearing a pink sweater a large oversized gold trimmed black winter coat and a long blue maxi skirt and a red scarf, she is sitting beside a campfire in the wilderness at night playing guitar with a milky way galaxy sky",
-      "clip": [
-        "62",
-        0
-      ]
+      "clip": ["62", 0]
     },
     "class_type": "CLIPTextEncode",
     "_meta": {
@@ -93,22 +84,10 @@
       "sampler_name": "euler",
       "scheduler": "simple",
       "denoise": 1,
-      "model": [
-        "66",
-        0
-      ],
-      "positive": [
-        "67",
-        0
-      ],
-      "negative": [
-        "71",
-        0
-      ],
-      "latent_image": [
-        "68",
-        0
-      ]
+      "model": ["66", 0],
+      "positive": ["67", 0],
+      "negative": ["71", 0],
+      "latent_image": ["68", 0]
     },
     "class_type": "KSampler",
     "_meta": {
@@ -120,10 +99,7 @@
   "71": {
     "inputs": {
       "text": "low quality, bad anatomy, extra digits, missing digits, extra limbs, missing limbs",
-      "clip": [
-        "62",
-        0
-      ]
+      "clip": ["62", 0]
     },
     "class_type": "CLIPTextEncode",
     "_meta": {
@@ -134,10 +110,7 @@
   },
   "72": {
     "inputs": {
-      "images": [
-        "65",
-        0
-      ]
+      "images": ["65", 0]
     },
     "class_type": "PreviewImage",
     "_meta": {
