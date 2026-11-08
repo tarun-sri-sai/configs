@@ -51,8 +51,12 @@ AuthorizedKeysFile	.ssh/authorized_keys
 PasswordAuthentication no
 #PermitEmptyPasswords no
 
+KbdInteractiveAuthentication no
+
 # GSSAPI options
 #GSSAPIAuthentication no
+
+UsePAM no
 
 #AllowAgentForwarding yes
 #AllowTcpForwarding yes
