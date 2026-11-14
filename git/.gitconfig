@@ -23,3 +23,5 @@
 	cmd = "'' "
 	trustExitCode = false
 	keepBackup = false
+[lfs]
+	sshtransfer = never
