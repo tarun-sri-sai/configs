@@ -117,12 +117,15 @@ export PATH="/opt/nvim:$PATH"
 
 # podman aliases
 alias pod-ps='podman ps --format "table {{.ID}}\t{{.Status}}\t{{.Names}}\t{{.Image}}"'
-
-# zoxide
-eval "$(zoxide init bash)"
+alias pod-cb='docker compose config > compose.rendered.yaml'
+alias pod-cp='podman-compose -f compose.rendered.yaml'
+alias pod-st='podman stats --no-stream --no-reset --format "table {{.ID}}\t{{.Name}}\t{{.CPUPerc}}\t{{.MemUsage}}\t{{.MemPerc}}"'
 
 # tmux config
-alias txss='tmux new-session -As default'
+alias txss='tmux -u new-session -As default'
 
 # compare files with their .example counterparts
-alias exdiff='find -type f -name "*.example" -print0 | xargs -0 -I {} sh -c '\''diff -ruN "$1" "${1%.example}"'\'' _ {} | batcat --plain -l diff'
+alias exdiff='find -type f -name "*.example" -print0 | xargs -0 -I {} sh -c '\''diff -ruN "$1" "${1%.example}"'\'' _ {}'
+
+# zoxide config (always initialize zoxide at the end of the file)
+eval "$(zoxide init bash)"
