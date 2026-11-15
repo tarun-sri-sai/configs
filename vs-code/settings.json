@@ -94,5 +94,6 @@
   },
   "remote.autoForwardPorts": false,
   "remote.restoreForwardedPorts": false,
-  "workbench.editorLargeFileConfirmation": 1
+  "workbench.editorLargeFileConfirmation": 1,
+  "chat.permissions.default": "autoApprove"
 }
