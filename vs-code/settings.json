@@ -63,7 +63,6 @@
   "terminal.integrated.enablePersistentSessions": false,
   "terminal.integrated.fontSize": 13,
   "terminal.integrated.initialHint": false,
-  "workbench.colorTheme": "Dark Modern",
   "workbench.editor.limit.enabled": true,
   "workbench.editor.limit.value": 5,
   "diffEditor.ignoreTrimWhitespace": false,
@@ -96,5 +95,11 @@
   "remote.restoreForwardedPorts": false,
   "workbench.editorLargeFileConfirmation": 1,
   "chat.permissions.default": "autoApprove",
-  "diffEditor.renderSideBySide": false
+  "chat.defaultConfiguration": {
+    "approvals": "allowAll"
+  },
+  "diffEditor.renderSideBySide": false,
+  "diffEditor.hideUnchangedRegions.enabled": true,
+  "diffEditor.hideOriginalLineNumbers": true,
+  "git.autofetch": "all"
 }
