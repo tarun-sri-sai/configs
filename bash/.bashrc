@@ -127,5 +127,8 @@ alias txss='tmux -u new-session -As default'
 # compare files with their .example counterparts
 alias exdiff='find -type f -name "*.example" -print0 | xargs -0 -I {} sh -c '\''diff -ruN "$1" "${1%.example}"'\'' _ {}'
 
+# starship config
+eval $(starship init bash)
+
 # zoxide config (always initialize zoxide at the end of the file)
 eval "$(zoxide init bash)"
