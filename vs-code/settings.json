@@ -91,7 +91,6 @@
     "approvals": "allowAll"
   },
   "diffEditor.renderSideBySide": false,
-  "diffEditor.hideUnchangedRegions.enabled": true,
   "diffEditor.hideOriginalLineNumbers": true,
   "git.autofetch": "all"
 }
