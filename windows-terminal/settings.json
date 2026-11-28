@@ -62,7 +62,12 @@
       "font": {
         "builtinGlyphs": true,
         "face": "JetBrainsMono Nerd Font",
-        "size": 10
+        "size": 10,
+        "features": {
+          "calt": 0,
+          "liga": 0,
+          "dlig": 0
+        }
       },
       "startingDirectory": "%MY_FILES%",
       "useAcrylic": false
